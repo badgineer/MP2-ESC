@@ -1908,7 +1908,7 @@
   (no_connect (at 288.29 171.45) (uuid 2175d776-4f0a-43c8-b9d7-1d13558dd01b))
   (no_connect (at 288.29 123.19) (uuid 7749f538-12c7-48d7-918d-bdcc3c4a617d))
   (no_connect (at 260.35 140.97) (uuid 8850bac1-5845-47af-a051-01d78451957b))
-  (no_connect (at 260.35 143.51) (uuid 8850bac1-5845-47af-a051-01d78451957b))
+  (no_connect (at 260.35 143.51) (uuid 8850bac1-5845-47af-a051-01d78451957c))
 
   (wire (pts (xy 495.3 168.91) (xy 495.3 175.26))
     (stroke (width 0) (type default) (color 0 0 0 0))
