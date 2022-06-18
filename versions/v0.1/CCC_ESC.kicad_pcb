@@ -4904,7 +4904,7 @@
 
   (footprint "CCC_ESC_Custom_parts:TO220_replacement_module" (layer "F.Cu")
     (tedit 628179B9) (tstamp 6fb7ae0a-3718-4e37-ace4-d431e2f33bd4)
-    (at 77 109.5)
+    (at 77.355 109.555)
     (property "Sheetfile" "CCC_ESC.kicad_sch")
     (property "Sheetname" "")
     (path "/d361a345-9b61-471d-acce-827dc57380db")
