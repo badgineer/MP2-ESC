@@ -9793,7 +9793,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x06") (at 62.23 351.79 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid f7ccfd90-2eb2-418b-957f-d34535ae04b2)
-    (property "Reference" "J?" (id 0) (at 55.88 346.71 0))
+    (property "Reference" "J2" (id 0) (at 55.88 346.71 0))
     (property "Value" "Conn_01x06" (id 1) (at 53.34 349.25 0))
     (property "Footprint" "Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical" (id 2) (at 62.23 351.79 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -10227,14 +10227,14 @@
     (path "/57e6919d-a38d-4684-be57-cfc41a240671"
       (reference "J1") (unit 1) (value "Conn_01x04") (footprint "Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical")
     )
+    (path "/f7ccfd90-2eb2-418b-957f-d34535ae04b2"
+      (reference "J2") (unit 1) (value "Conn_01x06") (footprint "Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical")
+    )
     (path "/57b5b1c5-266c-4c5c-94ba-8cc2eda76f7b"
       (reference "J3") (unit 1) (value "Conn_01x06") (footprint "Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical")
     )
     (path "/1fc2450b-be16-4a24-bc76-aed5b373e02b"
       (reference "J4") (unit 1) (value "Conn_01x06") (footprint "Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical")
-    )
-    (path "/f7ccfd90-2eb2-418b-957f-d34535ae04b2"
-      (reference "J?") (unit 1) (value "Conn_01x06") (footprint "Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical")
     )
     (path "/1b38ecbd-1da3-4a9e-b058-8c60608568c5"
       (reference "JP1") (unit 1) (value "SolderJumper_3_Open") (footprint "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels")
