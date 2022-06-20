@@ -3284,7 +3284,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 474da0bb-a80f-4ce4-b14e-5f26d8f31e91)
-    (at 86.4 113.8)
+    (at 86.45 113.9)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "LCSC" "C386081")
@@ -5092,7 +5092,7 @@
 
   (footprint "CCC_ESC_Custom_parts:TO220_replacement_module" (layer "F.Cu")
     (tedit 628179B9) (tstamp 6fb7ae0a-3718-4e37-ace4-d431e2f33bd4)
-    (at 77.355 109.555)
+    (at 77.555 109.555)
     (property "Sheetfile" "CCC_ESC.kicad_sch")
     (property "Sheetname" "")
     (path "/d361a345-9b61-471d-acce-827dc57380db")
@@ -5897,7 +5897,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 8d33a8d3-c5cc-40b4-ba71-6923d60927e2)
-    (at 87.6 112.3)
+    (at 87.75 112.35)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "LCSC" "C386081")
@@ -7344,7 +7344,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp b8a69dfb-4ff5-4171-8662-f4fd81f9fc4a)
-    (at 77.3 112.4 180)
+    (at 77.3 112.35 180)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "LCSC" "C386081")
@@ -7963,7 +7963,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp d6962950-4b71-4ba8-ac78-7b9bfb3edf70)
-    (at 83.4 113.8 180)
+    (at 83.4 113.9 180)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "LCSC" "C386081")
