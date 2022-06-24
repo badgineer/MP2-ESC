@@ -8940,7 +8940,7 @@
     (property "Value" "47uF" (id 1) (at 60.96 88.9 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" (id 2) (at 60.6552 90.17 0)
+    (property "Footprint" "CCC_ESC_Custom_parts:CAP_Polaryzed" (id 2) (at 60.6552 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 59.69 86.36 0)
@@ -10104,7 +10104,7 @@
       (reference "CX16") (unit 1) (value "4.7uF") (footprint "Capacitor_SMD:C_1210_3225Metric")
     )
     (path "/cd5ae07d-547d-4cbe-8526-ef1c27e798b7"
-      (reference "CX17") (unit 1) (value "47uF") (footprint "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm")
+      (reference "CX17") (unit 1) (value "47uF") (footprint "CCC_ESC_Custom_parts:CAP_Polaryzed")
     )
     (path "/cf1d50f8-8e26-44f5-a850-8b87a0d84826"
       (reference "D1") (unit 1) (value "SM4007") (footprint "Diode_SMD:D_SOD-123")
