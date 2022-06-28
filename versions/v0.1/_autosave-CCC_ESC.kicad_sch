@@ -7308,7 +7308,7 @@
   (symbol (lib_id "CCC_ESC_Custom_Symbols:TO220_replacement_module") (at 166.37 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 68236c93-49e7-4933-ab0e-48bd3cb739ea)
-    (property "Reference" "U?" (id 0) (at 175.895 71.12 0))
+    (property "Reference" "U8" (id 0) (at 175.895 71.12 0))
     (property "Value" "TO220_replacement_module" (id 1) (at 175.895 73.66 0))
     (property "Footprint" "CCC_ESC_Custom_parts:TO220_replacement_module" (id 2) (at 166.37 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -9068,7 +9068,7 @@
   (symbol (lib_id "power:GND") (at 172.72 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid d02bdb00-0af7-4a63-8ecd-9e921ab6b466)
-    (property "Reference" "#PWR?" (id 0) (at 172.72 97.79 0)
+    (property "Reference" "#PWR0128" (id 0) (at 172.72 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 172.72 96.52 0))
@@ -10001,6 +10001,9 @@
     (path "/707d7e1a-cbb6-4918-a369-6cdc481a9a01"
       (reference "#PWR0127") (unit 1) (value "GND") (footprint "")
     )
+    (path "/d02bdb00-0af7-4a63-8ecd-9e921ab6b466"
+      (reference "#PWR0128") (unit 1) (value "GND") (footprint "")
+    )
     (path "/894703c7-10d0-472a-bf81-33f567b69f44"
       (reference "#PWR0132") (unit 1) (value "GND") (footprint "")
     )
@@ -10015,9 +10018,6 @@
     )
     (path "/113457d3-f40c-4771-9595-56e14918d1d6"
       (reference "#PWR0137") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/d02bdb00-0af7-4a63-8ecd-9e921ab6b466"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/c5bdcfd4-44ee-4a47-b511-8d607870eba8"
       (reference "C1") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
@@ -10509,7 +10509,7 @@
       (reference "U7") (unit 1) (value "TO220_replacement_module") (footprint "CCC_ESC_Custom_parts:TO220_replacement_module")
     )
     (path "/68236c93-49e7-4933-ab0e-48bd3cb739ea"
-      (reference "U?") (unit 1) (value "TO220_replacement_module") (footprint "CCC_ESC_Custom_parts:TO220_replacement_module")
+      (reference "U8") (unit 1) (value "TO220_replacement_module") (footprint "CCC_ESC_Custom_parts:TO220_replacement_module")
     )
   )
 )
