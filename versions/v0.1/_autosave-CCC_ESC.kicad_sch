@@ -7245,7 +7245,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 541.0552 241.3 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 59695976-f92b-47f0-b0bc-f405b8ef41ca)
-    (property "Reference" "PH?" (id 0) (at 541.02 236.22 0)
+    (property "Reference" "PH8" (id 0) (at 541.02 236.22 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "PhasePad" (id 1) (at 543.5952 239.2679 0)
@@ -7999,7 +7999,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 538.48 241.3 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 811e104a-3ed6-4432-80de-7f1b4d60e609)
-    (property "Reference" "PH?" (id 0) (at 537.21 236.22 0)
+    (property "Reference" "PH7" (id 0) (at 537.21 236.22 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "PhasePad" (id 1) (at 541.02 239.2679 0)
@@ -8597,7 +8597,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 543.56 241.3 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid a9f8a06b-6dbe-4bc7-9d27-22fb33fac9e6)
-    (property "Reference" "PH?" (id 0) (at 544.83 236.22 0)
+    (property "Reference" "PH9" (id 0) (at 544.83 236.22 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "PhasePad" (id 1) (at 546.1 239.2679 0)
@@ -10653,14 +10653,14 @@
     (path "/80790317-4871-4310-bfeb-940560216788"
       (reference "PH6") (unit 1) (value "PhasePad") (footprint "TestPoint:TestPoint_THTPad_D4.0mm_Drill2.0mm")
     )
-    (path "/59695976-f92b-47f0-b0bc-f405b8ef41ca"
-      (reference "PH?") (unit 1) (value "PhasePad") (footprint "TestPoint:TestPoint_THTPad_D4.0mm_Drill2.0mm")
-    )
     (path "/811e104a-3ed6-4432-80de-7f1b4d60e609"
-      (reference "PH?") (unit 1) (value "PhasePad") (footprint "TestPoint:TestPoint_THTPad_D4.0mm_Drill2.0mm")
+      (reference "PH7") (unit 1) (value "PhasePad") (footprint "TestPoint:TestPoint_THTPad_D4.0mm_Drill2.0mm")
+    )
+    (path "/59695976-f92b-47f0-b0bc-f405b8ef41ca"
+      (reference "PH8") (unit 1) (value "PhasePad") (footprint "TestPoint:TestPoint_THTPad_D4.0mm_Drill2.0mm")
     )
     (path "/a9f8a06b-6dbe-4bc7-9d27-22fb33fac9e6"
-      (reference "PH?") (unit 1) (value "PhasePad") (footprint "TestPoint:TestPoint_THTPad_D4.0mm_Drill2.0mm")
+      (reference "PH9") (unit 1) (value "PhasePad") (footprint "TestPoint:TestPoint_THTPad_D4.0mm_Drill2.0mm")
     )
     (path "/155a305d-cff1-4340-986a-f6393f0cc554"
       (reference "QA1") (unit 1) (value "MDP10N027") (footprint "Package_TO_SOT_THT:TO-220-3_Horizontal_TabUp")
