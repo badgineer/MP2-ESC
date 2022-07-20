@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>C:\ZZZ_Dorin\CCC_ESC\versions\v0.1\CCC_ESC.kicad_sch</source>
-    <date>7/16/2022 6:09:33 PM</date>
+    <date>7/20/2022 11:52:27 PM</date>
     <tool>Eeschema (6.0.5)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -220,60 +220,60 @@
       <tstamps>13b077c2-f485-4916-ad18-006bb7e71720</tstamps>
     </comp>
     <comp ref="C14">
-      <value>1n5</value>
+      <value>1nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
-        <field name="LCSC">C1595</field>
+        <field name="LCSC">C1588</field>
         <field name="MFR PT">0603B152K500NT</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="MFR PT" value="0603B152K500NT"/>
-      <property name="LCSC" value="C1595"/>
+      <property name="LCSC" value="C1588"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CCC_ESC.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>9e157590-8bed-4e05-89af-b23ad9f921c4</tstamps>
     </comp>
     <comp ref="C15">
-      <value>1n5</value>
+      <value>1nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
-        <field name="LCSC">C1595</field>
+        <field name="LCSC">C1588</field>
         <field name="MFR PT">0603B152K500NT</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="MFR PT" value="0603B152K500NT"/>
-      <property name="LCSC" value="C1595"/>
+      <property name="LCSC" value="C1588"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CCC_ESC.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>9e6b92cc-c9da-485e-9a02-beebe146ec63</tstamps>
     </comp>
     <comp ref="C16">
-      <value>1n5</value>
+      <value>1nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
-        <field name="LCSC">C1595</field>
+        <field name="LCSC">C1588</field>
         <field name="MFR PT">0603B152K500NT</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="MFR PT" value="0603B152K500NT"/>
-      <property name="LCSC" value="C1595"/>
+      <property name="LCSC" value="C1588"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CCC_ESC.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>8ac9ca38-2766-4bea-ae8a-433569821632</tstamps>
     </comp>
     <comp ref="C17">
-      <value>1n5</value>
+      <value>1nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
-        <field name="LCSC">C1595</field>
+        <field name="LCSC">C1588</field>
         <field name="MFR PT">0603B152K500NT</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="MFR PT" value="0603B152K500NT"/>
-      <property name="LCSC" value="C1595"/>
+      <property name="LCSC" value="C1588"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CCC_ESC.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1159,15 +1159,15 @@
       <tstamps>a0602d75-b4b4-44c7-8420-5395ff836d3b</tstamps>
     </comp>
     <comp ref="R2">
-      <value>2k2</value>
+      <value>1k8</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
-        <field name="LCSC">C4190</field>
-        <field name="MFR PT">0603WAF2201T5E</field>
+        <field name="LCSC">C4177</field>
+        <field name="MFR PT">0603WAF1801T5E</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="MFR PT" value="0603WAF2201T5E"/>
-      <property name="LCSC" value="C4190"/>
+      <property name="MFR PT" value="0603WAF1801T5E"/>
+      <property name="LCSC" value="C4177"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CCC_ESC.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1192,12 +1192,12 @@
       <value>33k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
-        <field name="LCSC">C23137</field>
-        <field name="MFR PT">0603WAF3303T5E</field>
+        <field name="LCSC">C4216</field>
+        <field name="MFR PT">0603WAF3302T5E</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="MFR PT" value="0603WAF3303T5E"/>
-      <property name="LCSC" value="C23137"/>
+      <property name="MFR PT" value="0603WAF3302T5E"/>
+      <property name="LCSC" value="C4216"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CCC_ESC.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1264,15 +1264,15 @@
       <tstamps>29902ebe-857a-44cd-b11a-80127e338430</tstamps>
     </comp>
     <comp ref="R9">
-      <value>2k2</value>
+      <value>1k8</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
-        <field name="LCSC">C4190</field>
-        <field name="MFR PT">0603WAF2201T5E</field>
+        <field name="LCSC">C4177</field>
+        <field name="MFR PT">0603WAF1801T5E</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="MFR PT" value="0603WAF2201T5E"/>
-      <property name="LCSC" value="C4190"/>
+      <property name="MFR PT" value="0603WAF1801T5E"/>
+      <property name="LCSC" value="C4177"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CCC_ESC.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1357,12 +1357,12 @@
       <value>33k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
-        <field name="LCSC">C23137</field>
-        <field name="MFR PT">0603WAF3303T5E</field>
+        <field name="LCSC">C4216</field>
+        <field name="MFR PT">0603WAF3302T5E</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="MFR PT" value="0603WAF3303T5E"/>
-      <property name="LCSC" value="C23137"/>
+      <property name="MFR PT" value="0603WAF3302T5E"/>
+      <property name="LCSC" value="C4216"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CCC_ESC.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1852,42 +1852,42 @@
       <value>10k</value>
       <footprint>Resistor_SMD:R_Array_Concave_4x0603</footprint>
       <fields>
-        <field name="LCSC">C109324</field>
+        <field name="LCSC">C29718</field>
         <field name="MFR PT">4D03WGF1002T5(E)</field>
       </fields>
       <libsource lib="Device" part="R_Pack04" description="4 resistor network, parallel topology"/>
       <property name="MFR PT" value="4D03WGF1002T5(E)"/>
-      <property name="LCSC" value="C109324"/>
+      <property name="LCSC" value="C29718"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CCC_ESC.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>9bd54a20-a77a-4b21-be34-0b8d27c90283</tstamps>
     </comp>
     <comp ref="RN2">
-      <value>100R</value>
+      <value>470R</value>
       <footprint>Resistor_SMD:R_Array_Concave_4x0603</footprint>
       <fields>
-        <field name="LCSC">C109324</field>
-        <field name="MFR PT">RC-ML08W101JT</field>
+        <field name="LCSC">C25510</field>
+        <field name="MFR PT">4D03WGJ0471T5E</field>
       </fields>
       <libsource lib="Device" part="R_Pack04" description="4 resistor network, parallel topology"/>
-      <property name="MFR PT" value="RC-ML08W101JT"/>
-      <property name="LCSC" value="C109324"/>
+      <property name="MFR PT" value="4D03WGJ0471T5E"/>
+      <property name="LCSC" value="C25510"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CCC_ESC.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>c6b29f99-6cd5-4c19-aafd-24e20d6b56ff</tstamps>
     </comp>
     <comp ref="RN3">
-      <value>100R</value>
+      <value>470R</value>
       <footprint>Resistor_SMD:R_Array_Concave_4x0603</footprint>
       <fields>
-        <field name="LCSC">C109324</field>
-        <field name="MFR PT">RC-ML08W101JT</field>
+        <field name="LCSC">C25510</field>
+        <field name="MFR PT">4D03WGJ0471T5E</field>
       </fields>
       <libsource lib="Device" part="R_Pack04" description="4 resistor network, parallel topology"/>
-      <property name="MFR PT" value="RC-ML08W101JT"/>
-      <property name="LCSC" value="C109324"/>
+      <property name="MFR PT" value="4D03WGJ0471T5E"/>
+      <property name="LCSC" value="C25510"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CCC_ESC.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1897,27 +1897,27 @@
       <value>10k</value>
       <footprint>Resistor_SMD:R_Array_Concave_4x0603</footprint>
       <fields>
-        <field name="LCSC">C109324</field>
+        <field name="LCSC">C29718</field>
         <field name="MFR PT">4D03WGF1002T5(E)</field>
       </fields>
       <libsource lib="Device" part="R_Pack04" description="4 resistor network, parallel topology"/>
       <property name="MFR PT" value="4D03WGF1002T5(E)"/>
-      <property name="LCSC" value="C109324"/>
+      <property name="LCSC" value="C29718"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CCC_ESC.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>309e026f-d966-461c-b853-f480206cdd87</tstamps>
     </comp>
     <comp ref="RN5">
-      <value>620R</value>
+      <value>470</value>
       <footprint>Resistor_SMD:R_Array_Concave_4x0603</footprint>
       <fields>
-        <field name="LCSC">C12034</field>
-        <field name="MFR PT">4D03WGJ0621T5E</field>
+        <field name="LCSC">C25510</field>
+        <field name="MFR PT">4D03WGJ0471T5E</field>
       </fields>
       <libsource lib="Device" part="R_Pack04" description="4 resistor network, parallel topology"/>
-      <property name="MFR PT" value="4D03WGJ0621T5E"/>
-      <property name="LCSC" value="C12034"/>
+      <property name="MFR PT" value="4D03WGJ0471T5E"/>
+      <property name="LCSC" value="C25510"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CCC_ESC.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -2252,7 +2252,7 @@
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CCC_ESC.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>e32d5f66-a9d2-4b57-921a-75ed623252e0 db93f91a-21d9-43d0-9556-d5fc2c3de0df 5106c42b-98f6-4f9e-ac52-27d8faa23015 9e3a1870-f28a-457c-b00b-8d4aef2a1c5c 21633540-d5bc-4c64-ac3c-c92e5aeb4ea0</tstamps>
+      <tstamps>e32d5f66-a9d2-4b57-921a-75ed623252e0 9e3a1870-f28a-457c-b00b-8d4aef2a1c5c 5106c42b-98f6-4f9e-ac52-27d8faa23015 db93f91a-21d9-43d0-9556-d5fc2c3de0df 21633540-d5bc-4c64-ac3c-c92e5aeb4ea0</tstamps>
     </comp>
     <comp ref="U5">
       <value>STM32F401CCU6_Balckpill</value>
