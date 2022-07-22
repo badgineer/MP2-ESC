@@ -8430,7 +8430,7 @@
   (gr_rect (start 56.5 72) (end 81.5 77) (layer "F.Mask") (width 0.15) (fill solid) (tstamp 7578cbc7-9405-49dc-8555-cdaae0fb7b97))
   (gr_rect (start 89.5 72) (end 114 77) (layer "F.Mask") (width 0.15) (fill solid) (tstamp afe53b2e-9a91-4b39-b8e2-5e579aaa167c))
   (gr_rect (start 50 50) (end 150 115) (layer "Edge.Cuts") (width 0.1) (fill none) (tstamp 1481c3a1-aa72-47a5-9c99-c60a2ca40373))
-  (gr_text "CCC-ESC \n v0.1" (at 65.1 104) (layer "F.SilkS") (tstamp fd549ab0-4e1b-4a73-9db0-ef239e4887a4)
+  (gr_text "MP2-ESC \n v0.1" (at 65.1 104) (layer "F.SilkS") (tstamp fd549ab0-4e1b-4a73-9db0-ef239e4887a4)
     (effects (font (size 1.8 1.6) (thickness 0.3)))
   )
   (dimension (type aligned) (layer "F.SilkS") (tstamp caca6128-d286-47d5-8d9e-dbad279e6e26)
