@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>C:\ZZZ_Dorin\CCC_ESC\versions\v0.1\CCC_ESC.kicad_sch</source>
-    <date>7/20/2022 11:52:27 PM</date>
-    <tool>Eeschema (6.0.5)</tool>
+    <source>C:\Users\HPEnvy\Documents\CCCESC\versions\v0.1\CCC_ESC.kicad_sch</source>
+    <date>25/07/2022 23:06:13</date>
+    <tool>Eeschema (6.0.4)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>CCC_ESC_Main</title>
@@ -28,12 +28,12 @@
       <value>10uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
-        <field name="LCSC">C386081</field>
-        <field name="MFR PT">TMK107BBJ106MA-T</field>
+        <field name="LCSC">C96446</field>
+        <field name="MFR PT">CL10A106MA8NRNCCopy</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="MFR PT" value="TMK107BBJ106MA-T"/>
-      <property name="LCSC" value="C386081"/>
+      <property name="MFR PT" value="CL10A106MA8NRNCCopy"/>
+      <property name="LCSC" value="C96446"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CCC_ESC.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -43,12 +43,12 @@
       <value>10uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
-        <field name="LCSC">C386081</field>
-        <field name="MFR PT">TMK107BBJ106MA-T</field>
+        <field name="LCSC">C96446</field>
+        <field name="MFR PT">CL10A106MA8NRNCCopy</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="MFR PT" value="TMK107BBJ106MA-T"/>
-      <property name="LCSC" value="C386081"/>
+      <property name="MFR PT" value="CL10A106MA8NRNCCopy"/>
+      <property name="LCSC" value="C96446"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CCC_ESC.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -58,12 +58,12 @@
       <value>10uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
-        <field name="LCSC">C386081</field>
-        <field name="MFR PT">TMK107BBJ106MA-T</field>
+        <field name="LCSC">C96446</field>
+        <field name="MFR PT">CL10A106MA8NRNCCopy</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="MFR PT" value="TMK107BBJ106MA-T"/>
-      <property name="LCSC" value="C386081"/>
+      <property name="MFR PT" value="CL10A106MA8NRNCCopy"/>
+      <property name="LCSC" value="C96446"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CCC_ESC.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -133,12 +133,12 @@
       <value>10uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
-        <field name="LCSC">C386081</field>
-        <field name="MFR PT">TMK107BBJ106MA-T</field>
+        <field name="LCSC">C96446</field>
+        <field name="MFR PT">CL10A106MA8NRNCCopy</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="MFR PT" value="TMK107BBJ106MA-T"/>
-      <property name="LCSC" value="C386081"/>
+      <property name="MFR PT" value="CL10A106MA8NRNCCopy"/>
+      <property name="LCSC" value="C96446"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CCC_ESC.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -148,12 +148,12 @@
       <value>10uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
-        <field name="LCSC">C386081</field>
-        <field name="MFR PT">TMK107BBJ106MA-T</field>
+        <field name="LCSC">C96446</field>
+        <field name="MFR PT">CL10A106MA8NRNCCopy</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="MFR PT" value="TMK107BBJ106MA-T"/>
-      <property name="LCSC" value="C386081"/>
+      <property name="MFR PT" value="CL10A106MA8NRNCCopy"/>
+      <property name="LCSC" value="C96446"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CCC_ESC.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -163,12 +163,12 @@
       <value>10uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
-        <field name="LCSC">C386081</field>
-        <field name="MFR PT">TMK107BBJ106MA-T</field>
+        <field name="LCSC">C96446</field>
+        <field name="MFR PT">CL10A106MA8NRNCCopy</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="MFR PT" value="TMK107BBJ106MA-T"/>
-      <property name="LCSC" value="C386081"/>
+      <property name="MFR PT" value="CL10A106MA8NRNCCopy"/>
+      <property name="LCSC" value="C96446"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CCC_ESC.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -178,12 +178,12 @@
       <value>10uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
-        <field name="LCSC">C386081</field>
-        <field name="MFR PT">TMK107BBJ106MA-T</field>
+        <field name="LCSC">C96446</field>
+        <field name="MFR PT">CL10A106MA8NRNCCopy</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="MFR PT" value="TMK107BBJ106MA-T"/>
-      <property name="LCSC" value="C386081"/>
+      <property name="MFR PT" value="CL10A106MA8NRNCCopy"/>
+      <property name="LCSC" value="C96446"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CCC_ESC.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -193,12 +193,12 @@
       <value>10uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
-        <field name="LCSC">C386081</field>
-        <field name="MFR PT">TMK107BBJ106MA-T</field>
+        <field name="LCSC">C96446</field>
+        <field name="MFR PT">CL10A106MA8NRNCCopy</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="MFR PT" value="TMK107BBJ106MA-T"/>
-      <property name="LCSC" value="C386081"/>
+      <property name="MFR PT" value="CL10A106MA8NRNCCopy"/>
+      <property name="LCSC" value="C96446"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CCC_ESC.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -208,12 +208,12 @@
       <value>10uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
-        <field name="LCSC">C386081</field>
-        <field name="MFR PT">TMK107BBJ106MA-T</field>
+        <field name="LCSC">C96446</field>
+        <field name="MFR PT">CL10A106MA8NRNCCopy</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="MFR PT" value="TMK107BBJ106MA-T"/>
-      <property name="LCSC" value="C386081"/>
+      <property name="MFR PT" value="CL10A106MA8NRNCCopy"/>
+      <property name="LCSC" value="C96446"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CCC_ESC.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -224,10 +224,10 @@
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
         <field name="LCSC">C1588</field>
-        <field name="MFR PT">0603B152K500NT</field>
+        <field name="MFR PT">CL10B102KB8NNNC</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="MFR PT" value="0603B152K500NT"/>
+      <property name="MFR PT" value="CL10B102KB8NNNC"/>
       <property name="LCSC" value="C1588"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CCC_ESC.kicad_sch"/>
@@ -239,10 +239,10 @@
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
         <field name="LCSC">C1588</field>
-        <field name="MFR PT">0603B152K500NT</field>
+        <field name="MFR PT">CL10B102KB8NNNC</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="MFR PT" value="0603B152K500NT"/>
+      <property name="MFR PT" value="CL10B102KB8NNNC"/>
       <property name="LCSC" value="C1588"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CCC_ESC.kicad_sch"/>
@@ -254,10 +254,10 @@
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
         <field name="LCSC">C1588</field>
-        <field name="MFR PT">0603B152K500NT</field>
+        <field name="MFR PT">CL10B102KB8NNNC</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="MFR PT" value="0603B152K500NT"/>
+      <property name="MFR PT" value="CL10B102KB8NNNC"/>
       <property name="LCSC" value="C1588"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CCC_ESC.kicad_sch"/>
@@ -269,10 +269,10 @@
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
         <field name="LCSC">C1588</field>
-        <field name="MFR PT">0603B152K500NT</field>
+        <field name="MFR PT">CL10B102KB8NNNC</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="MFR PT" value="0603B152K500NT"/>
+      <property name="MFR PT" value="CL10B102KB8NNNC"/>
       <property name="LCSC" value="C1588"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CCC_ESC.kicad_sch"/>
@@ -1909,7 +1909,7 @@
       <tstamps>309e026f-d966-461c-b853-f480206cdd87</tstamps>
     </comp>
     <comp ref="RN5">
-      <value>470</value>
+      <value>470R</value>
       <footprint>Resistor_SMD:R_Array_Concave_4x0603</footprint>
       <fields>
         <field name="LCSC">C25510</field>
@@ -2672,7 +2672,7 @@
       <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Amplifier_Operational.kicad_sym</uri>
     </library>
     <library logical="CCC_ESC_Custom_Symbols">
-      <uri>C:\ZZZ_Dorin\CCC_ESC\versions\v0.1/CCC_ESC_Custom_Symbols.kicad_sym</uri>
+      <uri>C:\Users\HPEnvy\Documents\CCCESC\versions\v0.1/CCC_ESC_Custom_Symbols.kicad_sym</uri>
     </library>
     <library logical="Connector">
       <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector.kicad_sym</uri>
