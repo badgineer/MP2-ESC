@@ -63,7 +63,7 @@
       36
     ],
     "visible_layers": "000b0a0_fffffffd",
-    "zone_display_mode": 0
+    "zone_display_mode": 1
   },
   "meta": {
     "filename": "CCC_ESC.kicad_prl",
