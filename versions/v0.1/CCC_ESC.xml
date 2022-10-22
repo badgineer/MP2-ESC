@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>C:\Users\HPEnvy\Documents\CCCESC\versions\v0.1\CCC_ESC.kicad_sch</source>
-    <date>25/07/2022 23:06:13</date>
-    <tool>Eeschema (6.0.4)</tool>
+    <source>D:\Chestii\hobby\Ebike\Electronica\GITHUB\CCC_ESC\versions\v0.1\CCC_ESC.kicad_sch</source>
+    <date>22-Oct-22 23:58:22</date>
+    <tool>Eeschema (6.0.0)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>CCC_ESC_Main</title>
@@ -24,6 +24,15 @@
     </sheet>
   </design>
   <components>
+    <comp ref="12V1">
+      <value>12V Pad</value>
+      <footprint>TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CCC_ESC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a7dbcf5d-7f15-47b8-818f-7472764a1ac7</tstamps>
+    </comp>
     <comp ref="C1">
       <value>10uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
@@ -70,15 +79,15 @@
       <tstamps>08d3745b-5656-4ede-a663-28728ffa7d4d</tstamps>
     </comp>
     <comp ref="C4">
-      <value>1nF</value>
+      <value>3.3nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
-        <field name="LCSC">C1588</field>
-        <field name="MFR PT">CL10B102KB8NNNC</field>
+        <field name="LCSC">C1613</field>
+        <field name="MFR PT">CL10B332KB8NNNC</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="MFR PT" value="CL10B102KB8NNNC"/>
-      <property name="LCSC" value="C1588"/>
+      <property name="MFR PT" value="CL10B332KB8NNNC"/>
+      <property name="LCSC" value="C1613"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CCC_ESC.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -295,15 +304,15 @@
       <tstamps>f6e63479-edd2-4190-9f48-d97da98d92c6</tstamps>
     </comp>
     <comp ref="C19">
-      <value>1nF</value>
+      <value>3.3nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
-        <field name="LCSC">C1588</field>
-        <field name="MFR PT">CL10B102KB8NNNC</field>
+        <field name="LCSC">C1613</field>
+        <field name="MFR PT">CL10B332KB8NNNC</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="MFR PT" value="CL10B102KB8NNNC"/>
-      <property name="LCSC" value="C1588"/>
+      <property name="MFR PT" value="CL10B332KB8NNNC"/>
+      <property name="LCSC" value="C1613"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CCC_ESC.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -518,7 +527,7 @@
     </comp>
     <comp ref="CX1">
       <value>470uF</value>
-      <footprint>CCC_ESC_Custom_parts:CAP_Polarized_SMD</footprint>
+      <footprint>CCC_ESC_Custom_parts:CAP_Polaryzed</footprint>
       <fields>
         <field name="LCSC">C2913975</field>
         <field name="MFR PT">100PX470MEFC16X25</field>
@@ -533,7 +542,7 @@
     </comp>
     <comp ref="CX2">
       <value>470uF</value>
-      <footprint>CCC_ESC_Custom_parts:CAP_Polarized_SMD</footprint>
+      <footprint>CCC_ESC_Custom_parts:CAP_Polaryzed</footprint>
       <fields>
         <field name="LCSC">C2913975</field>
         <field name="MFR PT">100PX470MEFC16X25</field>
@@ -548,7 +557,7 @@
     </comp>
     <comp ref="CX3">
       <value>470uF</value>
-      <footprint>CCC_ESC_Custom_parts:CAP_Polarized_SMD</footprint>
+      <footprint>CCC_ESC_Custom_parts:CAP_Polaryzed</footprint>
       <fields>
         <field name="LCSC">C2913975</field>
         <field name="MFR PT">100PX470MEFC16X25</field>
@@ -563,7 +572,7 @@
     </comp>
     <comp ref="CX4">
       <value>470uF</value>
-      <footprint>CCC_ESC_Custom_parts:CAP_Polarized_SMD_simple</footprint>
+      <footprint>CCC_ESC_Custom_parts:CAP_Polaryzed</footprint>
       <fields>
         <field name="LCSC">C2913975</field>
         <field name="MFR PT">100PX470MEFC16X25</field>
@@ -575,6 +584,66 @@
       <property name="Sheetfile" value="CCC_ESC.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>b2f65df1-d7e7-434f-b5a9-d243ad8d93cc</tstamps>
+    </comp>
+    <comp ref="CX5">
+      <value>470uF</value>
+      <footprint>CCC_ESC_Custom_parts:CAP_Polaryzed</footprint>
+      <fields>
+        <field name="LCSC">C2913975</field>
+        <field name="MFR PT">100PX470MEFC16X25</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="MFR PT" value="100PX470MEFC16X25"/>
+      <property name="LCSC" value="C2913975"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CCC_ESC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a09b38ad-22e6-4375-954e-a4941e215f1b</tstamps>
+    </comp>
+    <comp ref="CX6">
+      <value>470uF</value>
+      <footprint>CCC_ESC_Custom_parts:CAP_Polaryzed</footprint>
+      <fields>
+        <field name="LCSC">C2913975</field>
+        <field name="MFR PT">100PX470MEFC16X25</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="MFR PT" value="100PX470MEFC16X25"/>
+      <property name="LCSC" value="C2913975"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CCC_ESC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9b7fc8fc-b74a-46c8-adba-373718baab1e</tstamps>
+    </comp>
+    <comp ref="CX7">
+      <value>470uF</value>
+      <footprint>CCC_ESC_Custom_parts:CAP_Polaryzed</footprint>
+      <fields>
+        <field name="LCSC">C2913975</field>
+        <field name="MFR PT">100PX470MEFC16X25</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="MFR PT" value="100PX470MEFC16X25"/>
+      <property name="LCSC" value="C2913975"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CCC_ESC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>48b3ba0d-ae53-4677-abfd-21c9cb1a2e6a</tstamps>
+    </comp>
+    <comp ref="CX8">
+      <value>470uF</value>
+      <footprint>CCC_ESC_Custom_parts:CAP_Polaryzed</footprint>
+      <fields>
+        <field name="LCSC">C2913975</field>
+        <field name="MFR PT">100PX470MEFC16X25</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="MFR PT" value="100PX470MEFC16X25"/>
+      <property name="LCSC" value="C2913975"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CCC_ESC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3715671d-eacb-4010-98e7-a4c31f4d611e</tstamps>
     </comp>
     <comp ref="CX11">
       <value>4.7uF</value>
@@ -667,19 +736,244 @@
       <tstamps>3c8e3f44-9198-483e-bef6-beba4ebd16d5</tstamps>
     </comp>
     <comp ref="CX17">
-      <value>47uF</value>
-      <footprint>CCC_ESC_Custom_parts:CAP_Polaryzed</footprint>
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
       <fields>
-        <field name="LCSC">C88763</field>
-        <field name="MFR PT">100ZL47MEFC10X12.5</field>
+        <field name="LCSC">C381466</field>
+        <field name="MFR PT">FS32X475K101EGG</field>
       </fields>
-      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
-      <property name="MFR PT" value="100ZL47MEFC10X12.5"/>
-      <property name="LCSC" value="C88763"/>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MFR PT" value="FS32X475K101EGG"/>
+      <property name="LCSC" value="C381466"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CCC_ESC.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>cd5ae07d-547d-4cbe-8526-ef1c27e798b7</tstamps>
+      <tstamps>f4fd80bf-a173-4cf3-a676-8f7cc7e2b86d</tstamps>
+    </comp>
+    <comp ref="CX18">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <fields>
+        <field name="LCSC">C381466</field>
+        <field name="MFR PT">FS32X475K101EGG</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MFR PT" value="FS32X475K101EGG"/>
+      <property name="LCSC" value="C381466"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CCC_ESC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8b25236f-c08d-4405-ade9-0627449375e8</tstamps>
+    </comp>
+    <comp ref="CX19">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <fields>
+        <field name="LCSC">C381466</field>
+        <field name="MFR PT">FS32X475K101EGG</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MFR PT" value="FS32X475K101EGG"/>
+      <property name="LCSC" value="C381466"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CCC_ESC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5984ae80-c9f1-4929-92f1-c9005a465ec7</tstamps>
+    </comp>
+    <comp ref="CX20">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <fields>
+        <field name="LCSC">C381466</field>
+        <field name="MFR PT">FS32X475K101EGG</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MFR PT" value="FS32X475K101EGG"/>
+      <property name="LCSC" value="C381466"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CCC_ESC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2c906e6e-28c7-4bcc-b6a3-06d0f1d62d81</tstamps>
+    </comp>
+    <comp ref="CX21">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <fields>
+        <field name="LCSC">C381466</field>
+        <field name="MFR PT">FS32X475K101EGG</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MFR PT" value="FS32X475K101EGG"/>
+      <property name="LCSC" value="C381466"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CCC_ESC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e6a0a4e9-0db0-4467-9c6b-1d4e783d8af0</tstamps>
+    </comp>
+    <comp ref="CX22">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <fields>
+        <field name="LCSC">C381466</field>
+        <field name="MFR PT">FS32X475K101EGG</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MFR PT" value="FS32X475K101EGG"/>
+      <property name="LCSC" value="C381466"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CCC_ESC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fbd40a60-d3dd-4c34-a93e-8a8f7d3c3af7</tstamps>
+    </comp>
+    <comp ref="CX23">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <fields>
+        <field name="LCSC">C381466</field>
+        <field name="MFR PT">FS32X475K101EGG</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MFR PT" value="FS32X475K101EGG"/>
+      <property name="LCSC" value="C381466"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CCC_ESC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>81885816-cf57-43d4-96a1-d55cfc8a8984</tstamps>
+    </comp>
+    <comp ref="CX24">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <fields>
+        <field name="LCSC">C381466</field>
+        <field name="MFR PT">FS32X475K101EGG</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MFR PT" value="FS32X475K101EGG"/>
+      <property name="LCSC" value="C381466"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CCC_ESC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8f8164ca-3404-4eda-be85-7e55e3889b7a</tstamps>
+    </comp>
+    <comp ref="CX25">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <fields>
+        <field name="LCSC">C381466</field>
+        <field name="MFR PT">FS32X475K101EGG</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MFR PT" value="FS32X475K101EGG"/>
+      <property name="LCSC" value="C381466"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CCC_ESC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6799d23e-2561-42b2-8fce-225ba4a81378</tstamps>
+    </comp>
+    <comp ref="CX26">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <fields>
+        <field name="LCSC">C381466</field>
+        <field name="MFR PT">FS32X475K101EGG</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MFR PT" value="FS32X475K101EGG"/>
+      <property name="LCSC" value="C381466"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CCC_ESC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0324e5e2-d539-4c0d-8049-f5ce5d53b45f</tstamps>
+    </comp>
+    <comp ref="CX27">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <fields>
+        <field name="LCSC">C381466</field>
+        <field name="MFR PT">FS32X475K101EGG</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MFR PT" value="FS32X475K101EGG"/>
+      <property name="LCSC" value="C381466"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CCC_ESC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f8261d8f-14e5-4c9d-b969-b9d33142c28f</tstamps>
+    </comp>
+    <comp ref="CX28">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <fields>
+        <field name="LCSC">C381466</field>
+        <field name="MFR PT">FS32X475K101EGG</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MFR PT" value="FS32X475K101EGG"/>
+      <property name="LCSC" value="C381466"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CCC_ESC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fdaf26c2-c2ec-4386-9675-ebbc0f1ded20</tstamps>
+    </comp>
+    <comp ref="CX29">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <fields>
+        <field name="LCSC">C381466</field>
+        <field name="MFR PT">FS32X475K101EGG</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MFR PT" value="FS32X475K101EGG"/>
+      <property name="LCSC" value="C381466"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CCC_ESC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9a62345c-0619-4b13-a222-63d0460b0da5</tstamps>
+    </comp>
+    <comp ref="CX30">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <fields>
+        <field name="LCSC">C381466</field>
+        <field name="MFR PT">FS32X475K101EGG</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MFR PT" value="FS32X475K101EGG"/>
+      <property name="LCSC" value="C381466"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CCC_ESC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f88ea8ef-8453-4de2-9a95-64123d03f125</tstamps>
+    </comp>
+    <comp ref="CX31">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <fields>
+        <field name="LCSC">C381466</field>
+        <field name="MFR PT">FS32X475K101EGG</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MFR PT" value="FS32X475K101EGG"/>
+      <property name="LCSC" value="C381466"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CCC_ESC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>845912fa-2282-4b67-98e4-c6f64f7bc3ee</tstamps>
+    </comp>
+    <comp ref="CX32">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <fields>
+        <field name="LCSC">C381466</field>
+        <field name="MFR PT">FS32X475K101EGG</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="MFR PT" value="FS32X475K101EGG"/>
+      <property name="LCSC" value="C381466"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CCC_ESC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5d3d5424-33bd-4b1e-9939-6f0ecdb7f8f8</tstamps>
     </comp>
     <comp ref="D1">
       <value>SM4007</value>
@@ -773,6 +1067,21 @@
       <property name="Sheetfile" value="CCC_ESC.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>757521ce-c3d4-40bb-90f7-29c970f6d40a</tstamps>
+    </comp>
+    <comp ref="D7">
+      <value>SMDJ85A</value>
+      <footprint>Diode_SMD:D_SMB</footprint>
+      <fields>
+        <field name="LCSC">C438175</field>
+        <field name="MFR PT">SMDJ85A</field>
+      </fields>
+      <libsource lib="Diode" part="SM6T75A" description="600W unidirectional Transil Transient Voltage Suppressor, 75Vrwm, DO-214AA"/>
+      <property name="MFR PT" value="SMDJ85A"/>
+      <property name="LCSC" value="C438175"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CCC_ESC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fe96060c-63d4-46e0-a0e3-515fe6bde1cc</tstamps>
     </comp>
     <comp ref="J1">
       <value>Conn_01x04</value>
@@ -982,7 +1291,7 @@
       <tstamps>a9f8a06b-6dbe-4bc7-9d27-22fb33fac9e6</tstamps>
     </comp>
     <comp ref="QA1">
-      <value>MDP10N027</value>
+      <value>CRST030N10N</value>
       <footprint>Package_TO_SOT_THT:TO-220-3_Horizontal_TabUp</footprint>
       <libsource lib="CCC_ESC_Custom_Symbols" part="MDP10N027" description=""/>
       <property name="Sheetname" value=""/>
@@ -991,7 +1300,7 @@
       <tstamps>155a305d-cff1-4340-986a-f6393f0cc554</tstamps>
     </comp>
     <comp ref="QA2">
-      <value>MDP10N027</value>
+      <value>CRST030N10N</value>
       <footprint>Package_TO_SOT_THT:TO-220-3_Horizontal_TabUp</footprint>
       <libsource lib="CCC_ESC_Custom_Symbols" part="MDP10N027" description=""/>
       <property name="Sheetname" value=""/>
@@ -1000,7 +1309,7 @@
       <tstamps>28ce9ff3-ecbc-406a-add0-7d923314403a</tstamps>
     </comp>
     <comp ref="QA3">
-      <value>MDP10N027</value>
+      <value>CRST030N10N</value>
       <footprint>Package_TO_SOT_THT:TO-220-3_Horizontal_TabUp</footprint>
       <libsource lib="CCC_ESC_Custom_Symbols" part="MDP10N027" description=""/>
       <property name="Sheetname" value=""/>
@@ -1009,7 +1318,7 @@
       <tstamps>106a9921-5891-4828-a3d9-f4ce675bbdb8</tstamps>
     </comp>
     <comp ref="QA4">
-      <value>MDP10N027</value>
+      <value>CRST030N10N</value>
       <footprint>Package_TO_SOT_THT:TO-220-3_Horizontal_TabUp</footprint>
       <libsource lib="CCC_ESC_Custom_Symbols" part="MDP10N027" description=""/>
       <property name="Sheetname" value=""/>
@@ -1018,7 +1327,7 @@
       <tstamps>fac7d85b-69ee-4c07-b274-97aa7ee56966</tstamps>
     </comp>
     <comp ref="QA5">
-      <value>MDP10N027</value>
+      <value>CRST030N10N</value>
       <footprint>Package_TO_SOT_THT:TO-220-3_Horizontal_TabUp</footprint>
       <libsource lib="CCC_ESC_Custom_Symbols" part="MDP10N027" description=""/>
       <property name="Sheetname" value=""/>
@@ -1027,7 +1336,7 @@
       <tstamps>ab7d9d26-2ee0-446e-8451-157664b6188a</tstamps>
     </comp>
     <comp ref="QA6">
-      <value>MDP10N027</value>
+      <value>CRST030N10N</value>
       <footprint>Package_TO_SOT_THT:TO-220-3_Horizontal_TabUp</footprint>
       <libsource lib="CCC_ESC_Custom_Symbols" part="MDP10N027" description=""/>
       <property name="Sheetname" value=""/>
@@ -1036,7 +1345,7 @@
       <tstamps>dc3e043a-73a9-4d78-8af9-55411cbc29a5</tstamps>
     </comp>
     <comp ref="QB1">
-      <value>MDP10N027</value>
+      <value>CRST030N10N</value>
       <footprint>Package_TO_SOT_THT:TO-220-3_Horizontal_TabUp</footprint>
       <libsource lib="CCC_ESC_Custom_Symbols" part="MDP10N027" description=""/>
       <property name="Sheetname" value=""/>
@@ -1045,7 +1354,7 @@
       <tstamps>25c47258-0f19-421b-9076-42fdea3bcdcd</tstamps>
     </comp>
     <comp ref="QB2">
-      <value>MDP10N027</value>
+      <value>CRST030N10N</value>
       <footprint>Package_TO_SOT_THT:TO-220-3_Horizontal_TabUp</footprint>
       <libsource lib="CCC_ESC_Custom_Symbols" part="MDP10N027" description=""/>
       <property name="Sheetname" value=""/>
@@ -1054,7 +1363,7 @@
       <tstamps>f461de25-7f8b-4dbb-a724-19d1b75033c8</tstamps>
     </comp>
     <comp ref="QB3">
-      <value>MDP10N027</value>
+      <value>CRST030N10N</value>
       <footprint>Package_TO_SOT_THT:TO-220-3_Horizontal_TabUp</footprint>
       <libsource lib="CCC_ESC_Custom_Symbols" part="MDP10N027" description=""/>
       <property name="Sheetname" value=""/>
@@ -1063,7 +1372,7 @@
       <tstamps>4a1c2658-c420-4f73-a0a0-8a6a0d0f50ff</tstamps>
     </comp>
     <comp ref="QB4">
-      <value>MDP10N027</value>
+      <value>CRST030N10N</value>
       <footprint>Package_TO_SOT_THT:TO-220-3_Horizontal_TabUp</footprint>
       <libsource lib="CCC_ESC_Custom_Symbols" part="MDP10N027" description=""/>
       <property name="Sheetname" value=""/>
@@ -1072,7 +1381,7 @@
       <tstamps>386d4476-7d68-48ef-be65-943db0af9a43</tstamps>
     </comp>
     <comp ref="QB5">
-      <value>MDP10N027</value>
+      <value>CRST030N10N</value>
       <footprint>Package_TO_SOT_THT:TO-220-3_Horizontal_TabUp</footprint>
       <libsource lib="CCC_ESC_Custom_Symbols" part="MDP10N027" description=""/>
       <property name="Sheetname" value=""/>
@@ -1081,7 +1390,7 @@
       <tstamps>1a4fae8d-3909-45bc-9293-0c56b0b891cd</tstamps>
     </comp>
     <comp ref="QB6">
-      <value>MDP10N027</value>
+      <value>CRST030N10N</value>
       <footprint>Package_TO_SOT_THT:TO-220-3_Horizontal_TabUp</footprint>
       <libsource lib="CCC_ESC_Custom_Symbols" part="MDP10N027" description=""/>
       <property name="Sheetname" value=""/>
@@ -1090,7 +1399,7 @@
       <tstamps>fecfe805-5c11-40c4-8e65-87a8455401fa</tstamps>
     </comp>
     <comp ref="QC1">
-      <value>MDP10N027</value>
+      <value>CRST030N10N</value>
       <footprint>Package_TO_SOT_THT:TO-220-3_Horizontal_TabUp</footprint>
       <libsource lib="CCC_ESC_Custom_Symbols" part="MDP10N027" description=""/>
       <property name="Sheetname" value=""/>
@@ -1099,7 +1408,7 @@
       <tstamps>477957d1-8f5d-42a4-9058-3ec6bb2194e3</tstamps>
     </comp>
     <comp ref="QC2">
-      <value>MDP10N027</value>
+      <value>CRST030N10N</value>
       <footprint>Package_TO_SOT_THT:TO-220-3_Horizontal_TabUp</footprint>
       <libsource lib="CCC_ESC_Custom_Symbols" part="MDP10N027" description=""/>
       <property name="Sheetname" value=""/>
@@ -1108,7 +1417,7 @@
       <tstamps>f13dcd85-2433-4bb0-9bb1-9bbd52077070</tstamps>
     </comp>
     <comp ref="QC3">
-      <value>MDP10N027</value>
+      <value>CRST030N10N</value>
       <footprint>Package_TO_SOT_THT:TO-220-3_Horizontal_TabUp</footprint>
       <libsource lib="CCC_ESC_Custom_Symbols" part="MDP10N027" description=""/>
       <property name="Sheetname" value=""/>
@@ -1117,7 +1426,7 @@
       <tstamps>4d75aef6-3dd8-42e6-8a83-5e88f43d2777</tstamps>
     </comp>
     <comp ref="QC4">
-      <value>MDP10N027</value>
+      <value>CRST030N10N</value>
       <footprint>Package_TO_SOT_THT:TO-220-3_Horizontal_TabUp</footprint>
       <libsource lib="CCC_ESC_Custom_Symbols" part="MDP10N027" description=""/>
       <property name="Sheetname" value=""/>
@@ -1126,7 +1435,7 @@
       <tstamps>705ce502-7cc1-48d8-aeba-fa10c12c0845</tstamps>
     </comp>
     <comp ref="QC5">
-      <value>MDP10N027</value>
+      <value>CRST030N10N</value>
       <footprint>Package_TO_SOT_THT:TO-220-3_Horizontal_TabUp</footprint>
       <libsource lib="CCC_ESC_Custom_Symbols" part="MDP10N027" description=""/>
       <property name="Sheetname" value=""/>
@@ -1135,7 +1444,7 @@
       <tstamps>495845a6-ccae-4f01-91e7-ae4fadb86b61</tstamps>
     </comp>
     <comp ref="QC6">
-      <value>MDP10N027</value>
+      <value>CRST030N10N</value>
       <footprint>Package_TO_SOT_THT:TO-220-3_Horizontal_TabUp</footprint>
       <libsource lib="CCC_ESC_Custom_Symbols" part="MDP10N027" description=""/>
       <property name="Sheetname" value=""/>
@@ -1144,60 +1453,60 @@
       <tstamps>433c8b69-dd7c-443c-833f-2ddb1a637bae</tstamps>
     </comp>
     <comp ref="R1">
-      <value>2R2</value>
+      <value>4R7</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
-        <field name="LCSC">C17521</field>
-        <field name="MFR PT">0805W8F220KT5E</field>
+        <field name="LCSC">C17714</field>
+        <field name="MFR PT">0805W8F470JT5E</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="MFR PT" value="0805W8F220KT5E"/>
-      <property name="LCSC" value="C17521"/>
+      <property name="MFR PT" value="0805W8F470JT5E"/>
+      <property name="LCSC" value="C17714"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CCC_ESC.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>a0602d75-b4b4-44c7-8420-5395ff836d3b</tstamps>
     </comp>
     <comp ref="R2">
-      <value>1k8</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <value>4R7</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
-        <field name="LCSC">C4177</field>
-        <field name="MFR PT">0603WAF1801T5E</field>
+        <field name="LCSC">C17714</field>
+        <field name="MFR PT">0805W8F470JT5E</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="MFR PT" value="0603WAF1801T5E"/>
-      <property name="LCSC" value="C4177"/>
+      <property name="MFR PT" value="0805W8F470JT5E"/>
+      <property name="LCSC" value="C17714"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CCC_ESC.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>4d17f4ad-6d37-4870-82b8-8f97da921f0c</tstamps>
+      <tstamps>7b28f30a-253d-4185-b16e-bba7243eec6e</tstamps>
     </comp>
     <comp ref="R3">
-      <value>1M</value>
+      <value>270k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
-        <field name="LCSC">C17514</field>
-        <field name="MFR PT">0805W8F1004T5E</field>
+        <field name="LCSC">C17589</field>
+        <field name="MFR PT">0805W8F2703T5E</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="MFR PT" value="0805W8F1004T5E"/>
-      <property name="LCSC" value="C17514"/>
+      <property name="MFR PT" value="0805W8F2703T5E"/>
+      <property name="LCSC" value="C17589"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CCC_ESC.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>4d36a6dd-bb6a-4812-8c4f-d2b72143424f</tstamps>
     </comp>
     <comp ref="R4">
-      <value>33k</value>
+      <value>9k1</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
-        <field name="LCSC">C4216</field>
-        <field name="MFR PT">0603WAF3302T5E</field>
+        <field name="LCSC">C23260</field>
+        <field name="MFR PT">0603WAF9101T5E</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="MFR PT" value="0603WAF3302T5E"/>
-      <property name="LCSC" value="C4216"/>
+      <property name="MFR PT" value="0603WAF9101T5E"/>
+      <property name="LCSC" value="C23260"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CCC_ESC.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1339,30 +1648,30 @@
       <tstamps>52f0d990-160a-4a25-9647-39f0d02c4df5</tstamps>
     </comp>
     <comp ref="R14">
-      <value>1M</value>
+      <value>270k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <fields>
-        <field name="LCSC">C17514</field>
-        <field name="MFR PT">0805W8F1004T5E</field>
+        <field name="LCSC">C17589</field>
+        <field name="MFR PT">0805W8F2703T5E</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="MFR PT" value="0805W8F1004T5E"/>
-      <property name="LCSC" value="C17514"/>
+      <property name="MFR PT" value="0805W8F2703T5E"/>
+      <property name="LCSC" value="C17589"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CCC_ESC.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>38fbbc1d-994f-488d-8e0f-da36eac81e78</tstamps>
     </comp>
     <comp ref="R15">
-      <value>33k</value>
+      <value>9k1</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
-        <field name="LCSC">C4216</field>
-        <field name="MFR PT">0603WAF3302T5E</field>
+        <field name="LCSC">C23260</field>
+        <field name="MFR PT">0603WAF9101T5E</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="MFR PT" value="0603WAF3302T5E"/>
-      <property name="LCSC" value="C4216"/>
+      <property name="MFR PT" value="0603WAF9101T5E"/>
+      <property name="LCSC" value="C23260"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CCC_ESC.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1399,15 +1708,15 @@
       <tstamps>b77a1041-3b1a-4e2e-bced-9015b1a86457</tstamps>
     </comp>
     <comp ref="R18">
-      <value>47k</value>
+      <value>100k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
-        <field name="LCSC">C25819</field>
-        <field name="MFR PT">0603WAF4702T5E</field>
+        <field name="LCSC">C25803</field>
+        <field name="MFR PT">0603WAF1003T5E</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="MFR PT" value="0603WAF4702T5E"/>
-      <property name="LCSC" value="C25819"/>
+      <property name="MFR PT" value="0603WAF1003T5E"/>
+      <property name="LCSC" value="C25803"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CCC_ESC.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1444,15 +1753,15 @@
       <tstamps>c9d0c3a5-8737-43d7-9e6b-99126dd3a27e</tstamps>
     </comp>
     <comp ref="R21">
-      <value>47k</value>
+      <value>100k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
-        <field name="LCSC">C25819</field>
-        <field name="MFR PT">0603WAF4702T5E</field>
+        <field name="LCSC">C25803</field>
+        <field name="MFR PT">0603WAF1003T5E</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="MFR PT" value="0603WAF4702T5E"/>
-      <property name="LCSC" value="C25819"/>
+      <property name="MFR PT" value="0603WAF1003T5E"/>
+      <property name="LCSC" value="C25803"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CCC_ESC.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1489,15 +1798,15 @@
       <tstamps>a96cdeec-389b-4e7d-9e39-fc68b62780ad</tstamps>
     </comp>
     <comp ref="R24">
-      <value>47k</value>
+      <value>100k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
-        <field name="LCSC">C25819</field>
-        <field name="MFR PT">0603WAF4702T5E</field>
+        <field name="LCSC">C25803</field>
+        <field name="MFR PT">0603WAF1003T5E</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="MFR PT" value="0603WAF4702T5E"/>
-      <property name="LCSC" value="C25819"/>
+      <property name="MFR PT" value="0603WAF1003T5E"/>
+      <property name="LCSC" value="C25803"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CCC_ESC.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1548,6 +1857,21 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>8d9ea1f1-5f70-48b3-b4eb-c243f91b831a</tstamps>
     </comp>
+    <comp ref="R28">
+      <value>1k8</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C4177</field>
+        <field name="MFR PT">0603WAF1801T5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MFR PT" value="0603WAF1801T5E"/>
+      <property name="LCSC" value="C4177"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CCC_ESC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4d17f4ad-6d37-4870-82b8-8f97da921f0c</tstamps>
+    </comp>
     <comp ref="R29">
       <value>220k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
@@ -1564,45 +1888,45 @@
       <tstamps>238ac059-9e8f-4908-adb5-445573b6dcf3</tstamps>
     </comp>
     <comp ref="R30">
-      <value>22k</value>
+      <value>47k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
-        <field name="LCSC">C31850</field>
-        <field name="MFR PT">0603WAF2202T5E</field>
+        <field name="LCSC">C25819</field>
+        <field name="MFR PT">0603WAF4702T5E</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="MFR PT" value="0603WAF2202T5E"/>
-      <property name="LCSC" value="C31850"/>
+      <property name="MFR PT" value="0603WAF4702T5E"/>
+      <property name="LCSC" value="C25819"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CCC_ESC.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>adbd9675-7f79-4b54-9eee-124183e4a191</tstamps>
     </comp>
     <comp ref="R31">
-      <value>22k</value>
+      <value>47k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
-        <field name="LCSC">C31850</field>
-        <field name="MFR PT">0603WAF2202T5E</field>
+        <field name="LCSC">C25819</field>
+        <field name="MFR PT">0603WAF4702T5E</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="MFR PT" value="0603WAF2202T5E"/>
-      <property name="LCSC" value="C31850"/>
+      <property name="MFR PT" value="0603WAF4702T5E"/>
+      <property name="LCSC" value="C25819"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CCC_ESC.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>dbefc7b7-5cbd-4b89-afac-fcc6f6333e12</tstamps>
     </comp>
     <comp ref="R32">
-      <value>22k</value>
+      <value>47k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
-        <field name="LCSC">C31850</field>
-        <field name="MFR PT">0603WAF2202T5E</field>
+        <field name="LCSC">C25819</field>
+        <field name="MFR PT">0603WAF4702T5E</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="MFR PT" value="0603WAF2202T5E"/>
-      <property name="LCSC" value="C31850"/>
+      <property name="MFR PT" value="0603WAF4702T5E"/>
+      <property name="LCSC" value="C25819"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CCC_ESC.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1951,135 +2275,135 @@
       <tstamps>a25a6c62-4ed0-4a59-81ef-991f0ffaea7d</tstamps>
     </comp>
     <comp ref="SHA1">
-      <value>1mR</value>
-      <footprint>Resistor_SMD:R_2512_6332Metric</footprint>
+      <value>0.5mR</value>
+      <footprint>CCC_ESC_Custom_parts:Shunt_2512_6332Metric</footprint>
       <fields>
-        <field name="LCSC">C500734</field>
-        <field name="MFR PT">LR2512D-3W-1mR-1%</field>
+        <field name="LCSC">C500733</field>
+        <field name="MFR PT">LR2512D-3W-0.5mR-1%</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="MFR PT" value="LR2512D-3W-1mR-1%"/>
-      <property name="LCSC" value="C500734"/>
+      <property name="MFR PT" value="LR2512D-3W-0.5mR-1%"/>
+      <property name="LCSC" value="C500733"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CCC_ESC.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>884e22d4-276f-4fbb-b02b-5dd1758aad43</tstamps>
     </comp>
     <comp ref="SHA2">
-      <value>1mR</value>
-      <footprint>Resistor_SMD:R_2512_6332Metric</footprint>
+      <value>0.5mR</value>
+      <footprint>CCC_ESC_Custom_parts:Shunt_2512_6332Metric</footprint>
       <fields>
-        <field name="LCSC">C500734</field>
-        <field name="MFR PT">LR2512D-3W-1mR-1%</field>
+        <field name="LCSC">C500733</field>
+        <field name="MFR PT">LR2512D-3W-0.5mR-1%</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="MFR PT" value="LR2512D-3W-1mR-1%"/>
-      <property name="LCSC" value="C500734"/>
+      <property name="MFR PT" value="LR2512D-3W-0.5mR-1%"/>
+      <property name="LCSC" value="C500733"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CCC_ESC.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>c8a7db4e-a45b-4590-a059-3d158e4e45cc</tstamps>
     </comp>
     <comp ref="SHA3">
-      <value>1mR</value>
-      <footprint>Resistor_SMD:R_2512_6332Metric</footprint>
+      <value>0.5mR</value>
+      <footprint>CCC_ESC_Custom_parts:Shunt_2512_6332Metric</footprint>
       <fields>
-        <field name="LCSC">C500734</field>
-        <field name="MFR PT">LR2512D-3W-1mR-1%</field>
+        <field name="LCSC">C500733</field>
+        <field name="MFR PT">LR2512D-3W-0.5mR-1%</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="MFR PT" value="LR2512D-3W-1mR-1%"/>
-      <property name="LCSC" value="C500734"/>
+      <property name="MFR PT" value="LR2512D-3W-0.5mR-1%"/>
+      <property name="LCSC" value="C500733"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CCC_ESC.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>c493b3d6-0fdc-4fb6-89d0-e45adab0a2a2</tstamps>
     </comp>
     <comp ref="SHB1">
-      <value>1mR</value>
-      <footprint>Resistor_SMD:R_2512_6332Metric</footprint>
+      <value>0.5mR</value>
+      <footprint>CCC_ESC_Custom_parts:Shunt_2512_6332Metric</footprint>
       <fields>
-        <field name="LCSC">C500734</field>
-        <field name="MFR PT">LR2512D-3W-1mR-1%</field>
+        <field name="LCSC">C500733</field>
+        <field name="MFR PT">LR2512D-3W-0.5mR-1%</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="MFR PT" value="LR2512D-3W-1mR-1%"/>
-      <property name="LCSC" value="C500734"/>
+      <property name="MFR PT" value="LR2512D-3W-0.5mR-1%"/>
+      <property name="LCSC" value="C500733"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CCC_ESC.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>2b618c05-e67a-444e-bb8b-13f53d6cbd41</tstamps>
     </comp>
     <comp ref="SHB2">
-      <value>1mR</value>
-      <footprint>Resistor_SMD:R_2512_6332Metric</footprint>
+      <value>0.5mR</value>
+      <footprint>CCC_ESC_Custom_parts:Shunt_2512_6332Metric</footprint>
       <fields>
-        <field name="LCSC">C500734</field>
-        <field name="MFR PT">LR2512D-3W-1mR-1%</field>
+        <field name="LCSC">C500733</field>
+        <field name="MFR PT">LR2512D-3W-0.5mR-1%</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="MFR PT" value="LR2512D-3W-1mR-1%"/>
-      <property name="LCSC" value="C500734"/>
+      <property name="MFR PT" value="LR2512D-3W-0.5mR-1%"/>
+      <property name="LCSC" value="C500733"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CCC_ESC.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>ae346fe2-638a-4bb1-9859-d73da6b0e515</tstamps>
     </comp>
     <comp ref="SHB3">
-      <value>1mR</value>
-      <footprint>Resistor_SMD:R_2512_6332Metric</footprint>
+      <value>0.5mR</value>
+      <footprint>CCC_ESC_Custom_parts:Shunt_2512_6332Metric</footprint>
       <fields>
-        <field name="LCSC">C500734</field>
-        <field name="MFR PT">LR2512D-3W-1mR-1%</field>
+        <field name="LCSC">C500733</field>
+        <field name="MFR PT">LR2512D-3W-0.5mR-1%</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="MFR PT" value="LR2512D-3W-1mR-1%"/>
-      <property name="LCSC" value="C500734"/>
+      <property name="MFR PT" value="LR2512D-3W-0.5mR-1%"/>
+      <property name="LCSC" value="C500733"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CCC_ESC.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>6fd82f52-48e6-4d74-94e3-bc2cf93f9b9d</tstamps>
     </comp>
     <comp ref="SHC1">
-      <value>1mR</value>
-      <footprint>Resistor_SMD:R_2512_6332Metric</footprint>
+      <value>0.5mR</value>
+      <footprint>CCC_ESC_Custom_parts:Shunt_2512_6332Metric</footprint>
       <fields>
-        <field name="LCSC">C500734</field>
-        <field name="MFR PT">LR2512D-3W-1mR-1%</field>
+        <field name="LCSC">C500733</field>
+        <field name="MFR PT">LR2512D-3W-0.5mR-1%</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="MFR PT" value="LR2512D-3W-1mR-1%"/>
-      <property name="LCSC" value="C500734"/>
+      <property name="MFR PT" value="LR2512D-3W-0.5mR-1%"/>
+      <property name="LCSC" value="C500733"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CCC_ESC.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>64956361-de49-45f0-b914-d927467af2a6</tstamps>
     </comp>
     <comp ref="SHC2">
-      <value>1mR</value>
-      <footprint>Resistor_SMD:R_2512_6332Metric</footprint>
+      <value>0.5mR</value>
+      <footprint>CCC_ESC_Custom_parts:Shunt_2512_6332Metric</footprint>
       <fields>
-        <field name="LCSC">C500734</field>
-        <field name="MFR PT">LR2512D-3W-1mR-1%</field>
+        <field name="LCSC">C500733</field>
+        <field name="MFR PT">LR2512D-3W-0.5mR-1%</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="MFR PT" value="LR2512D-3W-1mR-1%"/>
-      <property name="LCSC" value="C500734"/>
+      <property name="MFR PT" value="LR2512D-3W-0.5mR-1%"/>
+      <property name="LCSC" value="C500733"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CCC_ESC.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>d1e15597-8013-46ff-9f9c-ac033e8b1f79</tstamps>
     </comp>
     <comp ref="SHC3">
-      <value>1mR</value>
-      <footprint>Resistor_SMD:R_2512_6332Metric</footprint>
+      <value>0.5mR</value>
+      <footprint>CCC_ESC_Custom_parts:Shunt_2512_6332Metric</footprint>
       <fields>
-        <field name="LCSC">C500734</field>
-        <field name="MFR PT">LR2512D-3W-1mR-1%</field>
+        <field name="LCSC">C500733</field>
+        <field name="MFR PT">LR2512D-3W-0.5mR-1%</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="MFR PT" value="LR2512D-3W-1mR-1%"/>
-      <property name="LCSC" value="C500734"/>
+      <property name="MFR PT" value="LR2512D-3W-0.5mR-1%"/>
+      <property name="LCSC" value="C500733"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CCC_ESC.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -2094,16 +2418,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>642232c9-9700-4cbf-a629-0d6be02c12d5</tstamps>
     </comp>
-    <comp ref="TP1">
-      <value>TestPoint</value>
-      <footprint>TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm</footprint>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="CCC_ESC.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>dda00cee-875c-4b7d-87bc-b5778319cc81</tstamps>
-    </comp>
-    <comp ref="TP2">
+    <comp ref="TpGND1">
       <value>TestPoint</value>
       <footprint>TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm</footprint>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
@@ -2112,7 +2427,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>b965c791-b5d1-4298-a743-06e2ccf1c690</tstamps>
     </comp>
-    <comp ref="TP3">
+    <comp ref="TpGND2">
       <value>TestPoint</value>
       <footprint>TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm</footprint>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
@@ -2121,7 +2436,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>faa03d7e-a877-467e-9a17-cf2fd99d04bb</tstamps>
     </comp>
-    <comp ref="TP4">
+    <comp ref="TpGND3">
       <value>TestPoint</value>
       <footprint>TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm</footprint>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
@@ -2130,7 +2445,25 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>9c0beee5-71c3-46d6-9f30-51afd14f6590</tstamps>
     </comp>
-    <comp ref="TP5">
+    <comp ref="TpGND4">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CCC_ESC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>74a37d21-52ee-45fa-935a-bc7161dc3766</tstamps>
+    </comp>
+    <comp ref="TpGS1">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CCC_ESC.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dda00cee-875c-4b7d-87bc-b5778319cc81</tstamps>
+    </comp>
+    <comp ref="TpGS2">
       <value>TestPoint</value>
       <footprint>TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm</footprint>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
@@ -2139,7 +2472,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>7e843850-e407-475b-a8cc-5cee46b4cfe3</tstamps>
     </comp>
-    <comp ref="TP6">
+    <comp ref="TpGS3">
       <value>TestPoint</value>
       <footprint>TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm</footprint>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
@@ -2148,7 +2481,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>3b8a6a1b-c544-4b20-b04c-c13f447d56c7</tstamps>
     </comp>
-    <comp ref="TP7">
+    <comp ref="TpGS4">
       <value>TestPoint</value>
       <footprint>TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm</footprint>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
@@ -2157,7 +2490,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>cd3656fc-66fe-4d3a-9a0c-913a022350a0</tstamps>
     </comp>
-    <comp ref="TP8">
+    <comp ref="TpGS5">
       <value>TestPoint</value>
       <footprint>TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm</footprint>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
@@ -2166,7 +2499,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>fb56d8f7-2599-43ca-849a-c0e411ac3f3a</tstamps>
     </comp>
-    <comp ref="TP9">
+    <comp ref="TpGS6">
       <value>TestPoint</value>
       <footprint>TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm</footprint>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
@@ -2175,7 +2508,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>a853c0d3-ffa3-48f1-ba16-ee86ef7ebb28</tstamps>
     </comp>
-    <comp ref="TP10">
+    <comp ref="TpVS1">
       <value>TestPoint</value>
       <footprint>TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm</footprint>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
@@ -2183,15 +2516,6 @@
       <property name="Sheetfile" value="CCC_ESC.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>3e27bb72-3aae-4ca6-b52b-f9dea0d17676</tstamps>
-    </comp>
-    <comp ref="TP11">
-      <value>TestPoint</value>
-      <footprint>TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm</footprint>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="CCC_ESC.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>74a37d21-52ee-45fa-935a-bc7161dc3766</tstamps>
     </comp>
     <comp ref="U1">
       <value>NCP5183 / TF2190-TAH</value>
@@ -2252,7 +2576,7 @@
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CCC_ESC.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>e32d5f66-a9d2-4b57-921a-75ed623252e0 9e3a1870-f28a-457c-b00b-8d4aef2a1c5c 5106c42b-98f6-4f9e-ac52-27d8faa23015 db93f91a-21d9-43d0-9556-d5fc2c3de0df 21633540-d5bc-4c64-ac3c-c92e5aeb4ea0</tstamps>
+      <tstamps>5106c42b-98f6-4f9e-ac52-27d8faa23015 db93f91a-21d9-43d0-9556-d5fc2c3de0df 9e3a1870-f28a-457c-b00b-8d4aef2a1c5c e32d5f66-a9d2-4b57-921a-75ed623252e0 21633540-d5bc-4c64-ac3c-c92e5aeb4ea0</tstamps>
     </comp>
     <comp ref="U5">
       <value>STM32F401CCU6_Balckpill</value>
@@ -2264,9 +2588,10 @@
       <tstamps>7dd9f553-a11a-48b3-ae22-75963e4ed3ba</tstamps>
     </comp>
     <comp ref="U6">
-      <value>PQDE6W-Q110</value>
+      <value>PQDE6W-Q110 / RD5-110S12W</value>
       <footprint>CCC_ESC_Custom_parts:PQDE6W</footprint>
       <libsource lib="CCC_ESC_Custom_Symbols" part="PQDE6W-Q110" description=""/>
+      <property name="LCSC" value=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CCC_ESC.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -2280,15 +2605,6 @@
       <property name="Sheetfile" value="CCC_ESC.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>d361a345-9b61-471d-acce-827dc57380db</tstamps>
-    </comp>
-    <comp ref="U8">
-      <value>TO220_replacement_module</value>
-      <footprint>CCC_ESC_Custom_parts:TO220_replacement_module</footprint>
-      <libsource lib="CCC_ESC_Custom_Symbols" part="TO220_replacement_module" description=""/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="CCC_ESC.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>68236c93-49e7-4933-ab0e-48bd3cb739ea</tstamps>
     </comp>
   </components>
   <libparts>
@@ -2649,6 +2965,23 @@
         <pin num="2" name="A" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="Diode" part="SM6T75A">
+      <description>600W unidirectional Transil Transient Voltage Suppressor, 75Vrwm, DO-214AA</description>
+      <docs>https://www.st.com/resource/en/datasheet/sm6t.pdf</docs>
+      <footprints>
+        <fp>D*SMB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">SM6T75A</field>
+        <field name="Footprint">Diode_SMD:D_SMB</field>
+        <field name="Datasheet">https://www.st.com/resource/en/datasheet/sm6t.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A1" type="passive"/>
+        <pin num="2" name="A2" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="Jumper" part="SolderJumper_3_Open">
       <description>Solder Jumper, 3-pole, open</description>
       <docs>~</docs>
@@ -2669,25 +3002,25 @@
   </libparts>
   <libraries>
     <library logical="Amplifier_Operational">
-      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Amplifier_Operational.kicad_sym</uri>
+      <uri>D:\6.0\share\kicad\symbols\/Amplifier_Operational.kicad_sym</uri>
     </library>
     <library logical="CCC_ESC_Custom_Symbols">
-      <uri>C:\Users\HPEnvy\Documents\CCCESC\versions\v0.1/CCC_ESC_Custom_Symbols.kicad_sym</uri>
+      <uri>D:\Chestii\hobby\Ebike\Electronica\GITHUB\CCC_ESC\versions\v0.1/CCC_ESC_Custom_Symbols.kicad_sym</uri>
     </library>
     <library logical="Connector">
-      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+      <uri>D:\6.0\share\kicad\symbols\/Connector.kicad_sym</uri>
     </library>
     <library logical="Connector_Generic">
-      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+      <uri>D:\6.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
     </library>
     <library logical="Device">
-      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+      <uri>D:\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
     </library>
     <library logical="Diode">
-      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Diode.kicad_sym</uri>
+      <uri>D:\6.0\share\kicad\symbols\/Diode.kicad_sym</uri>
     </library>
     <library logical="Jumper">
-      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Jumper.kicad_sym</uri>
+      <uri>D:\6.0\share\kicad\symbols\/Jumper.kicad_sym</uri>
     </library>
   </libraries>
   <nets>
@@ -2697,7 +3030,7 @@
       <node ref="QA6" pin="1" pintype="input"/>
       <node ref="R48" pin="2" pintype="passive"/>
       <node ref="RG2" pin="1" pintype="passive"/>
-      <node ref="TP5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TpGS2" pin="1" pinfunction="1" pintype="passive"/>
     </net>
     <net code="2" name="/AU_GATESIG">
       <node ref="QA1" pin="1" pintype="input"/>
@@ -2705,7 +3038,7 @@
       <node ref="QA5" pin="1" pintype="input"/>
       <node ref="R47" pin="2" pintype="passive"/>
       <node ref="RG1" pin="1" pintype="passive"/>
-      <node ref="TP1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TpGS1" pin="1" pinfunction="1" pintype="passive"/>
     </net>
     <net code="3" name="/BL_GATESIG">
       <node ref="QB2" pin="1" pintype="input"/>
@@ -2713,7 +3046,7 @@
       <node ref="QB6" pin="1" pintype="input"/>
       <node ref="R50" pin="2" pintype="passive"/>
       <node ref="RG4" pin="1" pintype="passive"/>
-      <node ref="TP7" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TpGS4" pin="1" pinfunction="1" pintype="passive"/>
     </net>
     <net code="4" name="/BU_GATESIG">
       <node ref="QB1" pin="1" pintype="input"/>
@@ -2721,7 +3054,7 @@
       <node ref="QB5" pin="1" pintype="input"/>
       <node ref="R49" pin="2" pintype="passive"/>
       <node ref="RG3" pin="1" pintype="passive"/>
-      <node ref="TP6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TpGS3" pin="1" pinfunction="1" pintype="passive"/>
     </net>
     <net code="5" name="/CL_GATESIG">
       <node ref="QC2" pin="1" pintype="input"/>
@@ -2729,7 +3062,7 @@
       <node ref="QC6" pin="1" pintype="input"/>
       <node ref="R52" pin="2" pintype="passive"/>
       <node ref="RG6" pin="1" pintype="passive"/>
-      <node ref="TP9" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TpGS6" pin="1" pinfunction="1" pintype="passive"/>
     </net>
     <net code="6" name="/CU_GATESIG">
       <node ref="QC1" pin="1" pintype="input"/>
@@ -2737,7 +3070,7 @@
       <node ref="QC5" pin="1" pintype="input"/>
       <node ref="R51" pin="2" pintype="passive"/>
       <node ref="RG5" pin="1" pintype="passive"/>
-      <node ref="TP8" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TpGS5" pin="1" pinfunction="1" pintype="passive"/>
     </net>
     <net code="7" name="A_BRAKE">
       <node ref="JP2" pin="3" pinfunction="B" pintype="passive"/>
@@ -2857,9 +3190,29 @@
       <node ref="CX15" pin="2" pintype="passive"/>
       <node ref="CX16" pin="2" pintype="passive"/>
       <node ref="CX17" pin="2" pintype="passive"/>
+      <node ref="CX18" pin="2" pintype="passive"/>
+      <node ref="CX19" pin="2" pintype="passive"/>
       <node ref="CX2" pin="2" pintype="passive"/>
+      <node ref="CX20" pin="2" pintype="passive"/>
+      <node ref="CX21" pin="2" pintype="passive"/>
+      <node ref="CX22" pin="2" pintype="passive"/>
+      <node ref="CX23" pin="2" pintype="passive"/>
+      <node ref="CX24" pin="2" pintype="passive"/>
+      <node ref="CX25" pin="2" pintype="passive"/>
+      <node ref="CX26" pin="2" pintype="passive"/>
+      <node ref="CX27" pin="2" pintype="passive"/>
+      <node ref="CX28" pin="2" pintype="passive"/>
+      <node ref="CX29" pin="2" pintype="passive"/>
       <node ref="CX3" pin="2" pintype="passive"/>
+      <node ref="CX30" pin="2" pintype="passive"/>
+      <node ref="CX31" pin="2" pintype="passive"/>
+      <node ref="CX32" pin="2" pintype="passive"/>
       <node ref="CX4" pin="2" pintype="passive"/>
+      <node ref="CX5" pin="2" pintype="passive"/>
+      <node ref="CX6" pin="2" pintype="passive"/>
+      <node ref="CX7" pin="2" pintype="passive"/>
+      <node ref="CX8" pin="2" pintype="passive"/>
+      <node ref="D7" pin="2" pinfunction="A2" pintype="passive"/>
       <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
@@ -2871,7 +3224,7 @@
       <node ref="R11" pin="1" pintype="passive"/>
       <node ref="R15" pin="1" pintype="passive"/>
       <node ref="R17" pin="1" pintype="passive"/>
-      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R28" pin="2" pintype="passive"/>
       <node ref="R4" pin="1" pintype="passive"/>
       <node ref="R6" pin="1" pintype="passive"/>
       <node ref="R8" pin="1" pintype="passive"/>
@@ -2885,10 +3238,10 @@
       <node ref="SHC1" pin="1" pintype="passive"/>
       <node ref="SHC2" pin="1" pintype="passive"/>
       <node ref="SHC3" pin="1" pintype="passive"/>
-      <node ref="TP11" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="TP2" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="TP3" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="TP4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TpGND1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TpGND2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TpGND3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TpGND4" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="3" pinfunction="GND" pintype="bidirectional"/>
       <node ref="U2" pin="3" pinfunction="GND" pintype="bidirectional"/>
       <node ref="U3" pin="3" pinfunction="GND" pintype="bidirectional"/>
@@ -2898,7 +3251,6 @@
       <node ref="U6" pin="2" pinfunction="GND_IN" pintype="bidirectional"/>
       <node ref="U6" pin="3" pinfunction="GND_OUT" pintype="bidirectional"/>
       <node ref="U7" pin="2" pinfunction="GND" pintype="bidirectional"/>
-      <node ref="U8" pin="2" pinfunction="GND" pintype="bidirectional"/>
     </net>
     <net code="24" name="HALL_A">
       <node ref="C16" pin="1" pintype="passive"/>
@@ -2961,10 +3313,10 @@
     </net>
     <net code="37" name="Net-(C5-Pad1)">
       <node ref="C5" pin="1" pintype="passive"/>
-      <node ref="CX17" pin="1" pintype="passive"/>
+      <node ref="D7" pin="1" pinfunction="A1" pintype="passive"/>
       <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
       <node ref="U6" pin="1" pinfunction="VIN" pintype="bidirectional"/>
-      <node ref="U8" pin="1" pinfunction="VIN" pintype="bidirectional"/>
     </net>
     <net code="38" name="Net-(C18-Pad1)">
       <node ref="C18" pin="1" pintype="passive"/>
@@ -3052,57 +3404,58 @@
     </net>
     <net code="53" name="Net-(R1-Pad2)">
       <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
       <node ref="SW1" pin="1" pinfunction="Pin_1" pintype="passive"/>
     </net>
-    <net code="54" name="Net-(R2-Pad1)">
-      <node ref="R2" pin="1" pintype="passive"/>
-      <node ref="RN5" pin="6" pinfunction="R3.2" pintype="passive"/>
-      <node ref="RN5" pin="8" pinfunction="R1.2" pintype="passive"/>
-    </net>
-    <net code="55" name="Net-(R9-Pad2)">
+    <net code="54" name="Net-(R9-Pad2)">
       <node ref="R9" pin="2" pintype="passive"/>
       <node ref="RN5" pin="5" pinfunction="R4.2" pintype="passive"/>
       <node ref="RN5" pin="7" pinfunction="R2.2" pintype="passive"/>
     </net>
-    <net code="56" name="Net-(R16-Pad1)">
+    <net code="55" name="Net-(R16-Pad1)">
       <node ref="R16" pin="1" pintype="passive"/>
       <node ref="R17" pin="2" pintype="passive"/>
       <node ref="R27" pin="2" pintype="passive"/>
     </net>
-    <net code="57" name="Net-(R18-Pad1)">
+    <net code="56" name="Net-(R18-Pad1)">
       <node ref="R18" pin="1" pintype="passive"/>
       <node ref="R19" pin="1" pintype="passive"/>
       <node ref="U4" pin="3" pinfunction="+" pintype="input"/>
     </net>
-    <net code="58" name="Net-(R20-Pad1)">
+    <net code="57" name="Net-(R20-Pad1)">
       <node ref="R20" pin="1" pintype="passive"/>
       <node ref="R30" pin="1" pintype="passive"/>
       <node ref="U4" pin="2" pinfunction="-" pintype="input"/>
     </net>
-    <net code="59" name="Net-(R21-Pad1)">
+    <net code="58" name="Net-(R21-Pad1)">
       <node ref="R21" pin="1" pintype="passive"/>
       <node ref="R22" pin="1" pintype="passive"/>
       <node ref="U4" pin="5" pinfunction="+" pintype="input"/>
     </net>
-    <net code="60" name="Net-(R23-Pad1)">
+    <net code="59" name="Net-(R23-Pad1)">
       <node ref="R23" pin="1" pintype="passive"/>
       <node ref="R31" pin="1" pintype="passive"/>
       <node ref="U4" pin="6" pinfunction="-" pintype="input"/>
     </net>
-    <net code="61" name="Net-(R24-Pad1)">
+    <net code="60" name="Net-(R24-Pad1)">
       <node ref="R24" pin="1" pintype="passive"/>
       <node ref="R25" pin="1" pintype="passive"/>
       <node ref="U4" pin="10" pinfunction="+" pintype="input"/>
     </net>
-    <net code="62" name="Net-(R26-Pad1)">
+    <net code="61" name="Net-(R26-Pad1)">
       <node ref="R26" pin="1" pintype="passive"/>
       <node ref="R32" pin="1" pintype="passive"/>
       <node ref="U4" pin="9" pinfunction="-" pintype="input"/>
     </net>
-    <net code="63" name="Net-(R27-Pad1)">
+    <net code="62" name="Net-(R27-Pad1)">
       <node ref="R27" pin="1" pintype="passive"/>
       <node ref="R29" pin="1" pintype="passive"/>
       <node ref="U4" pin="12" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="63" name="Net-(R28-Pad1)">
+      <node ref="R28" pin="1" pintype="passive"/>
+      <node ref="RN5" pin="6" pinfunction="R3.2" pintype="passive"/>
+      <node ref="RN5" pin="8" pinfunction="R1.2" pintype="passive"/>
     </net>
     <net code="64" name="Net-(R29-Pad2)">
       <node ref="R29" pin="2" pintype="passive"/>
@@ -3297,6 +3650,7 @@
       <node ref="U7" pin="3" pinfunction="VOUT" pintype="bidirectional"/>
     </net>
     <net code="97" name="V12V">
+      <node ref="12V1" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="C11" pin="1" pintype="passive"/>
       <node ref="C12" pin="1" pintype="passive"/>
       <node ref="C13" pin="1" pintype="passive"/>
@@ -3311,7 +3665,6 @@
       <node ref="U3" pin="5" pinfunction="VCC" pintype="bidirectional"/>
       <node ref="U6" pin="4" pinfunction="VOUT" pintype="bidirectional"/>
       <node ref="U7" pin="1" pinfunction="VIN" pintype="bidirectional"/>
-      <node ref="U8" pin="3" pinfunction="VOUT" pintype="bidirectional"/>
     </net>
     <net code="98" name="VBAT">
       <node ref="CX1" pin="1" pintype="passive"/>
@@ -3321,9 +3674,29 @@
       <node ref="CX14" pin="1" pintype="passive"/>
       <node ref="CX15" pin="1" pintype="passive"/>
       <node ref="CX16" pin="1" pintype="passive"/>
+      <node ref="CX17" pin="1" pintype="passive"/>
+      <node ref="CX18" pin="1" pintype="passive"/>
+      <node ref="CX19" pin="1" pintype="passive"/>
       <node ref="CX2" pin="1" pintype="passive"/>
+      <node ref="CX20" pin="1" pintype="passive"/>
+      <node ref="CX21" pin="1" pintype="passive"/>
+      <node ref="CX22" pin="1" pintype="passive"/>
+      <node ref="CX23" pin="1" pintype="passive"/>
+      <node ref="CX24" pin="1" pintype="passive"/>
+      <node ref="CX25" pin="1" pintype="passive"/>
+      <node ref="CX26" pin="1" pintype="passive"/>
+      <node ref="CX27" pin="1" pintype="passive"/>
+      <node ref="CX28" pin="1" pintype="passive"/>
+      <node ref="CX29" pin="1" pintype="passive"/>
       <node ref="CX3" pin="1" pintype="passive"/>
+      <node ref="CX30" pin="1" pintype="passive"/>
+      <node ref="CX31" pin="1" pintype="passive"/>
+      <node ref="CX32" pin="1" pintype="passive"/>
       <node ref="CX4" pin="1" pintype="passive"/>
+      <node ref="CX5" pin="1" pintype="passive"/>
+      <node ref="CX6" pin="1" pintype="passive"/>
+      <node ref="CX7" pin="1" pintype="passive"/>
+      <node ref="CX8" pin="1" pintype="passive"/>
       <node ref="QA1" pin="2" pintype="passive"/>
       <node ref="QA3" pin="2" pintype="passive"/>
       <node ref="QA5" pin="2" pintype="passive"/>
@@ -3350,7 +3723,7 @@
       <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="R3" pin="1" pintype="passive"/>
       <node ref="R4" pin="2" pintype="passive"/>
-      <node ref="TP10" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TpVS1" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U4" pin="13" pinfunction="-" pintype="input"/>
     </net>
     <net code="101" name="Vaux">
