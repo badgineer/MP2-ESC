@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>D:\Chestii\hobby\Ebike\Electronica\GITHUB\CCC_ESC\versions\v0.1\CCC_ESC.kicad_sch</source>
-    <date>22-Oct-22 23:58:22</date>
+    <date>27-Oct-22 00:27:37</date>
     <tool>Eeschema (6.0.0)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -528,13 +528,7 @@
     <comp ref="CX1">
       <value>470uF</value>
       <footprint>CCC_ESC_Custom_parts:CAP_Polaryzed</footprint>
-      <fields>
-        <field name="LCSC">C2913975</field>
-        <field name="MFR PT">100PX470MEFC16X25</field>
-      </fields>
       <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
-      <property name="MFR PT" value="100PX470MEFC16X25"/>
-      <property name="LCSC" value="C2913975"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CCC_ESC.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -543,13 +537,7 @@
     <comp ref="CX2">
       <value>470uF</value>
       <footprint>CCC_ESC_Custom_parts:CAP_Polaryzed</footprint>
-      <fields>
-        <field name="LCSC">C2913975</field>
-        <field name="MFR PT">100PX470MEFC16X25</field>
-      </fields>
       <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
-      <property name="MFR PT" value="100PX470MEFC16X25"/>
-      <property name="LCSC" value="C2913975"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CCC_ESC.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -558,13 +546,7 @@
     <comp ref="CX3">
       <value>470uF</value>
       <footprint>CCC_ESC_Custom_parts:CAP_Polaryzed</footprint>
-      <fields>
-        <field name="LCSC">C2913975</field>
-        <field name="MFR PT">100PX470MEFC16X25</field>
-      </fields>
       <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
-      <property name="MFR PT" value="100PX470MEFC16X25"/>
-      <property name="LCSC" value="C2913975"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CCC_ESC.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -573,13 +555,7 @@
     <comp ref="CX4">
       <value>470uF</value>
       <footprint>CCC_ESC_Custom_parts:CAP_Polaryzed</footprint>
-      <fields>
-        <field name="LCSC">C2913975</field>
-        <field name="MFR PT">100PX470MEFC16X25</field>
-      </fields>
       <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
-      <property name="MFR PT" value="100PX470MEFC16X25"/>
-      <property name="LCSC" value="C2913975"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CCC_ESC.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -588,13 +564,7 @@
     <comp ref="CX5">
       <value>470uF</value>
       <footprint>CCC_ESC_Custom_parts:CAP_Polaryzed</footprint>
-      <fields>
-        <field name="LCSC">C2913975</field>
-        <field name="MFR PT">100PX470MEFC16X25</field>
-      </fields>
       <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
-      <property name="MFR PT" value="100PX470MEFC16X25"/>
-      <property name="LCSC" value="C2913975"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CCC_ESC.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -603,13 +573,7 @@
     <comp ref="CX6">
       <value>470uF</value>
       <footprint>CCC_ESC_Custom_parts:CAP_Polaryzed</footprint>
-      <fields>
-        <field name="LCSC">C2913975</field>
-        <field name="MFR PT">100PX470MEFC16X25</field>
-      </fields>
       <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
-      <property name="MFR PT" value="100PX470MEFC16X25"/>
-      <property name="LCSC" value="C2913975"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CCC_ESC.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -618,13 +582,7 @@
     <comp ref="CX7">
       <value>470uF</value>
       <footprint>CCC_ESC_Custom_parts:CAP_Polaryzed</footprint>
-      <fields>
-        <field name="LCSC">C2913975</field>
-        <field name="MFR PT">100PX470MEFC16X25</field>
-      </fields>
       <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
-      <property name="MFR PT" value="100PX470MEFC16X25"/>
-      <property name="LCSC" value="C2913975"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CCC_ESC.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -633,13 +591,7 @@
     <comp ref="CX8">
       <value>470uF</value>
       <footprint>CCC_ESC_Custom_parts:CAP_Polaryzed</footprint>
-      <fields>
-        <field name="LCSC">C2913975</field>
-        <field name="MFR PT">100PX470MEFC16X25</field>
-      </fields>
       <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
-      <property name="MFR PT" value="100PX470MEFC16X25"/>
-      <property name="LCSC" value="C2913975"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CCC_ESC.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -2576,7 +2528,7 @@
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CCC_ESC.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>5106c42b-98f6-4f9e-ac52-27d8faa23015 db93f91a-21d9-43d0-9556-d5fc2c3de0df 9e3a1870-f28a-457c-b00b-8d4aef2a1c5c e32d5f66-a9d2-4b57-921a-75ed623252e0 21633540-d5bc-4c64-ac3c-c92e5aeb4ea0</tstamps>
+      <tstamps>e32d5f66-a9d2-4b57-921a-75ed623252e0 db93f91a-21d9-43d0-9556-d5fc2c3de0df 9e3a1870-f28a-457c-b00b-8d4aef2a1c5c 5106c42b-98f6-4f9e-ac52-27d8faa23015 21633540-d5bc-4c64-ac3c-c92e5aeb4ea0</tstamps>
     </comp>
     <comp ref="U5">
       <value>STM32F401CCU6_Balckpill</value>
