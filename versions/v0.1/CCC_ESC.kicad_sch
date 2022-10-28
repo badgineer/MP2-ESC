@@ -6421,7 +6421,7 @@
   (symbol (lib_name "SolderJumper_3_Open_1") (lib_id "Jumper:SolderJumper_3_Open") (at 300.99 50.8 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 10286d1d-6626-4237-bb2d-2cebeee694dd)
-    (property "Reference" "JP?" (id 0) (at 304.8 54.61 0))
+    (property "Reference" "JP5" (id 0) (at 304.8 54.61 0))
     (property "Value" "SolderJumper_3_Open" (id 1) (at 299.7201 53.34 90)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
@@ -7234,7 +7234,7 @@
   (symbol (lib_id "Device:R") (at 256.54 60.96 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 35fb349f-85c2-493e-b0db-9bd94323c6ba)
-    (property "Reference" "R?" (id 0) (at 252.73 59.69 0))
+    (property "Reference" "R38" (id 0) (at 252.73 59.69 0))
     (property "Value" "47k" (id 1) (at 252.73 62.23 0))
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at 258.318 60.96 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -7841,7 +7841,7 @@
   (symbol (lib_name "SolderJumper_3_Open_1") (lib_id "Jumper:SolderJumper_3_Open") (at 246.38 50.8 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 4fca7913-6323-44f5-bb87-e17a067e8b57)
-    (property "Reference" "JP?" (id 0) (at 250.19 54.61 0))
+    (property "Reference" "JP4" (id 0) (at 250.19 54.61 0))
     (property "Value" "SolderJumper_3_Open" (id 1) (at 245.1101 53.34 90)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
@@ -8254,7 +8254,7 @@
   (symbol (lib_id "Device:R") (at 290.83 60.96 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 685acf71-394c-480b-80ae-33152a3d3230)
-    (property "Reference" "R?" (id 0) (at 287.02 59.69 0))
+    (property "Reference" "R39" (id 0) (at 287.02 59.69 0))
     (property "Value" "13k" (id 1) (at 287.02 62.23 0))
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at 292.608 60.96 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -10769,7 +10769,7 @@
   (symbol (lib_id "Device:R") (at 236.22 60.96 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid e5407c03-68f9-4885-a8f5-fa9d6c3d48e0)
-    (property "Reference" "R?" (id 0) (at 232.41 59.69 0))
+    (property "Reference" "R37" (id 0) (at 232.41 59.69 0))
     (property "Value" "13k" (id 1) (at 232.41 62.23 0))
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at 237.998 60.96 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -11406,7 +11406,7 @@
   (symbol (lib_id "Device:R") (at 311.15 60.96 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid fca61c60-4e48-4964-a744-d589872099d1)
-    (property "Reference" "R?" (id 0) (at 307.34 59.69 0))
+    (property "Reference" "R40" (id 0) (at 307.34 59.69 0))
     (property "Value" "47k" (id 1) (at 307.34 62.23 0))
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at 312.928 60.96 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -11862,11 +11862,11 @@
     (path "/f5449498-bfeb-4189-832f-0a08d0a1fd11"
       (reference "JP3") (unit 1) (value "SolderJumper_3_Open") (footprint "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels")
     )
-    (path "/10286d1d-6626-4237-bb2d-2cebeee694dd"
-      (reference "JP?") (unit 1) (value "SolderJumper_3_Open") (footprint "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels")
-    )
     (path "/4fca7913-6323-44f5-bb87-e17a067e8b57"
-      (reference "JP?") (unit 1) (value "SolderJumper_3_Open") (footprint "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels")
+      (reference "JP4") (unit 1) (value "SolderJumper_3_Open") (footprint "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels")
+    )
+    (path "/10286d1d-6626-4237-bb2d-2cebeee694dd"
+      (reference "JP5") (unit 1) (value "SolderJumper_3_Open") (footprint "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels")
     )
     (path "/f9956574-2d40-437d-91ee-018d72328171"
       (reference "NT1") (unit 1) (value "NetTie_2") (footprint "NetTie:NetTie-2_SMD_Pad0.5mm")
@@ -12078,6 +12078,18 @@
     (path "/2ab37923-294a-491f-8503-bcf8a39cff21"
       (reference "R36") (unit 1) (value "R150") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
+    (path "/e5407c03-68f9-4885-a8f5-fa9d6c3d48e0"
+      (reference "R37") (unit 1) (value "13k") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/35fb349f-85c2-493e-b0db-9bd94323c6ba"
+      (reference "R38") (unit 1) (value "47k") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/685acf71-394c-480b-80ae-33152a3d3230"
+      (reference "R39") (unit 1) (value "13k") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/fca61c60-4e48-4964-a744-d589872099d1"
+      (reference "R40") (unit 1) (value "47k") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
     (path "/f7c7e1f2-12e0-4ff6-8bab-d706d41075d4"
       (reference "R47") (unit 1) (value "1M") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
@@ -12095,18 +12107,6 @@
     )
     (path "/91893bc3-6198-4113-8588-ea92dc622d78"
       (reference "R52") (unit 1) (value "1M") (footprint "Resistor_SMD:R_0603_1608Metric")
-    )
-    (path "/35fb349f-85c2-493e-b0db-9bd94323c6ba"
-      (reference "R?") (unit 1) (value "47k") (footprint "Resistor_SMD:R_0603_1608Metric")
-    )
-    (path "/685acf71-394c-480b-80ae-33152a3d3230"
-      (reference "R?") (unit 1) (value "13k") (footprint "Resistor_SMD:R_0603_1608Metric")
-    )
-    (path "/e5407c03-68f9-4885-a8f5-fa9d6c3d48e0"
-      (reference "R?") (unit 1) (value "13k") (footprint "Resistor_SMD:R_0603_1608Metric")
-    )
-    (path "/fca61c60-4e48-4964-a744-d589872099d1"
-      (reference "R?") (unit 1) (value "47k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/f89ac11a-2a11-44d2-9d5b-a3b2dbdf97ad"
       (reference "RG1") (unit 1) (value "4R7") (footprint "Resistor_SMD:R_0603_1608Metric")
