@@ -1,6 +1,7 @@
 name: kibot
 
 on:
+  workflow_dispatch:
   push:
     paths:
     - '**.sch'
