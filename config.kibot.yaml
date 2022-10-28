@@ -5,7 +5,6 @@ preflight:
   run_drc: true
 
 outputs:
-
   - name: 'gerbers'
     comment: "Gerbers for the ESC"
     type: gerber
@@ -30,6 +29,4 @@ outputs:
       use_gerber_x2_attributes: true
       use_gerber_net_attributes: false
 
-    layers:
-      - 'F.Cu'
-      - 'B.Cu'
+    layers: 'all'
