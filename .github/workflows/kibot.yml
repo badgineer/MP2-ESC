@@ -23,7 +23,7 @@ jobs:
         # prefix to output defined in config
         dir: output
         # schematic file
-        # schema: 'versions/v0.1/CCC_ESC.kicad_sch'
+        schema: 'versions/v0.1/CCC_ESC.kicad_sch'
         # PCB design file
         board: 'versions/v0.1/CCC_ESC.kicad_pcb'
     - name: upload results
