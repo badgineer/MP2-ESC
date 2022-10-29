@@ -32,7 +32,6 @@ outputs:
     comment: "Pick and place file, JLC style"
     type: position
     options:
-      variant: rotated
       output: '%f_cpl_jlc.%x'
       format: CSV
       units: millimeters
