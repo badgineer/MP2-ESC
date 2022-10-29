@@ -59,22 +59,22 @@ outputs:
         - id: Side
           name: Layer
 
-  - name: 'bom'
-    comment: "BoM for JLC"
-    type: bom
-    options:
-      output: '%f_%i_jlc.%x'
-      exclude_filter: 'only_jlc_parts'
-      ref_separator: ','
-      columns:
-        - field: Value
-          name: Comment
-        - field: References
-          name: Designator
-        - Footprint
-        - field: 'LCSC#'
-          name: 'LCSC Part #'
-      csv:
-        hide_pcb_info: true
-        hide_stats_info: true
-        quote_all: true
+  # - name: 'bom'
+  #   comment: "BoM for JLC"
+  #   type: bom
+  #   options:
+  #     output: '%f_%i_jlc.%x'
+  #     exclude_filter: 'only_jlc_parts'
+  #     ref_separator: ','
+  #     columns:
+  #       - field: Value
+  #         name: Comment
+  #       - field: References
+  #         name: Designator
+  #       - Footprint
+  #       - field: 'LCSC#'
+  #         name: 'LCSC Part #'
+  #     csv:
+  #       hide_pcb_info: true
+  #       hide_stats_info: true
+  #       quote_all: true
