@@ -1,9 +1,6 @@
 kibot:
   version: 1
 
-preflight:
-  run_drc: true
-
 outputs:
   - name: 'gerbers'
     comment: "Gerbers for the ESC"
