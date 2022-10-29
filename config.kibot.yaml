@@ -96,26 +96,26 @@ outputs:
         - id: Side
           name: Layer
 
-  - name: 'JLCPCB_bom'
-    comment: "BoM for JLCPCB"
-    type: bom
-    dir: JLCPCB
-    options:
-      output: '%f_%i_jlc.%x'
-      exclude_filter: 'only_jlc_parts'
-      ref_separator: ','
-      columns:
-        - field: Value
-          name: Comment
-        - field: References
-          name: Designator
-        - Footprint
-        - field: 'LCSC#'
-          name: 'LCSC Part #'
-      csv:
-        hide_pcb_info: true
-        hide_stats_info: true
-        quote_all: true
+  # - name: 'JLCPCB_bom'
+  #   comment: "BoM for JLCPCB"
+  #   type: bom
+  #   dir: JLCPCB
+  #   options:
+  #     output: '%f_%i_jlc.%x'
+  #     exclude_filter: 'only_jlc_parts'
+  #     ref_separator: ','
+  #     columns:
+  #       - field: Value
+  #         name: Comment
+  #       - field: References
+  #         name: Designator
+  #       - Footprint
+  #       - field: 'LCSC#'
+  #         name: 'LCSC Part #'
+  #     csv:
+  #       hide_pcb_info: true
+  #       hide_stats_info: true
+  #       quote_all: true
 
   - name: JLCPCB
     comment: ZIP file for JLCPCB
@@ -129,5 +129,5 @@ outputs:
           dest: /
         - from_output: JLCPCB_position
           dest: /
-        - from_output: JLCPCB_bom
-          dest: /
+        # - from_output: JLCPCB_bom
+        #   dest: /

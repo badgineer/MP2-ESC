@@ -29,5 +29,5 @@ jobs:
     - name: upload results
       uses: actions/upload-artifact@v2
       with:
-        name: MP2_ESC
-        path: output
+        name: MP2_ESC_JLCPCB
+        path: JLCPCB
