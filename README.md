@@ -11,7 +11,7 @@ Multi-Platform, Modular, Powerful ESC
 **Optimized for low cost** production by JLCPCB, including SMT assembly.  \
 
 ## Compatibility with variaty of Open-Source VESC projects
-[VESC with STM32F405 pill (davidmolony)](https://github.com/davidmolony/F405_pill)  \
+VESC with [ STM32F405 pill ](https://github.com/davidmolony/F405_pill)  \
 VESC with GD32F303CG pill (Netzpfuscher mod, note CG) \
 EBICS with F103 Bluepill (Stancecoke) \
 [SmartESC V3 (Casainho)](https://github.com/casainho/SmartESC_STM32_v3) \
