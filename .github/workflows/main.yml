@@ -31,7 +31,7 @@ jobs:
         # PCB design file
         board: 'versions/v0.1/CCC_ESC.kicad_pcb'
     - name: list results
-      run: 'ls JLCPCB'
+      run: 'ls -R -l'
     - name: upload results
       uses: actions/upload-artifact@v2
       with:
