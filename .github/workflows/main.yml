@@ -4,12 +4,16 @@ on:
   workflow_dispatch:
   push:
     paths:
-    - '**.sch'
-    - '**.kicad_pcb'
+    - '*.sch'
+    - '*.kicad_pcb'
+    - '*.kibot.yaml'
+    - '.github/workflows/main.yml'
   pull_request:
     paths:
-      - '**.sch'
-      - '**.kicad_pcb'
+    - '*.sch'
+    - '*.kicad_pcb'
+    - '*.kibot.yaml'
+    - '.github/workflows/main.yml'
 
 jobs:
   kibot:
@@ -26,8 +30,14 @@ jobs:
         schema: 'versions/v0.1/CCC_ESC.kicad_sch'
         # PCB design file
         board: 'versions/v0.1/CCC_ESC.kicad_pcb'
+    - name: list results
+        run: ls JLCPCB
     - name: upload results
       uses: actions/upload-artifact@v2
       with:
         name: MP2_ESC_JLCPCB
-        path: JLCPCB
+        path: |
+          JLCPCB/JLCPCB_gerbers.zip
+          JLCPCB/JLCPCB_drill.zip
+          JLCPCB/JLCPCB_position.zip
+          JLCPCB/JLCPCB_bom.zip
