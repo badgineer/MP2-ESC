@@ -9559,7 +9559,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 144.78 130.81 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid a7dbcf5d-7f15-47b8-818f-7472764a1ac7)
-    (property "Reference" "12V1" (id 0) (at 146.05 125.73 0)
+    (property "Reference" "Tp12V1" (id 0) (at 146.05 125.73 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "12V Pad" (id 1) (at 137.16 125.73 0)
@@ -11626,7 +11626,7 @@
       (reference "#PWR0137") (unit 1) (value "GND") (footprint "")
     )
     (path "/a7dbcf5d-7f15-47b8-818f-7472764a1ac7"
-      (reference "12V1") (unit 1) (value "12V Pad") (footprint "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm")
+      (reference "Tp12V1") (unit 1) (value "12V Pad") (footprint "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm")
     )
     (path "/c5bdcfd4-44ee-4a47-b511-8d607870eba8"
       (reference "C1") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
