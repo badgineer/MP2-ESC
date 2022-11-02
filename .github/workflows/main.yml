@@ -1,0 +1,39 @@
+name: kibot
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+    - '*.sch'
+    - '*.kicad_pcb'
+    - '*.kibot.yaml'
+    - '.github/workflows/main.yml'
+  pull_request:
+    paths:
+    - '*.sch'
+    - '*.kicad_pcb'
+    - '*.kibot.yaml'
+    - '.github/workflows/main.yml'
+
+jobs:
+  kibot:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: INTI-CMNB/KiBot@v2_k6
+      with:
+        # kibot config file
+        config: config.kibot.yaml
+        # prefix to output defined in config
+        dir: output
+        # schematic file
+        schema: 'versions/v0.1/CCC_ESC.kicad_sch'
+        # PCB design file
+        board: 'versions/v0.1/CCC_ESC.kicad_pcb'
+    - name: list results
+      run: 'ls -R -l'
+    - name: upload results
+      uses: actions/upload-artifact@v2
+      with:
+        name: MP2_ESC_JLCPCB
+        path: './output/JLCPCB/CCC_ESC-JLCPCB.zip'
