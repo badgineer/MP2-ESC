@@ -7112,7 +7112,7 @@
     (property "MFR PT" "TF2190-TAH" (id 4) (at 424.18 231.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "C2683758" (id 5) (at 424.18 231.14 0)
+    (property "LCSC" "C2917161" (id 5) (at 424.18 231.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 1d5ff857-9ebb-49d5-b3c3-3c0f662dfb8e))
@@ -7895,7 +7895,7 @@
     (property "MFR PT" "TF2190-TAH" (id 4) (at 424.18 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "C2683758" (id 5) (at 424.18 69.85 0)
+    (property "LCSC" "C2917161" (id 5) (at 424.18 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 72d9efdd-5bf8-41e5-9b8a-5395cffc189f))
@@ -10520,7 +10520,7 @@
     (property "MFR PT" "TF2190-TAH" (id 4) (at 424.18 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "C2683758" (id 5) (at 424.18 149.86 0)
+    (property "LCSC" "C2917161" (id 5) (at 424.18 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 1216335f-0693-4e92-be95-97dea5a91a85))
@@ -11625,9 +11625,6 @@
     (path "/113457d3-f40c-4771-9595-56e14918d1d6"
       (reference "#PWR0137") (unit 1) (value "GND") (footprint "")
     )
-    (path "/a7dbcf5d-7f15-47b8-818f-7472764a1ac7"
-      (reference "Tp12V1") (unit 1) (value "12V Pad") (footprint "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm")
-    )
     (path "/c5bdcfd4-44ee-4a47-b511-8d607870eba8"
       (reference "C1") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
@@ -12179,6 +12176,9 @@
     )
     (path "/642232c9-9700-4cbf-a629-0d6be02c12d5"
       (reference "SW1") (unit 1) (value "Conn_01x02") (footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical")
+    )
+    (path "/a7dbcf5d-7f15-47b8-818f-7472764a1ac7"
+      (reference "Tp12V1") (unit 1) (value "12V Pad") (footprint "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm")
     )
     (path "/b965c791-b5d1-4298-a743-06e2ccf1c690"
       (reference "TpGND1") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm")

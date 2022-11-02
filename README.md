@@ -91,7 +91,7 @@ Realistic limit is 30s lipo for 150V rated components. For more than that the ES
 We tried to find cheap but decent parts for this controller. Cheap almost always implies a compromise in some other areas, so you might not like our pick :)
 It should be fairly easy to switch to other parts on your own: we used mostly standard and popular footprints and packages
 If you know better parts or have better solutions, please let us know on our ES thread. We like learning new things. 
-....except if you’re going to suggest 3077 or 4110 mosfets. Those things are dinosaurs. They were the biggest baddest thing around during their time, but nowadays belong to a museum. Or a t-shirt. Please stop recommending them. 
+....except if you’re going to suggest 3077 or 4110 mosfets. Those things are dinosaurs. They were the biggest baddest thing around during their time, but nowadays belong in a museum. Or on a t-shirt. Please stop recommending them. 
 
 * **Where can I buy parts?**
 Lcsc.com, mouser.com. Aliexpress if needed. 
