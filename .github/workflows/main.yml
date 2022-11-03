@@ -4,13 +4,13 @@ on:
   workflow_dispatch:
   push:
     paths:
-    - '*.sch'
+    - '*.kicad_sch'
     - '*.kicad_pcb'
     - '*.kibot.yaml'
     - '.github/workflows/main.yml'
   pull_request:
     paths:
-    - '*.sch'
+    - '*.kicad_sch'
     - '*.kicad_pcb'
     - '*.kibot.yaml'
     - '.github/workflows/main.yml'

@@ -26,16 +26,19 @@ STM32 Motor Control Workbench (F401, F103)
 ## Required software
 The tool to be used for this project is [KiCad](https://www.kicad.org/).
 
+## Endless Sphere Thread:
+https://endless-sphere.com/forums/viewtopic.php?t=117045
+
 ## Building Tips:
 
 ### **Bus Bars**
 Bus bars are recommended for anything else than very low current. (extra copper wires/bars/plates soldered to the exposed copper strips of the PCB, or at very least a ton of solder on the exposed strips, but this last variant only for low phase currents)
 
 ### **Bulk electrolytic capacitors (XC.... )**
-We recommend a total of 3000uF, which should be enough for most usecases. 
-You need more capacitance the more battery current you plan to use, and the longer (and thinner) your battery wires are. So you can probably also get away with less if you have short thick battery wires.  
+We recommend a total of 2000uF for low battery currents (up to ~100A) and 3000uF or more for high battery currents. There are 2 smt pads at the ends of the Vbat bus bar, and another 6 on the top for usecases where a lot of capacitance is needed.
+General considerations: You need more capacitance the more battery current you plan to use, and the longer (and thinner) your battery wires are. So you can probably also get away with less if you have short thick battery wires.  
 Choose voltage rating ~ 1.5x your max battery voltage for a long lifetime. For 48v nominal (54.6V max) battery voltage, 80V or more is recommended. Or just use the same rating as your FETs.  
-The total capacitance of the electrolytic capacitors is more important than the exact combination of values. More smaller capacitors probably have a slight advantage of lower ESR, lower inductance, and redundancy in case one failures.
+The total capacitance of the electrolytic capacitors is more important than the exact combination of values. More smaller capacitors probably have a slight advantage over fewer large ones: lower ESR, lower parasitic inductance, and redundancy in case of failures.
 
 ### **Bulk ceramic/MLC capacitors:  (XC.... )**
 As much as possible. These need to compensate for the high frequency weakness of the electrolytic capacitors. Overrating voltage rating is recommended. 
@@ -67,6 +70,49 @@ Unfortunately in focusing on making the board small we crammed the FETs very clo
 * Pills have very few ADCs, so some sacrifices have been made (choice between analog brake and Motor Temp). 
 * gate drivers are not as popular and readily available on lcsc as the other SMD parts
 * Having the MCU on a separate board (the "pill" development boards) is a questionable ideea from PCB design point of view. In our testing it seemed to work, but we know it's not without drawbacks.
+
+## Alternative parts.
+
+### **FETs**
+100V: 
+* CRST030N10N - Default, cheap, tested, available at lcsc.
+* MDP10N027 - Cheap, tested, available on aliexpress.
+* IPP023N10N5 - Good, more expensive, not tested.
+
+80V: 
+* CRST030N10N - Very cheap, not tested, lcsc.
+* IPP019N08NF2S - Good, more expensive, not tested
+* IPP016N08NF2S - Very good, more expensive, not tested
+
+150V:
+* CRST073N15N
+* NCEP15T14
+* NTP5D0N15MC - best of the 3 listed here, not tested. 
+
+Generally: There are a lot of TO220 fets to choose from (probably the only real advantage of TO220). If you want another, make sure it has low RDSon, gate charge <= 170nC, low Crss (Ciss/Crss > Vbat).  
+
+### **Gate Drivers**
+* TF2190M-TAH (TFSS) (LCSC PN: C2917161) -> Default. tested in older version
+* NCP5183/NCV5183 (On Semi)
+* FAN7390 (Fairchild)
+* FAN7191 (Fairchild)
+* DGD2190M (Diodes Inc)
+or any other "replica" of IR2181
+
+### **Operational Amplifier**
+* NCS20034 (On Semi) - tested
+* GS8634-SR (Gainsil)
+* COS724SR (Cosine)
+* TSV914 (ST)
+* TLV9054 (TI)
+
+
+### **Pills**
+
+### **12V DCDC**
+
+### **5V DCDC**
+
 
 
 ## FAQ
