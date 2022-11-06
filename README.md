@@ -9,7 +9,13 @@ Multi-Platform, Modular, Powerful ESC
 **Modular**, with easily replaceable modules (both bluepill and blackpill compatible hardware wise, 12V and 5V DC-DC stages are modules also) \
 **Standard footprint parts**, so replacement parts can be found easily in case of original parts out of stock or out of production \
 **Optimized for low cost** production by JLCPCB, including SMT assembly.  \
-**Possibility to buy the SMD parts pre-soldered:** All SMDs are on the same side, in large stock at lcsc (at the time of writing), so the board can be ordered with SMDs pre-assembled by JLCPCB for a decent price.
+**Possibility to buy the SMD parts pre-soldered:** All SMDs are on the same side, in large stock at lcsc (at the time of writing), so the board can be ordered with SMDs pre-assembled by JLCPCB for a decent price. \
+**Some features currently not available on most open source ESCs we are aware of**
+* hardware overcurrent proection (triggers at 430A)
+* hardware overvoltage protection which triggers at:
+  * 75.6V for the 80V setup
+  * 92.6V for the 100V setup
+  * 137V for the 150V setup
 
 ## Compatibility with variaty of Open-Source VESC projects
 VESC with [ STM32F405 pill ](https://github.com/davidmolony/F405_pill)  \
@@ -102,16 +108,37 @@ or any other "replica" of IR2181
 ### **Operational Amplifier**
 * NCS20034 (On Semi) - tested
 * GS8634-SR (Gainsil)
-* COS724SR (Cosine)
+* COS724SR (Cosine) -> current default recomendation due to specs and LCSC stock
 * TSV914 (ST)
 * TLV9054 (TI)
 
-
 ### **Pills**
+* F405 Pill - [ LINK ](https://github.com/davidmolony/F405_pill) 
+* Black Pill
+* Blue Pill
 
 ### **12V DCDC**
+* isolated... Recommended
+  * PQDE6W-Q110-S12-D preferred (CUI devices)
+  * RD5-110S12W (Rui Da Kang)
+  * HLK-10D11012 (HiLink)
+  * RDE20110S12 (XP Power)
+  * THN 10-7212WIR (TRACO Power)
+* Unisolated,
+  * P7805-500 (CUI)
+  * or wire on some [ random cheap stuff ](https://www.aliexpress.com/item/1005001599313771.html) ghetto style
 
 ### **5V DCDC**
+* tons of options in "TO220 Replacement" format - like [ this random example ](https://www.aliexpress.com/item/1005004807082011.html)
+* VXO7805-500 (CUI)
+* VX7805-500
+* 7805SR-C (Murata)
+
+### **Diodes for "over" protection**
+1N5819WS - These are ubiquitous, but it is important you use these due to very low forward voltage. Using anything else will probably result in hardware overcurrent not working.
+
+### **Diodes for bootstrap**
+We recently changed from XX4007 in SOD123 package to higher speed diode (US1M). Anything with 100V+ or 150V+ will work... but generally many 1kV diodes are available in common packages, so use them. High speed are preferable, but really most diodes will work...
 
 
 
@@ -119,6 +146,9 @@ or any other "replica" of IR2181
 
 * **What’s with the many solder jumpers?**
 We made a few things hardware configurable. 1) Vsense and Overvoltage Protection optimized for 80 / 100 / 150V power stage, Voltage for peripherals can be set to 5 or 3.3V, Motor Temp vs Brake signal compromise, and of course, changing the wiring to acommodate the bluepill or blackpill pinouts (which vary slightly)
+
+* **Why do the electrolytic caps have surface pads instead of through hole?**
+Through hole pads imply a lead through the hole, sticking out on the other side, and preventing the FETs sitting flush against the PCB.
 
 * **Can you assemble it for me?**
 You can get the SMD side pre-assembled at jlcpcb (at the time of design all parts were in stock for jlcpcb SMT service). So you’ll only need to solder the through-hole parts and the modules. Currently there is no plan on selling any assembled PCBs.
