@@ -10,8 +10,8 @@ on:
     - '.github/workflows/main.yml'
   pull_request:
     paths:
-    - 'Kicad_Project*.kicad_sch'
-    - 'Kicad_Project*.kicad_pcb'
+    - 'Kicad_Project/*.kicad_sch'
+    - 'Kicad_Project/*.kicad_pcb'
     - '*.kibot.yaml'
     - '.github/workflows/main.yml'
 
