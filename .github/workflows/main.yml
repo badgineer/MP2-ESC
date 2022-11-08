@@ -4,14 +4,14 @@ on:
   workflow_dispatch:
   push:
     paths:
-    - '*.kicad_sch'
-    - '*.kicad_pcb'
+    - 'Kicad_Project/*.kicad_sch'
+    - 'Kicad_Project/*.kicad_pcb'
     - '*.kibot.yaml'
     - '.github/workflows/main.yml'
   pull_request:
     paths:
-    - '*.kicad_sch'
-    - '*.kicad_pcb'
+    - 'Kicad_Project*.kicad_sch'
+    - 'Kicad_Project*.kicad_pcb'
     - '*.kibot.yaml'
     - '.github/workflows/main.yml'
 
@@ -27,9 +27,9 @@ jobs:
         # prefix to output defined in config
         dir: output
         # schematic file
-        schema: 'versions/v0.1/CCC_ESC.kicad_sch'
+        schema: 'Kicad_Project/CCC_ESC.kicad_sch'
         # PCB design file
-        board: 'versions/v0.1/CCC_ESC.kicad_pcb'
+        board: 'Kicad_Project/CCC_ESC.kicad_pcb'
     - name: list results
       run: 'ls -R -l'
     - name: upload results
