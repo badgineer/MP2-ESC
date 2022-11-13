@@ -41,8 +41,8 @@ https://endless-sphere.com/forums/viewtopic.php?t=117045
 Bus bars are recommended for anything else than very low current. (extra copper wires/bars/plates soldered to the exposed copper strips of the PCB, or at very least a ton of solder on the exposed strips, but this last variant only for low phase currents)
 
 ### **Bulk electrolytic capacitors (XC.... )**
-We recommend a total of 2000uF for low battery currents (up to ~100A) and 3000uF or more for high battery currents. There are 2 smt pads at the ends of the Vbat bus bar, and another 6 on the top for usecases where a lot of capacitance is needed.
-General considerations: You need more capacitance the more battery current you plan to use, and the longer (and thinner) your battery wires are. So you can probably also get away with less if you have short thick battery wires.  
+We recommend a total of 2000uF for low phase currents (up to ~150A) and 3000uF or more for high battery currents. There are 2 smt pads at the ends of the Vbat bus bar, and another 6 on the top for usecases where a lot of capacitance is needed.
+General considerations: You need more capacitance the more phase current you plan to use, and the longer (and thinner) your battery wires are. So you can probably also get away with less if you have short thick battery wires.  
 Choose voltage rating ~ 1.5x your max battery voltage for a long lifetime. For 48v nominal (54.6V max) battery voltage, 80V or more is recommended. Or just use the same rating as your FETs.  
 The total capacitance of the electrolytic capacitors is more important than the exact combination of values. More smaller capacitors probably have a slight advantage over fewer large ones: lower ESR, lower parasitic inductance, and redundancy in case of failures.
 
