@@ -148,17 +148,21 @@ We recently changed from XX4007 in SOD123 package to higher speed diode (US1M). 
 We made a few things hardware configurable. 1) Vsense and Overvoltage Protection optimized for 80 / 100 / 150V power stage, Voltage for peripherals can be set to 5 or 3.3V, Motor Temp vs Brake signal compromise, and of course, changing the wiring to acommodate the bluepill or blackpill pinouts (which vary slightly)
 
 * **Why do the electrolytic caps have surface pads instead of through hole?**
-Through hole pads imply a lead through the hole, sticking out on the other side, and preventing the FETs sitting flush against the PCB.
+Through hole pads imply a lead through the hole, sticking out on the other side, and preventing the FETs from sitting flush against the PCB.
+
+* **What is the empty footprint for D8?**
+Its a footprint for a TVS diode as replacement for D7. 
+You would want to solder a TVS there if you use a different voltage than 20s and D7 is inappropriate. Of course you can populate D7 with a different TVS during fabrication, but D8 pads are easy to hand-solder after the fact. 
 
 * **Can you assemble it for me?**
 You can get the SMD side pre-assembled at jlcpcb (at the time of design all parts were in stock for jlcpcb SMT service). So you’ll only need to solder the through-hole parts and the modules. Currently there is no plan on selling any assembled PCBs.
 
 * **I want more power!!!**
 This might not go well. So good luck, you’ll probably need it. Please don't blame us when it goes up in smoke. But do let us know how it goes. Disclamer aside, here are some basic suggestions:
-   * Add thick bus bars to the board.
+   * Add thick copper bus bars to the board.
    * Add more/ bigger bulk caps!
    * Use appropriate wires (thick!) 
-   * Overcurrent trips at 430A. If you want to come close to it / exceed it, either cut off  the overcurrent circuit by desoldering D4, D5, D6, or be creative with the shunts. But 150A for TO220 fets is a crazy ideea.
+   * Overcurrent trips at 430A. If you want to come close to it / exceed it, either cut off  the overcurrent circuit by desoldering D4, D5, D6, or be creative with the shunts. But 150A per TO220 fet is a crazy ideea.
 
 * **I want more voltage!!!!**
 Realistic limit is 30s lipo for 150V rated components. For more than that the ESC will need serious redesign. 
@@ -171,7 +175,7 @@ If you know better parts or have better solutions, please let us know on our ES 
 
 * **Where can I buy parts?**
 Lcsc.com, mouser.com. Aliexpress if needed. 
-I designed this with jlcpcb smt assembly in mind, so all SMDs were in stock at lcsc when I designed the PCB. Also most of the Through-hole parts. 
+We designed this with jlcpcb smt assembly in mind, so all SMDs were in stock at lcsc when I designed the PCB. Also most of the Through-hole parts. 
 
 * **Why do the battery wires go in seemingly random places in the middle of the board?**
 If you have the battery wires at the edge, then the full battery current will need to go through a portion of the battery “traces” of the PCB. I’ve placed them near the middle switch node, so with a tiny exception, the current through the traces is ⅓ of the battery current. 
