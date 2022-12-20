@@ -1,5 +1,5 @@
 # IGNORE MOST OF THIS MATERIAL 
-**At present the main problem with these connections is there is no flex between the wiring and the board.** These pics are included for the purpose of ridicule and discussion. 
+**At present the main problem with these connections is there is no flex between the wiring and the board. These pics are included for the purpose of ridicule and discussion. ** 
 
 ## Wiring QS165 to MP2
 
