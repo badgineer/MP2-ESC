@@ -30,7 +30,7 @@ STM32 Motor Control Workbench (F401, F103)
 ![PCB](gh_assets/pcb.png)
 
 ## Required software
-The tool to be used for this project is [KiCad](https://www.kicad.org/).
+The tool to be used for this project: [KiCad](https://www.kicad.org/).
 
 ## Endless Sphere Thread:
 https://endless-sphere.com/forums/viewtopic.php?t=117045
