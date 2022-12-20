@@ -19,7 +19,7 @@ You'll also need some way to turn your disconnected motor at a relatively precis
 
 **BLDC motor configuration.** BLDC motors have two basic achitectures:
 
-<img src="../pics/MOTOR_PARAM_wye_v_delta.png" title="Figure 1: motor configurations">
+<img src="../gh_assets/MOTOR_PARAM_wye_v_delta.png" title="Figure 1: motor configurations">
 
 If your BLDC has three big wires coming out of it, we are going to assume that motor is in Wye configuration for the sake of simplifying the math used here.
 
@@ -35,7 +35,7 @@ Your motor has three wires -- these are referred to as "phase wires" and are con
 
 Now, at the same connection point of each phase wire, connect your multimeter to measure volts (you'll probably need something in the millivolt range). Get a number. Your results may look something like this:
 
-<img src="../pics/MOTOR_PARAM_resistance.png" title="Figure 1. Capturing resistance based on Ohm's law">
+<img src="../gh_assets/MOTOR_PARAM_resistance.png" title="Figure 1. Capturing resistance based on Ohm's law">
 
 Notice that it would NOT work well to use the measurement that is coming from the power supply itself. Better to use what your multimeter is telling you. The connection used for this measurement is referred to as "phase to phase" because you're actually connecting between two phases of the motor to get your value. Grab your phase to phase voltage, and use Ohm's law to calculate the resistance. In our case:
 
@@ -49,7 +49,7 @@ In our case we're going to measure inductance using an LCR meter. LCR meters mea
 
 Gathering inductance values requires that we find two important positions inside of your motor that have to do with the position of the stator coils and the rotor magnets. To find these positions you can use the power supply set at the values as before (or less). These positions are described below:
 
-<img src="../pics/MOTOR_PARAM_Ld_Lq1.png" title="Figure 3. D-axis and Q-axis motor positions">
+<img src="../gh_assets/MOTOR_PARAM_Ld_Lq1.png" title="Figure 3. D-axis and Q-axis motor positions">
 
 Also see [this video](https://youtu.be/oRXPFaZ0nJI) which shows a motor jumping around when the phase wires are connected to a power supply. The marked positions are referred to as d-axis and q-axis (note the above figure). Once you have these positions, do the following:
 
@@ -66,7 +66,7 @@ Note, the motor may have residual inductance, or something, that means it takes 
 Your measurements for Ld and Lq are phase to phase. Divide by 2 to get single phase Ld and Lq. To get total L for the motor calculate their average, or L = (Ld + Lq) / 2.
 
 In our example here we get the following; (notice the position of the motor in each of the pics):
-<img src="../pics/MOTOR_PARAM_Ld_Lq2.png" title="Figure 4. Ld/Lq results">
+<img src="../gh_assets/MOTOR_PARAM_Ld_Lq2.png" title="Figure 4. Ld/Lq results">
 
 * Phase to phase Ld measure = 174 uH
 * Phase to phase Lq measure = 199 uH
@@ -79,11 +79,11 @@ To get this measurement you're going to need some way to turn your disconnected 
 
 Once you have your system set up, use it to turn the motor and collect the output of the motor on your scope. Be sure to note the scope settings for volts / div for the amplitude and ms / div for period. Once you have all this extract values for Vpeak and period of your sine wave. Here's an example:
 
-<img src="../pics/MOTOR_PARAM_scope.png" title="Figure 5. Oscilloscope measurements of BLDC motor output">
+<img src="../gh_assets/MOTOR_PARAM_scope.png" title="Figure 5. Oscilloscope measurements of BLDC motor output">
 
 The scope is set to 2V / div for voltage and and 5ms / div for period. In our pic, Vpeak = 5V, and period, or T = 28ms. The formula to calculate lambda is:
 
-<img src="../pics/MOTOR_PARAM_lambda.png" title="equation for flux linkage">
+<img src="../gh_assets/MOTOR_PARAM_lambda.png" title="equation for flux linkage">
 
 Note: your measurement for the scope is collected from phase to phase; however, this formula does not require that you convert to single phase lambda, the formula handles it for you. 
 
@@ -91,11 +91,11 @@ Note: your measurement for the scope is collected from phase to phase; however, 
 
 Let's compare these values to what was collected using a 75V 100A single ESC single ubox from Spintend. For the motor used here, this is what you get in vesc-tool by selecting "FOC" on left panel, going to the "General" tab, and following the "Detect and Calculate Parameters" directions on that page:
 
-<img src="../pics/MOTOR_PARAM_vesc-tool.png" title="Figure 6. vesc-tool detection results">
+<img src="../gh_assets/MOTOR_PARAM_vesc-tool.png" title="Figure 6. vesc-tool detection results">
 
 Comparing to our emperical values, we get:
 
-<img src="../pics/MOTOR_PARAM_table.png" title="comparing results">
+<img src="../gh_assets/MOTOR_PARAM_table.png" title="comparing results">
 
 These are values are very close. Note that your results are always going to vary based on your controller, wiring, and motor parameters. 
 
