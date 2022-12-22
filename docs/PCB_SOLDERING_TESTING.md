@@ -74,10 +74,13 @@ Hopefully you have experience powering up a PCB for the first time.
 
 Here a subset of things you can do when testing the MP2 for the first time.
 
+Connect a switch or put in a jumper over on the [[middle-left side of the board](../gh_assets/PCB_ASSEMBLY16.png)]. Then: 
 
-* Remove the pill from the MP for this testing
+* First remove the pill from the MP
 * Connect your multimeter to GND
 * Apply power to VBat
 * Note that in some cases the DC-DC converter wont activate at <42 volts
-* Test the points circled on the figure below
+* Test for voltages on the points shown...
+
+<img src="../gh_assets/PCB_ASSEMBLY17.png" title="Voltage check">
 
