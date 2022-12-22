@@ -36,7 +36,7 @@ Use precision:
 <img src="../gh_assets/PCB_ASSEMBLY06.png" title="watch out for solder bridges">
 <img src="../gh_assets/PCB_ASSEMBLY07.png" title="it aint pretty">
 
-## MP2 testing
+## MP2 continuity testing
 Before you're finished with soldering be sure to do some important testing of your board. One set of tests involved using a continuity checker on your multimeter. This is a **short video** to help you get started:
 
 [![MP2 continuity checking](https://img.youtube.com/vi/L9bziAqBU64/0.jpg)](https://www.youtube.com/watch?v=L9bziAqBU64)
@@ -50,4 +50,15 @@ Once your set up for testing run through the following tests:
 <img src="../gh_assets/PCB_ASSEMBLY10.png" title="GND continuity check">
 
 <img src="../gh_assets/PCB_ASSEMBLY11.png" title="Phase wire continuity check">
+
+## MP2 resistance testing
+Since you have your multimeter out there are some other useful measurements to take. These tests can vary based on what type of meter you have. Also sometimes the readings will take a while to settle down to the final value.
+
+<img src="../gh_assets/PCB_ASSEMBLY12.png" title="Phase wire resistance check1">
+
+<img src="../gh_assets/PCB_ASSEMBLY13.png" title="Phase wire resistance check2">
+
+<img src="../gh_assets/PCB_ASSEMBLY14.png" title="Ground to testpoint check">
+
+<img src="../gh_assets/PCB_ASSEMBLY15.png" title="Ground to VBat check">
 
