@@ -95,5 +95,6 @@ If youre voltages look good, power off, plug in the pill and hopefully you'll se
 
 Select "Connection" on the left hand side of VESCtool. If you see this on your screen:
 <img src="../gh_assets/PCB_ASSEMBLY18.png" title="VESC tool">
+
 That is good news.  
 
