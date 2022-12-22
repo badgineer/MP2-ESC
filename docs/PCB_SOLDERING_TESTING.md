@@ -35,7 +35,7 @@ Use precision:
 <img src="../gh_assets/PCB_ASSEMBLY05.png" title="watch out for components">
 <img src="../gh_assets/PCB_ASSEMBLY06.png" title="watch out for solder bridges">
 
-**NOTE:** These pics are included to talk about soldering issues, **BUT BE ADVISED WE STRONGLY RECOMMEND** users take advantage of the three holes on each phase to solder in larger wires and get improved current sharing with the MOSFETs. A better example is shown here [[LINK](../gh_assets/PCB_ASSEMBLY06.png)] and take a look at [THIS FUTURE DOCUMENTATION] for other higher amperage connections. 
+**NOTE:** These pics are included to talk about soldering issues, **BUT BE ADVISED WE STRONGLY RECOMMEND** users take advantage of the three holes on each phase to solder in larger wires and get improved current sharing with the MOSFETs. A better example is shown here [[LINK](../gh_assets/)] and take a look at [THIS FUTURE DOCUMENTATION] for other higher amperage connections. 
 
 <img src="../gh_assets/PCB_ASSEMBLY07.png" title="it aint pretty">
 
