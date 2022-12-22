@@ -34,6 +34,9 @@ Use precision:
 
 <img src="../gh_assets/PCB_ASSEMBLY05.png" title="watch out for components">
 <img src="../gh_assets/PCB_ASSEMBLY06.png" title="watch out for solder bridges">
+
+**NOTE:** this example is not the best approach for connecting a phase wire. Typically users are taking advantage of the three holes on each phase to solder in larger wires. Take a look at [THIS FUTURE DOCUMENTATION] for higher amperage connections. 
+
 <img src="../gh_assets/PCB_ASSEMBLY07.png" title="it aint pretty">
 
 ## MP2 continuity testing
@@ -61,4 +64,20 @@ Since you have your multimeter out there are some other useful measurements to t
 <img src="../gh_assets/PCB_ASSEMBLY14.png" title="Ground to testpoint check">
 
 <img src="../gh_assets/PCB_ASSEMBLY15.png" title="Ground to VBat check">
+
+## MP2 powering up
+
+
+## MP2 powering up
+
+Hopefully you have experience powering up a PCB for the first time. 
+
+Here a subset of things you can do when testing the MP2 for the first time.
+
+
+* Remove the pill from the MP for this testing
+* Connect your multimeter to GND
+* Apply power to VBat
+* Note that in some cases the DC-DC converter wont activate at <42 volts
+* Test the points circled on the figure below
 
