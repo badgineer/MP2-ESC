@@ -15,8 +15,14 @@ Looking at the top side of the board, it tends to be easiest to solder in the sh
 When doing the 20 pin headers...
 
 <img src="../gh_assets/PCB_ASSEMBLY01.png" title="header pin alignment">
+
+Another suggestion:
+
 <img src="../gh_assets/PCB_ASSEMBLY02.png" title="use flux remover">
+
+The 12V-5V DC converter sits funny:
 <img src="../gh_assets/PCB_ASSEMBLY03.png" title="DC-DC sits funny">
+
 <img src="../gh_assets/PCB_ASSEMBLY04.png" title="soldering Vbat and GND">
 <img src="../gh_assets/PCB_ASSEMBLY05.png" title="watch out for components">
 <img src="../gh_assets/PCB_ASSEMBLY06.png" title="watch out for solder bridges">
