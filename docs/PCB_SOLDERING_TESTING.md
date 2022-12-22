@@ -20,8 +20,12 @@ Before you're finished with soldering be sure to do some important testing of yo
 [![MP2 continuity checking](https://img.youtube.com/vi/L9bziAqBU64/0.jpg)](https://www.youtube.com/watch?v=L9bziAqBU64)
 
 Once your set up for testing run through the following tests:
+
 <img src="../gh_assets/PCB_ASSEMBLY08.png" title="pcb continuity chart">
+
 <img src="../gh_assets/PCB_ASSEMBLY09.png" title="VBat continuity check">
+
 <img src="../gh_assets/PCB_ASSEMBLY10.png" title="GND continuity check">
+
 <img src="../gh_assets/PCB_ASSEMBLY11.png" title="Phase wire continuity check">
 
