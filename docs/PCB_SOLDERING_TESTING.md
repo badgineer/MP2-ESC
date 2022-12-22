@@ -80,3 +80,13 @@ Connect a switch or put in a jumper over on the [middle-left side of the board](
 <img src="../gh_assets/PCB_ASSEMBLY17.png" title="Voltage check">
 
 If youre voltages look good, power off, plug in the pill and hopefully you'll see a comforting power light on the pill.
+
+## MP2 loading the firmware. 
+
+* Unplug the F405 pill
+* Search the internet and break a record ($2USD) for the most inexpensive "st-link v2" in existence. Download and install
+* Search on "STM32CubeProgrammer software STM32", download and install the programmer code
+* Search, find, 'request from a friend' or compile for yourself a copy of the VESC bin file for the F405 pill
+* Use the STM32CubeProgrammer to upload the bin file
+* Search, find, 'request from a friend' or compile for yourself a copy of the VESCtool
+* Do not plug the pill into the MP2, upload the VESC firmware to the pill, connect the USB and start VESCtool
