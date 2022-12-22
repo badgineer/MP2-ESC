@@ -35,7 +35,7 @@ Use precision:
 <img src="../gh_assets/PCB_ASSEMBLY07.png" title="it aint pretty">
 
 ## MP2 testing
-Before you're finished with soldering be sure to do some important testing of your board. One set of tests involved using a continuity checker on your multimeter. This is a short video to help you get started:
+Before you're finished with soldering be sure to do some important testing of your board. One set of tests involved using a continuity checker on your multimeter. This is a *short video* to help you get started:
 
 [![MP2 continuity checking](https://img.youtube.com/vi/L9bziAqBU64/0.jpg)](https://www.youtube.com/watch?v=L9bziAqBU64)
 
