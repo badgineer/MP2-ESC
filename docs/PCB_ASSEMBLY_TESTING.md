@@ -87,7 +87,7 @@ If youre voltages look good, power off, plug in the pill and hopefully you'll se
 * Search the internet and break a record ($2USD) for the most inexpensive ["st-link v2"](https://www.google.com/search?q=st-link+v2) in existence;
 * Search on ["STM32CubeProgrammer software STM32"](https://www.google.com/search?q=STM32CubeProgrammer+software+STM32&oq=STM32CubeProgrammer+software+STM32), download and install the programmer code;
 * Search, find, 'request from a friend' or compile for yourself a copy of the VESC bin file for the F405 pill;
-* Search ["st-link V2 STM32 programming bluepill"](https://www.google.com/search?q=st-link2+STM32+programming+bluepill) to learn how to connect your st-link to a pill;
+* Search ["st-link V2 STM32 programming bluepill"](https://www.google.com/search?q=st-link2+STM32+programming+bluepill) to learn how to [connect](../gh_assets/IDE_7_stlink.png) your st-link to a pill;
 * Use the STM32CubeProgrammer to upload the bin file;
 * Search, find, 'request from a friend' or compile for yourself a copy of the VESCtool;
 * Do not plug the pill into the MP2, upload the VESC firmware to the pill, connect the USB and start VESCtool;
