@@ -91,7 +91,6 @@ If youre voltages look good, power off, plug in the pill and hopefully you'll se
 * Use the STM32CubeProgrammer to upload the bin file;
 * Search, find, 'request from a friend' or compile for yourself a copy of the VESCtool;
 * Do not plug the pill into the MP2, upload the VESC firmware to the pill, connect the USB and start VESCtool;
-* Start up VESCtool.
 
 Select "Connection" on the left hand side of VESCtool. If you see this on your screen:
 <img src="../gh_assets/PCB_ASSEMBLY18.png" title="VESC tool">
