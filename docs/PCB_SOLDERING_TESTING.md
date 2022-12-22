@@ -35,7 +35,7 @@ Use precision:
 <img src="../gh_assets/PCB_ASSEMBLY05.png" title="watch out for components">
 <img src="../gh_assets/PCB_ASSEMBLY06.png" title="watch out for solder bridges">
 
-**NOTE:** this example is not the best approach for connecting a phase wire. Typically users are taking advantage of the three holes on each phase to solder in larger wires. Take a look at [THIS FUTURE DOCUMENTATION] for higher amperage connections. 
+**NOTE:** this example is not the best approach for connecting a phase wire. Typically users are taking advantage of the three holes on each phase to solder in larger wires and get improved current sharing with the MOSFETs. Take a look at [THIS FUTURE DOCUMENTATION] for higher amperage connections. 
 
 <img src="../gh_assets/PCB_ASSEMBLY07.png" title="it aint pretty">
 
