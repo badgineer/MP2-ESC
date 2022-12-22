@@ -10,7 +10,7 @@ Looking at the top side of the board, it tends to be easiest to solder in the sh
 * JST connectors
 * 12V to 5V DC-DC converter
 * the larger 12V DC-DC converter
-*20 pin headers
+* 20 pin headers
 
 When doing the 20 pin headers...
 
