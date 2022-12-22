@@ -27,6 +27,9 @@ The 12V-5V DC converter sits funny:
 Heat shrink tubing is your friend!
 
 <img src="../gh_assets/PCB_ASSEMBLY04.png" title="soldering Vbat and GND">
+
+Use precision:
+
 <img src="../gh_assets/PCB_ASSEMBLY05.png" title="watch out for components">
 <img src="../gh_assets/PCB_ASSEMBLY06.png" title="watch out for solder bridges">
 <img src="../gh_assets/PCB_ASSEMBLY07.png" title="it aint pretty">
