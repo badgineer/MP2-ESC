@@ -21,6 +21,7 @@ Another suggestion:
 <img src="../gh_assets/PCB_ASSEMBLY02.png" title="use flux remover">
 
 The 12V-5V DC converter sits funny:
+
 <img src="../gh_assets/PCB_ASSEMBLY03.png" title="DC-DC sits funny">
 
 <img src="../gh_assets/PCB_ASSEMBLY04.png" title="soldering Vbat and GND">
