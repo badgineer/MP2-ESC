@@ -67,12 +67,7 @@ Since you have your multimeter out there are some other useful measurements to t
 
 ## MP2 powering up
 
-
-## MP2 powering up
-
-Hopefully you have experience powering up a PCB for the first time. 
-
-Here a subset of things you can do when testing the MP2 for the first time.
+Hopefully you have experience powering up a PCB for the first time, but here a subset of things you can do when starting up the MP2. 
 
 Connect a switch or put in a jumper over on the [middle-left side of the board](../gh_assets/PCB_ASSEMBLY16.png). Then: 
 
@@ -84,3 +79,4 @@ Connect a switch or put in a jumper over on the [middle-left side of the board](
 
 <img src="../gh_assets/PCB_ASSEMBLY17.png" title="Voltage check">
 
+If youre voltages look good, power off, plug in the pill and hopefully you'll see a comforting power light on the pill.
