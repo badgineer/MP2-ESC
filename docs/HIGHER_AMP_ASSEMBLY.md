@@ -34,3 +34,4 @@ Messing with heat sinks sucks as much as all the other assembly. In this case la
 Final assembly with 2.5mm solid wire supports that have been soldered to threaded, copper pads. 
 <img src="../gh_assets/HIGH_AMP_ASSEMBLY06.png" title="assembly">
 
+In addition to the added expense the downside of this method is soldering in all the MOSFETs with the big bus bars and phase wiring already in place is overly complicated. 
