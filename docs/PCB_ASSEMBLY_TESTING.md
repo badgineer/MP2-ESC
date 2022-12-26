@@ -4,11 +4,9 @@
 ## MP2 PCB assembly
 The following is not a step by step guide for finishing the MP2 but it still may be useful for people putting together their first PCB. 
 
-Note: in this assembly we have not added any extra copper along the bus bars which is a common practice to increase the total amount of amperage used for these boards. Adding thicker bus bars will be the subject of another tutorial, but here are some initial examples [[LINK]](../docs/HIGHER_AMP_ASSEMBLY.md). However, **we recommend that if you are going to solder bus bars on your MP2 that you begin with that step first**. 
+Note: in this assembly we have not added any extra copper along the bus bars which is a common practice to increase the total amount of amperage used for these boards. Adding thicker bus bars is shown here [[LINK]](../docs/HIGHER_AMP_ASSEMBLY.md). However, **we recommend that if you are going to solder bus bars on your MP2 that you begin with that step first**. 
 
 There are MANY tutorials on how to solder and hopefully this is not your first rodeo. At a minimum you are going to need a high wattage soldering iron, decent quality solder, hopefully some flux remover and a multimeter to be able solder this board. 
-
-
 
 Looking at the top side of the board, it tends to be easiest to solder in the shorter parts first (so they rest flat on the bench when getting soldered in. So a possible order is:
 * JST connectors
