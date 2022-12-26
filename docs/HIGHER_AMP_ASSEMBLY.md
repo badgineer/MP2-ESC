@@ -23,7 +23,7 @@ In this case the problem is the large tabs of copper are likely to break off fro
 <img src="../gh_assets/HIGH_AMP_ASSEMBLY03.png" title="dont do this">
 
 ## Department of overkill
-This is an example of using laser cut copper to add copper bus bars that solder directly to wires. Soldering was done in an oven. One big downside to this method is
+This is an example of using laser cut copper to add copper bus bars that solder directly to wires. Soldering was done in an oven. 
 
 <img src="../gh_assets/HIGH_AMP_ASSEMBLY04.png" title="laser cut busbars">
 
