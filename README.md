@@ -171,7 +171,7 @@ You can get the SMD side pre-assembled at jlcpcb (at the time of design all part
 
 * **I want more power!!!**
 This might not go well. So good luck, you’ll probably need it. Please don't blame us when it goes up in smoke. But do let us know how it goes. Disclamer aside, here are some basic suggestions:
-   * Review what [other people](HIGHER_AMP_ASSEMBLY.md) have done.
+   * Review what [other people](docs/HIGHER_AMP_ASSEMBLY.md) have done.
    * Add thick copper bus bars to the board.
    * Add more/ bigger bulk caps!
    * Use appropriate wires (thick!) 
