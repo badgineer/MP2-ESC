@@ -63,7 +63,7 @@ The default FETs are available from lcsc at the time of writing. They are cheap 
 You can use a fet of your choosing, but please be aware that old Fets (such as the famous 4110 or 3077) have huge Crss, leading to a tiny Ciss/Crss ratio. This ratio needs to be bigger than roughly your max battery voltage, so you will need to compute and add the optional Cgs capacitors (OCx). Small Ciss/Crss results in ringing / parastic turn on (which leads to failure). 
 That being said, it’s best to just use Fets with Ciss/Crss > ~100, nowadays they’re easy to find. See the spreadsheet with alternative parts.
 
-Some additional material on MOSFET selection and testing is [here](MOSFET_PARAMETERS.md).
+Some additional material on MOSFET selection and testing is [here](docs/MOSFET_PARAMETERS.md).
 
 Attaching the FETs to a heatsink: the FETs need to be electrically isolated from the heatsink, but well connected thermally. The options for this are:
 * Mica glass (“traditional option”, cheap, easy to find)
