@@ -37,7 +37,7 @@ https://endless-sphere.com/forums/viewtopic.php?t=117045
 
 ## Building Tips:
 
-Some suggestions are here [[LINK](docs/PCB_ASSEMBLY_TESTING.md)]. 
+Basic soldering and assembly is [here](docs/PCB_ASSEMBLY_TESTING.md).
 
 ### **Bus Bars**
 Bus bars are recommended for anything else than very low current. (extra copper wires/bars/plates soldered to the exposed copper strips of the PCB, or at very least a ton of solder on the exposed strips, but this last variant only for low phase currents). See [this document](docs/HIGHER_AMP_ASSEMBLY.md) for examples. 
