@@ -10,7 +10,7 @@ Multi-Platform, Modular, Powerful ESC
 **Standard footprint parts**, so replacement parts can be found easily in case of original parts out of stock or out of production \
 **Optimized for low cost** production by JLCPCB, including SMT assembly.  \
 **Possibility to buy the SMD parts pre-soldered:** All SMDs are on the same side, in large stock at lcsc (at the time of writing), so the board can be ordered with SMDs pre-assembled by JLCPCB for a decent price. \
-**Some features currently not available on most open source ESCs we are aware of**
+**To our knowledge, features that are not available on most open source ESCs:**
 * hardware overcurrent proection (triggers at 430A)
 * hardware overvoltage protection which triggers at:
   * 75.6V for the 80V setup
@@ -37,7 +37,7 @@ https://endless-sphere.com/forums/viewtopic.php?t=117045
 
 ## Building Tips:
 
-Soldering, assembly, and testing for are [here](docs/PCB_ASSEMBLY_TESTING.md).
+Some soldering, assembly, and testing are [here](docs/PCB_ASSEMBLY_TESTING.md).
 
 ### **Bus Bars**
 Bus bars are recommended for anything else than very low current. (extra copper wires/bars/plates soldered to the exposed copper strips of the PCB, or at very least a ton of solder on the exposed strips, but this last variant only for low phase currents). See [this document](docs/HIGHER_AMP_ASSEMBLY.md) for examples. 
@@ -58,14 +58,14 @@ Values are consolidated for easy buying. Voltage rating is 25V or higher regardl
 ### **Snubbers (RSx, CSx)**
 These are RC snubbers. **They are here only for the footprints. Do not fit them (yet).** The real values (if necessary at all) will be computed after we build the controller and see what ringing we get. Purpose of the snubbers is to dampen that ringing. (if you choose different parts than the one we compute the snubbers for, you might need to compute the snubbers yourself). These components are not present in the pick-and-place or BOM files.
 
-### **FETs**
-The default FETs are available from lcsc at the time of writing. They are cheap and have good specs. (low Rds on, low Crss, 100v, etc). 
-You can use a fet of your choosing, but please be aware that old Fets (such as the famous 4110 or 3077) have huge Crss, leading to a tiny Ciss/Crss ratio. This ratio needs to be bigger than roughly your max battery voltage, so you will need to compute and add the optional Cgs capacitors (OCx). Small Ciss/Crss results in ringing / parastic turn on (which leads to failure). 
-That being said, it’s best to just use Fets with Ciss/Crss > ~100, nowadays they’re easy to find. See the spreadsheet with alternative parts.
+### **MOSFETs**
+The default MOSFETs are available from lcsc at the time of writing. They are cheap and have good specs. (low Rds on, low Crss, 100v, etc). 
+You can use a FET of your choosing, but please be aware that old FETS (such as the famous 4110 or 3077) have huge Crss, leading to a tiny Ciss/Crss ratio. This ratio needs to be bigger than roughly your max battery voltage, so you will need to compute and add the optional Cgs capacitors (OCx). Small Ciss/Crss results in ringing / parastic turn on (which leads to failure). 
+That being said, it’s best to just use FETs with Ciss/Crss > ~100, nowadays they’re easy to find. See the section with alternative parts below.
 
 Some additional material on MOSFET selection and testing is [here](docs/MOSFET_PARAMETERS.md).
 
-Attaching the FETs to a heatsink: the FETs need to be electrically isolated from the heatsink, but well connected thermally. The options for this are:
+Attach the FETs to a heatsink: the FETs need to be electrically isolated from the heatsink, but well connected thermally. The options for this are:
 * Mica glass (“traditional option”, cheap, easy to find)
 * Ceramics (saw this as a new option, never tried it)
 * Polymer pads 
@@ -84,7 +84,7 @@ Unfortunately in focusing on making the board small we crammed the FETs very clo
 
 ## Alternative parts.
 
-### **FETs**
+### **MOSFETs**
 100V: 
 * CRST030N10N - Default, cheap, tested, available at lcsc.
 * MDP10N027 - Cheap, tested, available on aliexpress.
@@ -123,15 +123,15 @@ or any other "replica" of IR2181
 * Blue Pill
 
 ### **12V DCDC**
-* isolated... Recommended
+* We recommended, isolated:
   * PQDE6W-Q110-S12-D preferred (CUI devices)
   * RD5-110S12W (Rui Da Kang)
   * HLK-10D11012 (HiLink)
   * RDE20110S12 (XP Power)
   * THN 10-7212WIR (TRACO Power)
-* Unisolated,
+* Unisolated
   * P7805-500 (CUI)
-  * or wire on some [ random cheap stuff ](https://www.aliexpress.com/item/1005001599313771.html) ghetto style
+  * Or wire on some [ random cheap stuff ](https://www.aliexpress.com/item/1005001599313771.html)
 
 ### **5V DCDC**
 * Tons of options in "TO220 Replacement" format - like [ this random example ](https://www.aliexpress.com/item/1005004807082011.html)
@@ -163,8 +163,7 @@ We made a few things hardware configurable. 1) Vsense and Overvoltage Protection
 Through hole pads imply a lead through the hole, sticking out on the other side, and preventing the FETs from sitting flush against the PCB.
 
 * **What is the empty footprint for D8?**
-Its a footprint for a TVS diode as replacement for D7. 
-You would want to solder a TVS there if you use a different voltage than 20s and D7 is inappropriate. Of course you can populate D7 with a different TVS during fabrication, but D8 pads are easy to hand-solder after the fact. 
+Its a footprint for a TVS diode as replacement for D7. You would want to solder a TVS there if you use a different voltage than 20s and D7 is inappropriate. Of course you can populate D7 with a different TVS during fabrication, but D8 pads are easy to hand-solder after the fact. 
 
 * **Can you assemble it for me?**
 There is no plan on selling any assembled PCBs. You can get the SMD side pre-assembled at [jlcpcb](https://jlcpcb.com/) (at the time of design all parts were in stock for jlcpcb SMT service). So you’ll only need to solder the through-hole parts and the modules. 
