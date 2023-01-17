@@ -167,7 +167,7 @@ Its a footprint for a TVS diode as replacement for D7.
 You would want to solder a TVS there if you use a different voltage than 20s and D7 is inappropriate. Of course you can populate D7 with a different TVS during fabrication, but D8 pads are easy to hand-solder after the fact. 
 
 * **Can you assemble it for me?**
-You can get the SMD side pre-assembled at jlcpcb (at the time of design all parts were in stock for jlcpcb SMT service). So you’ll only need to solder the through-hole parts and the modules. Currently there is no plan on selling any assembled PCBs.
+There is no plan on selling any assembled PCBs. You can get the SMD side pre-assembled at [jlcpcb](https://jlcpcb.com/) (at the time of design all parts were in stock for jlcpcb SMT service). So you’ll only need to solder the through-hole parts and the modules. 
 
 * **I want more power!!!**
 This might not go well. So good luck, you’ll probably need it. Please don't blame us when it goes up in smoke. But do let us know how it goes. Disclamer aside, here are some basic suggestions:
