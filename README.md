@@ -129,7 +129,7 @@ or any other "replica" of IR2181
   * HLK-10D11012 (HiLink)
   * RDE20110S12 (XP Power)
   * THN 10-7212WIR (TRACO Power)
-* Unisolated
+* Less desireable: unisolated
   * P7805-500 (CUI)
   * Or wire on some [random cheap stuff](https://www.aliexpress.com/item/1005001599313771.html)
 
