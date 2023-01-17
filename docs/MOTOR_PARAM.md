@@ -77,7 +77,7 @@ You'll discover there is an abundance of ways to measure flux linkage out on the
 
 To get this measurement you're going to need some way to turn your disconnected motor at a relatively precise rpm. You'll probably need to mount the motor, and then connect it to an electric drill or another motor. One method of turning a motor is [shown here](https://youtube.com/shorts/YvglKtxUaCQ).
 
-Once you have your system set up, use it to turn the motor and collect the output of the motor on your scope. Be sure to note the scope settings for volts / div for the amplitude and ms / div for period. Once you have all this extract values for Vpeak and period of your sine wave. Here's an example:
+Connect the ground end of your oscilloscope to one phase of the motor, and the probe to another end. Once you have your system set up, use it to turn the motor and collect the output of the motor on your scope. Be sure to note the scope settings for volts / div for the amplitude and ms / div for period. Once you have all this extract values for Vpeak and period of your sine wave. Here's an example:
 
 <img src="../gh_assets/MOTOR_PARAM_scope.png" title="Figure 5. Oscilloscope measurements of BLDC motor output">
 
