@@ -123,7 +123,7 @@ or any other "replica" of IR2181
 * Blue Pill
 
 ### **12V DCDC**
-* We recommended, isolated:
+* We recommend isolated:
   * PQDE6W-Q110-S12-D preferred (CUI devices)
   * RD5-110S12W (Rui Da Kang)
   * HLK-10D11012 (HiLink)
@@ -131,7 +131,7 @@ or any other "replica" of IR2181
   * THN 10-7212WIR (TRACO Power)
 * Unisolated
   * P7805-500 (CUI)
-  * Or wire on some [ random cheap stuff ](https://www.aliexpress.com/item/1005001599313771.html)
+  * Or wire on some [random cheap stuff](https://www.aliexpress.com/item/1005001599313771.html)
 
 ### **5V DCDC**
 * Tons of options in "TO220 Replacement" format - like [ this random example ](https://www.aliexpress.com/item/1005004807082011.html)
