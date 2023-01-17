@@ -57,16 +57,17 @@ Note, loss to the gate resistors is negligible and overall, RDS(on) usually domi
 ## Suggested MOSFET Part Numbers (from [Endless sphere](https://endless-sphere.com/forums/viewtopic.php?t=117045))
 
 100V
-CRST030N10N (Initial boards built with these)
-MDP10N027 (another initial board built with these)
-NCEP039N10
-IPP026N10NF2S
-DMTH10H005SCT
+* CRST030N10N (Initial boards built with these)
+* MDP10N027 (another initial board built with these)
+* NCEP039N10
+* IPP026N10NF2S
+* DMTH10H005SCT
+
 150V
-CRST073N15N
-NCEP15T14
-NTP5D0N15MC
-SUP70042E
+* CRST073N15N
+* NCEP15T14
+* NTP5D0N15MC
+* SUP70042E
 
 ## Issues With NCEP039N10
 
