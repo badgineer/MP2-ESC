@@ -6,4 +6,4 @@
 * MP2 assembly, testing and firmware [[LINK](PCB_ASSEMBLY_TESTING.md)]
 * MP2 bus bar methods [[LINK](HIGHER_AMP_ASSEMBLY.md)]
 * Some (bad) examples of connecting the MP2 to a motor [[LINK](QS165_MP2_WIRING.md)]
-* MESC Firmware on the MP2 -- getting started with STM32CubeIDE [[LINK](GETTING_STARTED.md)]
+* MESC Firmware on the MP2 -- getting started with STM32CubeIDE [[LINK](FIRMWARE_INTRO.md)]
