@@ -37,7 +37,7 @@ https://endless-sphere.com/forums/viewtopic.php?t=117045
 
 ## Building Tips:
 
-Basic soldering and assembly is [here](docs/PCB_ASSEMBLY_TESTING.md).
+Soldering, assembly, and testing for are [here](docs/PCB_ASSEMBLY_TESTING.md)
 
 ### **Bus Bars**
 Bus bars are recommended for anything else than very low current. (extra copper wires/bars/plates soldered to the exposed copper strips of the PCB, or at very least a ton of solder on the exposed strips, but this last variant only for low phase currents). See [this document](docs/HIGHER_AMP_ASSEMBLY.md) for examples. 
@@ -70,14 +70,14 @@ Attaching the FETs to a heatsink: the FETs need to be electrically isolated from
 
 Unfortunately in focusing on making the board small we crammed the FETs very close together. This means some mica or ceramic pads will not fit - and it’s very hard to cut them afaik. So for this version we’re probably stuck with polymer / kapton. 
 
-### **Testing**
+### **Board Testing**
 
 * v0.1 build has been tested by mxlemming with MESC FOC firmware on F401CC black pill board, and by Netzpfuscher with his VESC port, in lab conditions. 
 
 ### **Known issues/limitations:**
 * Pills have very few ADCs, so some sacrifices have been made (choice between analog brake and Motor Temp). 
-* gate drivers are not as popular and readily available on lcsc as the other SMD parts
-* Having the MCU on a separate board (the "pill" development boards) is a questionable ideea from PCB design point of view. In our testing it seemed to work, but we know it's not without drawbacks.
+* Gate drivers are not as popular and readily available on lcsc as the other SMD parts
+* Having the MCU on a separate board (the "pill" development boards) is a questionable idea from PCB design point of view. In our testing it seemed to work, but we know it's not without drawbacks.
 
 ## Alternative parts.
 
