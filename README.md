@@ -167,10 +167,11 @@ You can get the SMD side pre-assembled at jlcpcb (at the time of design all part
 
 * **I want more power!!!**
 This might not go well. So good luck, you’ll probably need it. Please don't blame us when it goes up in smoke. But do let us know how it goes. Disclamer aside, here are some basic suggestions:
+   * Review what [other people](HIGHER_AMP_ASSEMBLY.md) have done.
    * Add thick copper bus bars to the board.
    * Add more/ bigger bulk caps!
    * Use appropriate wires (thick!) 
-   * Overcurrent trips at 430A. If you want to come close to it / exceed it, either cut off  the overcurrent circuit by desoldering D4, D5, D6, or be creative with the shunts. But 150A per TO220 fet is a crazy ideea.
+   * Overcurrent trips at 430A. If you want to come close to it / exceed it, either cut off  the overcurrent circuit by desoldering D4, D5, D6, or be creative with the shunts. But 150A per TO220 fet is a crazy idea.
 
 * **I want more voltage!!!!**
 Realistic limit is 30s lipo for 150V rated components. For more than that the ESC will need serious redesign. 
