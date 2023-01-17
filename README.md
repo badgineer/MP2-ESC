@@ -1,5 +1,5 @@
 # **MP2_ESC** 
-Multi-Platform, Modular, Powerful ESC
+Multi-Platform, Modular, Powerful Electronic Speed Control
 
 ![3D_PCB](gh_assets/3d_pcb_front.png)
 
