@@ -37,4 +37,4 @@ Final assembly with 2.5mm solid wire supports that have been soldered to threade
 In addition to the added expense the downside of this method is soldering in all the MOSFETs with the big bus bars and phase wiring already in place is overly complicated.
 
 <img src="../gh_assets/HIGH_AMP_ASSEMBLY07.jpeg" title="assembly">
-Nicely done. 
+Nicely done.
