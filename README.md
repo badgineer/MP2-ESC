@@ -6,7 +6,7 @@
 * annotated more of the connectors
 * changed 4pin to 3pin throttle
 * changed some connectors to 0.1 inch headers
-* removed 12v switch connector, added fuse
+* replaced 12v switch connector with fuse
 * changed 12v DCDC footprint
 * removed solder jumpers for black/blue pills
 * added 5v LED
@@ -17,7 +17,7 @@ The PCB has notes for rotations of some components
 
 **BOM Construction:**
 
-The drivers were left off -- add them manually later
+The U1, U2, U3 drivers were left off -- add them manually later
 
 **Consider adding this DCDC:**
 
