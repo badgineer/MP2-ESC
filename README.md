@@ -13,7 +13,7 @@
 
 **Position file construction:**
 
-The PCB has notes for rotations of some components
+The PCB specifies rotation of some components for jlcpcb order
 
 **BOM Construction:**
 
