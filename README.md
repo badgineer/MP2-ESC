@@ -1,11 +1,23 @@
 ## NOTES: 
+
+**Changes:**
+
+* removed a lot of silk values
+* annotated more of the connectors
+* changed 4pin to 3pin throttle
+* changed some connectors to 0.1 inch headers
+* removed 12v switch, added fuse
+* changed 12v DCDC footprint
+* removed solder jumpers for black/blue pills
+* added 5v LED
+
 **Position file construction:**
 
-note the PCB has notes for rotations on some components
+The PCB has notes for rotations of some components
 
 **BOM Construction**
 
-The drivers were left off -- they'll have to be added manually.
+The drivers were left off -- add them manually later
 
 **consider adding this DCDC**
 
