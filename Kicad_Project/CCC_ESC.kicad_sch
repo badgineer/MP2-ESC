@@ -8141,7 +8141,7 @@
     (uuid 642232c9-9700-4cbf-a629-0d6be02c12d5)
     (property "Reference" "SW1" (id 0) (at 43.815 137.16 90))
     (property "Value" "Conn_01x02" (id 1) (at 47.625 139.7 90))
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical" (id 2) (at 50.165 137.16 0)
+    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" (id 2) (at 50.165 137.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 50.165 137.16 0)
@@ -12115,7 +12115,7 @@
       (reference "SHC3") (unit 1) (value "0.5mR") (footprint "CCC_ESC_Custom_parts:Shunt_2512_6332Metric")
     )
     (path "/642232c9-9700-4cbf-a629-0d6be02c12d5"
-      (reference "SW1") (unit 1) (value "Conn_01x02") (footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical")
+      (reference "SW1") (unit 1) (value "Conn_01x02") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical")
     )
     (path "/a7dbcf5d-7f15-47b8-818f-7472764a1ac7"
       (reference "Tp12V1") (unit 1) (value "12V Pad") (footprint "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm")
