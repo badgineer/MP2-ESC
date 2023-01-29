@@ -5380,7 +5380,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 63ab458e-636e-415e-89c2-da682878e528)
   )
-  (text "Fourth opamp used as overcurrent and voltage \ncomparator to protect against shoot through, \novercurrent + overvoltage in MCU crash\nIf any of the opamps outputs exceeds 3v3x8/2/(8.2+9.2) + diode forward voltage, \nthe opamp will pull low, which pulls PB12 low, triggering the STM32 hardware BRK\nTime constant approximately 150R(op out)x1nF = 150ns. \n3 time constants to trip, so~0.5us to trip in shoot through \nor overcurrent event"
+  (text "Fourth opamp used as overcurrent and voltage \ncomparator to protect against shoot through, \novercurrent + overvoltage in MCU crash\nIf any of the opamps outputs exceeds 3v3x8/2/(8.2+9.2) + diode forward voltage, \nthe opamp will pull low, which pulls PB12 low, triggering the STM32 hardware BRK\nTime constant approximately 0.47us\nThere's another 0.47us LPF on the F405 pill! That is not the case for Bluepill or Blackpill\n"
     (at 300.99 383.54 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 6e5cd04e-2327-4ecd-a08a-14bce936f99b)
@@ -6974,17 +6974,17 @@
     (in_bom yes) (on_board yes)
     (uuid 2ab37923-294a-491f-8503-bcf8a39cff21)
     (property "Reference" "R36" (id 0) (at 307.34 346.71 90))
-    (property "Value" "R100" (id 1) (at 312.42 346.71 90))
+    (property "Value" "47R" (id 1) (at 312.42 346.71 90))
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at 309.88 351.028 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 309.88 349.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MFR PT" "0603WAF1000T5E" (id 4) (at 309.88 349.25 90)
+    (property "MFR PT" "0603WAF470JT5E" (id 4) (at 309.88 349.25 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "C22775" (id 5) (at 309.88 349.25 90)
+    (property "LCSC" "C23182" (id 5) (at 309.88 349.25 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 4d3c0fe0-498b-4884-850b-4fe7d6cc5038))
@@ -12015,7 +12015,7 @@
       (reference "R35") (unit 1) (value "R150") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/2ab37923-294a-491f-8503-bcf8a39cff21"
-      (reference "R36") (unit 1) (value "R100") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R36") (unit 1) (value "47R") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/35fb349f-85c2-493e-b0db-9bd94323c6ba"
       (reference "R38") (unit 1) (value "47k") (footprint "Resistor_SMD:R_0603_1608Metric")

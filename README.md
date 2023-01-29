@@ -76,11 +76,12 @@ Unfortunately in focusing on making the board small we crammed the FETs very clo
 ### **Board Testing**
 
 * V0.1 build has been tested by mxlemming with MESC FOC firmware on F401CC black pill board, and by Netzpfuscher with his VESC port, in lab conditions. 
+* V0.3 has been tested, and reached 280Phase amps on a Surron, with maximum power draw 10kW. There were no overheating problems (though cooling was good, and it was winter). Over 280 Phase amps there were random BRK errors (a fix is being tested)
 
 ### **Known issues/limitations:**
 * Pills have very few ADCs, so some sacrifices have been made (choice between analog brake and Motor Temp). 
 * Gate drivers are not as popular and readily available on lcsc as the other SMD parts
-* Having the MCU on a separate board (the "pill" development boards) is a questionable idea from PCB design point of view. In our testing it seemed to work, but we know it's not without drawbacks.
+* Having the MCU on a separate board (the "pill" development boards) is a questionable idea from PCB design point of view. In our testing it seemed to work, but we know it's not without drawbacks (main one being pill pins "catch" noise).
 
 ## Alternative parts.
 
@@ -103,7 +104,7 @@ Unfortunately in focusing on making the board small we crammed the FETs very clo
 Generally: There are a lot of TO220 fets to choose from (probably the only real advantage of TO220). If you want another, make sure it has low RDSon, gate charge <= 170nC, low Crss (Ciss/Crss > Vbat).  
 
 ### **Gate Drivers**
-* TF2190M-TAH (TFSS) (LCSC PN: C2917161) -> Default. tested in older version
+* TF2190M-TAH (TFSS) (LCSC PN: C2917161) -> Default. tested.
 * NCP5183/NCV5183 (On Semi)
 * FAN7390 (Fairchild)
 * FAN7191 (Fairchild)
@@ -113,7 +114,7 @@ or any other "replica" of IR2181
 ### **Operational Amplifier**
 * NCS20034 (On Semi) - tested
 * GS8634-SR (Gainsil)
-* COS724SR (Cosine) -> current default recomendation due to specs and LCSC stock
+* COS724SR (Cosine) - tested. current default recomendation due to specs and LCSC stock
 * TSV914 (ST)
 * TLV9054 (TI)
 
@@ -154,13 +155,34 @@ We recently changed from XX4007 in SOD123 package to higher speed diode (US1M). 
 * MESC Firmware on the MP2 -- getting started with STM32CubeIDE [[LINK](docs/FIRMWARE_INTRO.md)]
 * Some (bad) examples of connecting the MP2 to a motor [[LINK](docs/QS165_MP2_WIRING.md)]
 
+## Change Log / Known Problems 
+
+### V0.4 Wish list (V0.3 known problems). 
+* remove vbat solder jumpers. for 150v the board requires a different BOM anyway.
+* make overlimit opamp output LPF better suited to an additional LPF on the pill and reducing pin noise. (cap -> 10uF, move it near pin, decrease R value)
+* make power switch footprint more accessible. (bigger, better location)
+* move the protective R pair near vbat ("before" the switch)
+* increase margins for Vbat and Phase copper areas to reduce short / arc risk
+* replace the 4pin JST with a 6pin one and route the last 2 unrouted useful pill pins to the 2 extra JST pins. (requires quite some PCB redesign)
+* standardize JST pin layout (GND and Vaux are all over the place.)
+* add a power led on 5v rail
+
+
+### V0.3 change log
+* reduced shunt value to 0.5mR (from 1mR) for lower heat generation
+* increased opamp gain to ~22 (from 10) for compensating lower shunt value
+* added solder jumpers for configuring power stage vsense
+* faster/better bootstrap diodes for better behavior and lower Qrr loss/heat
+* many other tiny changes / improvements
+
+
 ## FAQ
 
 * **What’s with the many solder jumpers?**
 We made a few things hardware configurable. 1) Vsense and Overvoltage Protection optimized for 80 / 100 / 150V power stage, Voltage for peripherals can be set to 5 or 3.3V, Motor Temp vs Brake signal compromise, and of course, changing the wiring to acommodate the bluepill or blackpill pinouts (which vary slightly)
 
 * **Why do the electrolytic caps have surface pads instead of through hole?**
-Through hole pads imply a lead through the hole, sticking out on the other side, and preventing the FETs from sitting flush against the PCB.
+Through hole pads imply a lead through the hole, sticking out on the other side. This would prevent the FETs from sitting flush against the PCB.
 
 * **What is the empty footprint for D8?**
 Its a footprint for a TVS diode as replacement for D7. You would want to solder a TVS there if you use a different voltage than 20s and D7 is inappropriate. Of course you can populate D7 with a different TVS during fabrication, but D8 pads are easy to hand-solder after the fact. 
