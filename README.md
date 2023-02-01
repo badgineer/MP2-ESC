@@ -43,7 +43,7 @@ The high amperage and compact design of this board means that it is inherently p
 * **DO NOT USE LIPO BATTERIES INDOORS**
 * The board stores considerable capacitance -- a spark when you connect to your power supply
 * Ideally you should use a current limited power supply when testing
-* Before powering up **follow all recommendations in our building tips section**
+* Before powering up **follow all recommendations in our building tips section**.
 
 ## Building Tips
 
