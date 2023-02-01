@@ -35,9 +35,19 @@ The circuit design tool used for this project: [KiCad](https://www.kicad.org/).
 ## Endless Sphere Thread:
 https://endless-sphere.com/forums/viewtopic.php?t=117045
 
-## Building Tips:
+## Safety
+The high amperage and compact design of this board means that it is inherently prone to arcing. For this reason we urge you to engage in the following safety precautions:
 
-Some soldering, assembly, and testing are [here](docs/PCB_ASSEMBLY_TESTING.md).
+* Remove all sources of power when operating on the board. This includes soldering, mounting the board, connecting wires, or plugging in the pill
+* Use an [USB isolator](https://www.amazon.com/s?k=usb+isolator) when connecting to your computer
+* **DO NOT USE LIPO BATTERIES INDOORS**
+* The board stores considerable capacitance -- a spark when you connect to your power supply
+* Ideally you should use a current limited power supply when testing
+* Before powering up ** follow all recommendations in our building tips section **
+
+## Building Tips
+
+Soldering, assembly, safety and testing are [here](docs/PCB_ASSEMBLY_TESTING.md).
 
 ### **Bus Bars**
 Bus bars are recommended for anything else than very low current. (extra copper wires/bars/plates soldered to the exposed copper strips of the PCB, or at very least a ton of solder on the exposed strips, but this last variant only for low phase currents). See [this document](docs/HIGHER_AMP_ASSEMBLY.md) for examples. 
