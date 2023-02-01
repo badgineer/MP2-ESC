@@ -375,7 +375,7 @@
       },
       {
         "bus_width": 12.0,
-        "clearance": 0.4,
+        "clearance": 0.5,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -384,6 +384,7 @@
         "microvia_drill": 0.1,
         "name": "HV",
         "nets": [
+          "Net-(C5-Pad1)",
           "Net-(SW1-Pad2)",
           "PHASE_A",
           "PHASE_B",
