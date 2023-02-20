@@ -21,15 +21,14 @@ A couple of appnotes that walk through BLDC operation [[LINK](https://www.monoli
 Readers are also strongly encouraged to read documentation [[for the MP2](https://github.com/davidmolony/MESC_Firmware)].
 
 And our own David Molony has created several instructional videos for the MP2
-
-* Be sure to have a look at this flow diagram depicting fast and hyper loops, and these two videos
+* [STUB] Be sure to have a look at this flow diagram depicting fast and hyper loops, and these two videos
 * [LINK](https://youtu.be/D8OxaPtngFE)
 * [LINK](https://youtube.com/shorts/5mvyW02K6BA)
 * [LINK](https://youtube.com/shorts/p_EUAOHa-1w)
 * [LINK](https://youtu.be/9agJsvzlajI)
 * [LINK](https://youtube.com/shorts/ht_xRyyBOWQ)
 
-## Flashing and assembly of the MP2 
+## Flashing, MP2 assembly, and construction
 * MESC Firmware on the MP2 -- getting started with STM32CubeIDE [[LINK](FIRMWARE_INTRO.md)]
 * Gathering motor parameters [[LINK](MOTOR_PARAM.md)]
 * Pin mappings between MP2 and the F405 pill [[LINK](MP2_F405PILL_PINOUTS.md)]
