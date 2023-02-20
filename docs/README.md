@@ -18,15 +18,15 @@ A couple of appnotes that walk through BLDC operation [[LINK](https://www.monoli
 
 ## MP2 Operations
 
-Readers are also strongly encouraged to read documentation [[for the MP2](https://davidmolony.github.io/MESC_Firmware/). 
+Readers are also strongly encouraged to read documentation [[for the MP2](https://davidmolony.github.io/MESC_Firmware/)]. 
 
 And our own David Molony has created several instructional videos for the MP2
 * [STUB] Be sure to have a look at this flow diagram depicting fast and hyper loops, and these two videos
-* [LINK](https://youtu.be/D8OxaPtngFE)
-* [LINK](https://youtube.com/shorts/5mvyW02K6BA)
-* [LINK](https://youtube.com/shorts/p_EUAOHa-1w)
-* [LINK](https://youtu.be/9agJsvzlajI)
-* [LINK](https://youtube.com/shorts/ht_xRyyBOWQ)
+* [LINK](https://youtu.be/D8OxaPtngFE) Description.
+* [LINK](https://youtube.com/shorts/5mvyW02K6BA) Description.
+* [LINK](https://youtube.com/shorts/p_EUAOHa-1w) Description.
+* [LINK](https://youtu.be/9agJsvzlajI) Description.
+* [LINK](https://youtube.com/shorts/ht_xRyyBOWQ) Description.
 
 ## Flashing, MP2 assembly, and construction
 * MESC Firmware on the MP2 -- getting started with STM32CubeIDE [[LINK](FIRMWARE_INTRO.md)]
