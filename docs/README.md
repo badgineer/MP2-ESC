@@ -10,15 +10,15 @@ A couple of appnotes that walk through BLDC operation [[LINK](https://www.monoli
 
 ## Youtube videos
 
-* An in depth introduction to ebike motors and controllers [LINK](https://www.youtube.com/watch?v=c96n0Ma2rLY)
-* A deeper dive by into motor considerations from the same presenter [LINK](https://www.youtube.com/watch?v=dxJe_gygRGU)
-* How PWM signals are generated to create sinusoidal commutation [LINK](https://www.youtube.com/watch?v=-By_vt27Xhs)
-* (I'd be curious to know if the MESC uses the state space vector approach here: [LINK](https://youtu.be/-By_vt27Xhs?t=164)) 
-* A very nice series relating motor behavior important math principles [LINK](https://www.youtube.com/watch?v=EHYEQM1sA3o)
+* An in depth introduction to ebike motors and controllers [[LINK](https://www.youtube.com/watch?v=c96n0Ma2rLY)]
+* A deeper dive by into motor considerations from the same presenter [[LINK](https://www.youtube.com/watch?v=dxJe_gygRGU)]
+* How PWM signals are generated to create sinusoidal commutation [[LINK](https://www.youtube.com/watch?v=-By_vt27Xhs)]
+* (I'd be curious to know if the MESC uses the state space vector approach here: [[LINK](https://youtu.be/-By_vt27Xhs?t=164)]
+* A very nice series relating motor behavior important math principles [[LINK](https://www.youtube.com/watch?v=EHYEQM1sA3o)]
 
 ## MP2 Operations
 
-Readers are also strongly encouraged to read documentation [for the MP2](https://github.com/davidmolony/MESC_Firmware)
+Readers are also strongly encouraged to read documentation [[for the MP2](https://github.com/davidmolony/MESC_Firmware)].
 
 And our own David Molony has created several instructional videos for the MP2
 
