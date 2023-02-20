@@ -18,7 +18,7 @@ A couple of appnotes that walk through BLDC operation [[LINK](https://www.monoli
 
 ## MP2 Operations
 
-Readers are also strongly encouraged to read documentation [[for the MP2](https://github.com/davidmolony/MESC_Firmware)].
+Readers are also strongly encouraged to read documentation [[for the MP2](https://davidmolony.github.io/MESC_Firmware/). 
 
 And our own David Molony has created several instructional videos for the MP2
 * [STUB] Be sure to have a look at this flow diagram depicting fast and hyper loops, and these two videos
