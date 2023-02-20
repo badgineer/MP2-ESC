@@ -2,8 +2,7 @@
 
 **The documentation that we have here attempts to help people at many different skill levels to better understand the MP2, as as other Electronic Speed Controllers (ESCs). What is important is that the MP2 is not a commercial ESC. It is not possible to contstruct, test and run MP2 without a basic understanding in electronics, circuit construction, C-programming and the general principles behind BrushLess DC (BLDC) motors. We have a partial collection of materials to help, and we're also going to assume when it comes to something like running an oscilloscope you can search the web to educate yourself. Good luck.**
 
-The following are some resources that we strongly encourage you to read and understand before proceeding.
-
+The following are some resources that we strongly encourage you to read and understand before proceeding:
 ## Appnotes ##
 
 A couple of appnotes that walk through BLDC operation [[LINK](https://www.monolithicpower.com/media/document/Brushless_DC_Motor_Fundamentals.pdf), [LINK](https://www.monolithicpower.com/media/document/Brushless_DC_Motor_Fundamentals.pdf), and [LINK](https://www.st.com/resource/en/application_note/cd00020086-sensorless-bldc-motor-control-and-bemf-sampling-methods-with--st7mc-stmicroelectronics.pdf)]. In addition to explaining a lot of the general principles of BLDC operation, these texts will help you start to get familiar with a lot of important terms involved with motors. 
