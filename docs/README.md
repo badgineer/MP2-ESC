@@ -1,6 +1,6 @@
 # Documentation for MP2
 
-**The documentation that we have here attempts to help people at all kill levels to better understand the MP2, as as other Electronic Speed Controllers (ESCs). What is important is that the MP2 is not a commercial ESC. It is not possible to contstruct, test and run MP2 without a basic understanding in electronics, circuit construction, C-programming and the general principles behind BrushLess DC (BLDC) motors. We have a partial collection of materials to help, and we're also going to assume when it comes to something like running an oscilloscope you can search the web to educate yourself. Good luck.**
+**The documentation that we have here attempts to help people at many different skill levels to better understand the MP2, as as other Electronic Speed Controllers (ESCs). What is important is that the MP2 is not a commercial ESC. It is not possible to contstruct, test and run MP2 without a basic understanding in electronics, circuit construction, C-programming and the general principles behind BrushLess DC (BLDC) motors. We have a partial collection of materials to help, and we're also going to assume when it comes to something like running an oscilloscope you can search the web to educate yourself. Good luck.**
 
 The following are some resources that we strongly encourage you to read and understand before proceeding.
 
