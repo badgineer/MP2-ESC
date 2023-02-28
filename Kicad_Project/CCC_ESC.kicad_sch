@@ -7466,7 +7466,7 @@
   (symbol (lib_id "Device:LED") (at 96.52 181.61 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 3d6b17d3-a7ef-492f-a653-5fdafbb0e92a)
-    (property "Reference" "D?" (id 0) (at 100.33 181.9274 90)
+    (property "Reference" "D9" (id 0) (at 100.33 181.9274 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "LED" (id 1) (at 100.33 184.4674 90)
@@ -9559,7 +9559,7 @@
   (symbol (lib_id "Device:R") (at 96.52 191.77 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 9ecabb24-f8e7-4bdd-ad96-00f2c898ccae)
-    (property "Reference" "R?" (id 0) (at 92.71 190.5 0))
+    (property "Reference" "R67" (id 0) (at 92.71 190.5 0))
     (property "Value" "30k" (id 1) (at 92.71 193.04 0))
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at 98.298 191.77 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -9850,7 +9850,7 @@
   (symbol (lib_id "power:GND") (at 96.52 198.755 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid aa6a72ad-8672-491d-9e39-c8a926ec1641)
-    (property "Reference" "#PWR?" (id 0) (at 96.52 205.105 0)
+    (property "Reference" "#PWR0136" (id 0) (at 96.52 205.105 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 96.52 203.835 0))
@@ -11933,11 +11933,11 @@
     (path "/929d3e8b-b150-41b6-8a06-03ce10d3716c"
       (reference "#PWR0135") (unit 1) (value "GND") (footprint "")
     )
+    (path "/aa6a72ad-8672-491d-9e39-c8a926ec1641"
+      (reference "#PWR0136") (unit 1) (value "GND") (footprint "")
+    )
     (path "/113457d3-f40c-4771-9595-56e14918d1d6"
       (reference "#PWR0137") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/aa6a72ad-8672-491d-9e39-c8a926ec1641"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/c5bdcfd4-44ee-4a47-b511-8d607870eba8"
       (reference "C1") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
@@ -12153,7 +12153,7 @@
       (reference "D8") (unit 1) (value "SMCJ85A") (footprint "Diode_SMD:D_SMC_Handsoldering")
     )
     (path "/3d6b17d3-a7ef-492f-a653-5fdafbb0e92a"
-      (reference "D?") (unit 1) (value "LED") (footprint "Diode_SMD:D_0603_1608Metric")
+      (reference "D9") (unit 1) (value "LED") (footprint "Diode_SMD:D_0603_1608Metric")
     )
     (path "/1b28c28b-8aa7-4bc2-92c4-ee30915f8ced"
       (reference "J1") (unit 1) (value "Conn_01x07") (footprint "Connector_JST:JST_PH_B7B-PH-K_1x07_P2.00mm_Vertical")
@@ -12477,7 +12477,7 @@
       (reference "R66") (unit 1) (value "15R") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/9ecabb24-f8e7-4bdd-ad96-00f2c898ccae"
-      (reference "R?") (unit 1) (value "30k") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R67") (unit 1) (value "30k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/9bd54a20-a77a-4b21-be34-0b8d27c90283"
       (reference "RN1") (unit 1) (value "10k") (footprint "Resistor_SMD:R_Array_Concave_4x0603")
