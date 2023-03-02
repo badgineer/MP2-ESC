@@ -385,6 +385,7 @@
         "name": "HV",
         "nets": [
           "Net-(C5-Pad1)",
+          "Net-(R1-Pad1)",
           "PHASE_A",
           "PHASE_B",
           "PHASE_C",
