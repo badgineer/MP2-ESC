@@ -157,15 +157,25 @@ We recently changed from XX4007 in SOD123 package to higher speed diode (US1M). 
 
 ## Change Log / Known Problems 
 
-### V0.4 Wish list (V0.3 known problems). 
+### V0.4 known problems
+* bluepill is mostly supported - but due to a pinout bug does not have a cap on RST. Take care if you use bluepill! 
+* v0.4 not tested at this time. if you do test it, please let us know. 
+  
+### V0.4 change log. 
 * remove vbat solder jumpers. for 150v the board requires a different BOM anyway.
+* remove pill solder jumpers. (bluepill compatibility is a bit complicated because of a pinout mistake)
 * make overlimit opamp output LPF better suited to an additional LPF on the pill and reducing pin noise. (cap -> 10uF, move it near pin, decrease R value)
-* make power switch footprint more accessible. (bigger, better location)
+* make power switch footprint more accessible, and less arc prone. (bigger, better location)
 * move the protective R pair near vbat ("before" the switch)
 * increase margins for Vbat and Phase copper areas to reduce short / arc risk
-* replace the 4pin JST with a 6pin one and route the last 2 unrouted useful pill pins to the 2 extra JST pins. (requires quite some PCB redesign)
+* replace the 4pin JST with a 7pin one and route more of the pill pins to JSTs
 * standardize JST pin layout (GND and Vaux are all over the place.)
-* add a power led on 5v rail
+* add a power led on 5v rai
+* added lpf caps on ADC throttle/brake inputs
+* made 12v surface routed 
+* phase wire pads are now at equal distance from eachother
+* adapted to newest F405 pill pinout 
+* moved to kicad 7
 
 
 ### V0.3 change log
@@ -179,7 +189,7 @@ We recently changed from XX4007 in SOD123 package to higher speed diode (US1M). 
 ## FAQ
 
 * **What’s with the many solder jumpers?**
-We made a few things hardware configurable. 1) Vsense and Overvoltage Protection optimized for 80 / 100 / 150V power stage, Voltage for peripherals can be set to 5 or 3.3V, Motor Temp vs Brake signal compromise, and of course, changing the wiring to acommodate the bluepill or blackpill pinouts (which vary slightly)
+Except for the hall sensor JST, all others have a solder jumper for connecting its power pin to 3v3 or 5v, depending on your needs. 
 
 * **Why do the electrolytic caps have surface pads instead of through hole?**
 Through hole pads imply a lead through the hole, sticking out on the other side. This would prevent the FETs from sitting flush against the PCB.
@@ -210,9 +220,6 @@ If you know better parts or have better solutions, please let us know on our ES 
 * **Where can I buy parts?**
 Lcsc.com, mouser.com. Aliexpress if needed. 
 We designed this with jlcpcb smt assembly in mind, so all SMDs were in stock at lcsc when I designed the PCB. Also most of the Through-hole parts. 
-
-* **Why do the battery wires go in seemingly random places in the middle of the board?**
-If you have the battery wires at the edge, then the full battery current will need to go through a portion of the battery “traces” of the PCB. I’ve placed them near the middle switch node, so with a tiny exception, the current through the traces is ⅓ of the battery current. 
 
 * **This whole thing is amateur work!**
 Yeah, totally true. We are mostly amateurs working on a generic ESC for free. If by this you refer to any specific mistake / set of mistakes, we would love to know about it! Post in the ES thread. Thanks!
