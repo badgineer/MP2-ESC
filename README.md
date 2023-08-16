@@ -114,7 +114,9 @@ Unfortunately in focusing on making the board small we crammed the FETs very clo
 Generally: There are a lot of TO220 fets to choose from (probably the only real advantage of TO220). If you want another, make sure it has low RDSon, gate charge <= 170nC, low Crss (Ciss/Crss > Vbat).  
 
 ### **Gate Drivers**
-* TF2190M-TAH (TFSS) (LCSC PN: C2917161) -> Default. tested.
+* L6498DTR - ST micro. default. not tested yet
+* EG2181D - EG micro. not tested, cheap on lcsc
+* TF2190M-TAH (TFSS) (LCSC PN: C2917161) -> tested. probably has problems with ulvo, which result in shoot through. not recommended anymore (used to be the default.)
 * NCP5183/NCV5183 (On Semi)
 * FAN7390 (Fairchild)
 * FAN7191 (Fairchild)
