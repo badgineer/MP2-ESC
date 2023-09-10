@@ -172,7 +172,8 @@ We recently changed from XX4007 in SOD123 package to higher speed diode (US1M). 
 ### v0.5 change log
 * added bootstrap resistors to limit current spikes
 * reduced gate pulldowns to 10k for faster fet turnoff in some cases
-* changed the default gate driver (old one was suspected of bad behaviour) 
+* changed the default gate driver (old one was suspected of bad behaviour)
+* 1 gate resistor per fet now.
 
 ### V0.4 known problems
 * bluepill is mostly supported - but due to a pinout bug does not have a cap on RST. Take care if you use bluepill! 
