@@ -40,7 +40,6 @@ outputs:
       use_gerber_net_attributes: false
       line_width: 0.1
       subtract_mask_from_silk: true
-      inner_extension_pattern: '.gp%n'
     layers:
       - copper
       - F.SilkS
