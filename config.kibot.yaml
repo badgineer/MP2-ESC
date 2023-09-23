@@ -40,8 +40,15 @@ outputs:
       use_gerber_net_attributes: false
       line_width: 0.1
       subtract_mask_from_silk: true
-      inner_extension_pattern: '.gp%n'
-    layers: 'selected'
+    layers:
+      - copper
+      - F.SilkS
+      - B.SilkS
+      - F.Mask
+      - B.Mask
+      - F.Paste
+      - B.Paste
+      - Edge.Cuts
 
   - name: JLCPCB_drill
     comment: Drill files compatible with JLCPCB
