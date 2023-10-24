@@ -5196,7 +5196,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 348092c7-dc50-42b9-94f8-ea486dcbb777)
   )
-  (text "First TVS is on front - for SMT assembly. \nNeeds to be changed or not fitted for bigger that 20s batteries.\nOptionally a 20...47uF cap can be used which together with R1 and R2 \ncreates a sort of LPF protecting the DCDC from high frequency noise/spikes.\nSecond TVS on the back - for hand soldering, in case a different / bigger one is wished."
+  (text "\n20...47uF cap is used which together with R1 and R2 \ncreates a sort of LPF protecting the DCDC from high frequency noise/spikes.\n"
     (at 55.88 157.48 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 3f905272-eea9-4b17-a672-ac50c82150ca)
@@ -11562,31 +11562,6 @@
       (project "CCC_ESC"
         (path "/31a3399e-b0e0-4a61-aacb-f319bb9df4d3"
           (reference "#PWR0133") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 335.28 182.88 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid af60043a-423b-4e01-8e8f-4e37c46c585f)
-    (property "Reference" "#PWR02" (at 335.28 189.23 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 332.74 185.42 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "" (at 335.28 182.88 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 335.28 182.88 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid b8680c20-5196-4348-8d5c-77d4bd370ec5))
-    (instances
-      (project "CCC_ESC"
-        (path "/31a3399e-b0e0-4a61-aacb-f319bb9df4d3"
-          (reference "#PWR02") (unit 1)
         )
       )
     )
