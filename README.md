@@ -10,12 +10,8 @@ Multi-Platform, Modular, Powerful Electronic Speed Control
 **Standard footprint parts**, so replacement parts can be found easily in case of original parts out of stock or out of production \
 **Optimized for low cost** production by JLCPCB, including SMT assembly.  \
 **Possibility to buy the SMD parts pre-soldered:** All SMDs are on the same side, in large stock at lcsc (at the time of writing), so the board can be ordered with SMDs pre-assembled by JLCPCB for a decent price. \
-**To our knowledge, features that are not available on most open source ESCs:**
+**To our knowledge, important feature that is not available on most open source ESCs:**
 * hardware overcurrent proection (triggers at 430A)
-* hardware overvoltage protection which triggers at:
-  * 75.6V for the 80V setup
-  * 92.6V for the 100V setup
-  * 137V for the 150V setup
 
 ## Compatibility with variaty of Open-Source VESC projects
 VESC with [ STM32F405 pill ](https://github.com/davidmolony/F405_pill)  \
@@ -111,7 +107,7 @@ Unfortunately in focusing on making the board small we crammed the FETs very clo
 * NCEP15T14
 * NTP5D0N15MC - best of the 3 listed here, not tested. 
 
-Generally: There are a lot of TO220 fets to choose from (probably the only real advantage of TO220). If you want another, make sure it has low RDSon, gate charge <= 170nC, low Crss (Ciss/Crss > Vbat).  
+Generally: There are a lot of TO220 fets to choose from (probably the only real advantage of TO220). If you want another, make sure it has low RDSon, gate charge ~ 160nC, low Crss (Ciss/Crss > Vbat).  
 
 ### **Gate Drivers**
 * L6498DTR - ST micro. default. not tested yet
@@ -169,6 +165,14 @@ We recently changed from XX4007 in SOD123 package to higher speed diode (US1M). 
 
 ## Change Log / Known Problems 
 
+### v0.6 change log
+* R17 of the opamp comparator changed to 22k -> back to actual 430A overcurrent protection, was 375 out of an error
+* removed vsense 2 - hardware overvoltage also limits battery choice, and is of limited usefulness
+* changed default bom to accomodate 32s max battery without modifications. See most below changes. 
+* changed all ceramic caps on vbat to 250v rated ones
+* removed TVS diodes - they only work for a very low voltage interval, so without its more generic
+* changed vbat divider network so it's exaclty the same ratio as phase vsense to make it easy to set up the software (just set 150 and 3.3 everywhere) 
+
 ### v0.5 change log
 * added bootstrap resistors to limit current spikes
 * reduced gate pulldowns to 10k for faster fet turnoff in some cases
@@ -211,9 +215,6 @@ Except for the hall sensor JST, all others have a solder jumper for connecting i
 
 * **Why do the electrolytic caps have surface pads instead of through hole?**
 Through hole pads imply a lead through the hole, sticking out on the other side. This would prevent the FETs from sitting flush against the PCB.
-
-* **What is the empty footprint for D8?**
-Its a footprint for a TVS diode as replacement for D7. You would want to solder a TVS there if you use a different voltage than 20s and D7 is inappropriate. Of course you can populate D7 with a different TVS during fabrication, but D8 pads are easy to hand-solder after the fact. 
 
 * **Can you assemble it for me?**
 There is no plan on selling any assembled PCBs. You can get the SMD side pre-assembled at [jlcpcb](https://jlcpcb.com/) (at the time of design all parts were in stock for jlcpcb SMT service). So you’ll only need to solder the through-hole parts and the modules. 
