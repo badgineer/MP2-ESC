@@ -10,12 +10,8 @@ Multi-Platform, Modular, Powerful Electronic Speed Control
 **Standard footprint parts**, so replacement parts can be found easily in case of original parts out of stock or out of production \
 **Optimized for low cost** production by JLCPCB, including SMT assembly.  \
 **Possibility to buy the SMD parts pre-soldered:** All SMDs are on the same side, in large stock at lcsc (at the time of writing), so the board can be ordered with SMDs pre-assembled by JLCPCB for a decent price. \
-**To our knowledge, features that are not available on most open source ESCs:**
+**To our knowledge, important feature that is not available on most open source ESCs:**
 * hardware overcurrent proection (triggers at 430A)
-* hardware overvoltage protection which triggers at:
-  * 75.6V for the 80V setup
-  * 92.6V for the 100V setup
-  * 137V for the 150V setup
 
 ## Compatibility with variaty of Open-Source VESC projects
 VESC with [ STM32F405 pill ](https://github.com/davidmolony/F405_pill)  \
