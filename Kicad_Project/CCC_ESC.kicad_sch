@@ -5230,8 +5230,8 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 6e5cd04e-2327-4ecd-a08a-14bce936f99b)
   )
-  (text "Snubbers may or may not be needed depending \non FET choice.\nTypically, \nC = 1-5nF\nR = 0.5-5 ohms\nThe capacitor determines the power dissipated\nThe resistor dissipates the power.\nSnubber should be tuned so that it has optimised \ndamping factor for the ringing frequency targeted\nRough approximation, RC = 1/2 ringing period\ne.g. 30MHz ringing -> 3ns period ->1.5ns RC\n2nF 1ohm is a good starting point\nHighest damping factor usually where Csnub ~=Coss MOS"
-    (at 393.7 123.19 0)
+  (text "Snubbers may or may not be needed depending \nmostly on FET choice\nTypically, \nC = 1-5nF\nR = 0.5-5 ohms\nThe resistor dissipates the power -> size it appropriately!\nSnubber should be tuned so that it has optimised \ndamping factor for the ringing frequency you have.\nmore details: \nhttps://www.paulorenato.com/index.php/electronics-diy/197-rc-snubber-calculator-spreadsheet\n"
+    (at 384.175 124.46 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 745cf9ce-28f8-4966-961a-8b2478c5321e)
   )
