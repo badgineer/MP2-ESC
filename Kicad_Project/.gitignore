@@ -27,3 +27,7 @@ fp-info-cache
 # Exported BOM files
 # *.xml
 # *.csv
+
+#lock files for editing 
+*.kicad_pcb.lck
+*.kicad_sch.lck
