@@ -5201,8 +5201,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 3f905272-eea9-4b17-a672-ac50c82150ca)
   )
-  (text "Hall sensor filter at ~10kHz should reject all PWM noise\n"
-    (at 105.41 236.22 0)
+  (text "Hall sensor filter at ~16kHz \n" (at 107.95 236.855 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 423fbb14-7d51-4884-88e0-80cea67cd456)
   )
@@ -6583,7 +6582,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_01x02") (at 146.685 376.555 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid 1ab47c27-3d1c-4958-a47b-e98435d71258)
     (property "Reference" "NTC1" (at 137.795 372.745 0)
       (effects (font (size 1.27 1.27)))
@@ -6823,7 +6822,7 @@
   )
 
   (symbol (lib_id "Device:R") (at 448.31 180.34 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid 23093f9a-c732-4caf-9d66-925b21c04c0a)
     (property "Reference" "RS2" (at 452.12 179.07 0)
       (effects (font (size 1.27 1.27)))
@@ -9089,7 +9088,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_01x02") (at 50.165 137.16 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid 642232c9-9700-4cbf-a629-0d6be02c12d5)
     (property "Reference" "SW1" (at 43.815 137.16 90)
       (effects (font (size 1.27 1.27)))
@@ -9211,7 +9210,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 448.31 190.5 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid 66bd7583-e348-43eb-ab5a-70ce5e3728fa)
     (property "Reference" "CS2" (at 453.39 189.23 0)
       (effects (font (size 1.27 1.27)))
@@ -11089,7 +11088,7 @@
   )
 
   (symbol (lib_id "Device:R") (at 448.31 100.33 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid a170cf56-933f-4654-9959-a3bc39aeee55)
     (property "Reference" "RS1" (at 452.12 100.33 0)
       (effects (font (size 1.27 1.27)))
@@ -11147,7 +11146,7 @@
   )
 
   (symbol (lib_id "Device:R") (at 448.31 261.62 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid a25a6c62-4ed0-4a59-81ef-991f0ffaea7d)
     (property "Reference" "RS3" (at 452.12 261.62 0)
       (effects (font (size 1.27 1.27)))
@@ -12877,7 +12876,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 448.31 271.78 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid dc5f5e24-4154-4e5f-bccb-361cb8f162e8)
     (property "Reference" "CS3" (at 453.39 270.51 0)
       (effects (font (size 1.27 1.27)))
@@ -13360,7 +13359,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 448.31 109.22 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid e7e384bc-4671-4d71-9331-0bde3e7e6189)
     (property "Reference" "CS1" (at 453.39 107.95 0)
       (effects (font (size 1.27 1.27)))
